@@ -30,32 +30,6 @@ Addison, J\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Akerlof%
-\ \BBA {} Kranton%
-}{%
-Akerlof%
-\ \BBA {} Kranton%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-Akerlof2000}
-\APACinsertmetastar {%
-Akerlof2000}%
-\begin{APACrefauthors}%
-Akerlof, G.%
-\BCBT {}\ \BBA {} Kranton, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Economics and Identity}} {{Economics and
-  Identity}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Quarterly journal of economics}{115}{August}{715}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Albanesi%
 \ \BBA {} Şahin%
 }{%
@@ -128,63 +102,6 @@ Amemiya, T.%
 \APACrefbtitle {{Advanced Econometrics}} {{Advanced Econometrics}}.
 \newblock
 \APACaddressPublisher{}{Harvard University Press}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Asadullah%
-\ \BBA {} Fern{\'{a}}ndez%
-}{%
-Asadullah%
-\ \BBA {} Fern{\'{a}}ndez%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-asadullah2008}
-\APACinsertmetastar {%
-asadullah2008}%
-\begin{APACrefauthors}%
-Asadullah, M\BPBI N.%
-\BCBT {}\ \BBA {} Fern{\'{a}}ndez, R\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Work-life balance practices and the gender gap in job
-  satisfaction in the UK: evidence from matched employer-employee data}}
-  {{Work-life balance practices and the gender gap in job satisfaction in the
-  UK: evidence from matched employer-employee data}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{IZA Discussion Papers, No. 3582}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Atalay%
-, Phongthiengtham%
-, Sotelo%
-\BCBL {}\ \BBA {} Tannenbaum%
-}{%
-Atalay%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
-}]{%
-atalay2017}
-\APACinsertmetastar {%
-atalay2017}%
-\begin{APACrefauthors}%
-Atalay, E.%
-, Phongthiengtham, P.%
-, Sotelo, S.%
-\BCBL {}\ \BBA {} Tannenbaum, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The Evolving U.S. Occupational Structure}} {{The
-  Evolving U.S. Occupational Structure}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{}{}{}{1--86}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -328,35 +245,6 @@ Bertrand, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Black%
-\ \BBA {} Spitz-Oener%
-}{%
-Black%
-\ \BBA {} Spitz-Oener%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-Black2010}
-\APACinsertmetastar {%
-Black2010}%
-\begin{APACrefauthors}%
-Black, S\BPBI E.%
-\BCBT {}\ \BBA {} Spitz-Oener, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Explaining Women's Success: Technological Change and
-  the Skill Content of Women's Work}} {{Explaining Women's Success:
-  Technological Change and the Skill Content of Women's Work}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Review of Economics and Statistics}{92}{1}{187--194}.
-\newblock
-\begin{APACrefDOI} \doi{10.1162/rest.2009.11761} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Blau%
 , Brummund%
 \BCBL {}\ \BBA {} Liu%
@@ -385,87 +273,6 @@ Blau, F\BPBI D.%
 \APACjournalVolNumPages{Demography}{50}{2}{471--492}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s13524-012-0151-7} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Blau%
-\ \BBA {} Kahn%
-}{%
-Blau%
-\ \BBA {} Kahn%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-Blau2017}
-\APACinsertmetastar {%
-Blau2017}%
-\begin{APACrefauthors}%
-Blau, F\BPBI D.%
-\BCBT {}\ \BBA {} Kahn, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The Gender Wage Gap: Extent, Trends, and Explanations}}
-  {{The Gender Wage Gap: Extent, Trends, and Explanations}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Economic Literature}{55}{}{789--865}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Blau%
-\ \BBA {} Kahn%
-}{%
-Blau%
-\ \BBA {} Kahn%
-}{%
-{\protect \APACyear {2006}}%
-}]{%
-Blau2006}
-\APACinsertmetastar {%
-Blau2006}%
-\begin{APACrefauthors}%
-Blau, F\BPBI D.%
-\BCBT {}\ \BBA {} Kahn, L\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The U.S. Gender Pay Gap in the 1990s: Slowing
-  Convergence}} {{The U.S. Gender Pay Gap in the 1990s: Slowing
-  Convergence}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Industrial and Labor Relations Review}{50}{1}{45--66}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Blau%
-\ \BBA {} Kahn%
-}{%
-Blau%
-\ \BBA {} Kahn%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-Kahn2016a}
-\APACinsertmetastar {%
-Kahn2016a}%
-\begin{APACrefauthors}%
-Blau, F\BPBI D.%
-\BCBT {}\ \BBA {} Kahn, L\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The Gender Wage Gap : The Gender Wage Gap : Extent ,
-  Trends , and Explanations}} {{The Gender Wage Gap : The Gender Wage Gap :
-  Extent , Trends , and Explanations}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Economic Literature
-  (forthcoming)}{}{9656}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -637,6 +444,34 @@ Crawford, V\BPBI P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+DeLeire%
+\ \BBA {} Levy%
+}{%
+DeLeire%
+\ \BBA {} Levy%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+DeLeire2004}
+\APACinsertmetastar {%
+DeLeire2004}%
+\begin{APACrefauthors}%
+DeLeire, T.%
+\BCBT {}\ \BBA {} Levy, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Worker Sorting and the Risk of Death on the Job}}
+  {{Worker Sorting and the Risk of Death on the Job}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Labor Economics}{22}{4}{925--953}.
+\newblock
+\begin{APACrefDOI} \doi{10.1086/423159} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dupuy%
 \ \BBA {} Galichon%
 }{%
@@ -799,64 +634,6 @@ Galichon, A.%
   and Identification in Matching Models}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Open Access publications from Sciences Po}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Goldin%
-}{%
-Goldin%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-Goldin2014}
-\APACinsertmetastar {%
-Goldin2014}%
-\begin{APACrefauthors}%
-Goldin, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{A Grand Gender Convergence: Its Last Chapter}} {{A
-  Grand Gender Convergence: Its Last Chapter}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{American Economic Review}{104}{4}{1091--1119}.
-\newblock
-\begin{APACrefURL} \url{http://pubs.aeaweb.org/doi/abs/10.1257/aer.104.4.1091}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1257/aer.104.4.1091} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Goldin%
-\ \BBA {} Katz%
-}{%
-Goldin%
-\ \BBA {} Katz%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-Goldin2011}
-\APACinsertmetastar {%
-Goldin2011}%
-\begin{APACrefauthors}%
-Goldin, C.%
-\BCBT {}\ \BBA {} Katz, L\BPBI F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The Cost of Workplace Flexibility for High-Powered
-  Professionals}} {{The Cost of Workplace Flexibility for High-Powered
-  Professionals}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{The ANNALS of the American Academy of Political and
-  Social Science}{638}{1}{45--67}.
-\newblock
-\begin{APACrefDOI} \doi{10.1177/0002716211414398} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
