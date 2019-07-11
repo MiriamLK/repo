@@ -1,0 +1,45 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Matching Model with Observed Transfers}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Payoff Functions}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Job}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Market Clearing Wages}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Worker}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Preference for Gender Ratio}{}% 7
+\BOOKMARK [1][-]{section.4}{Empirical Strategy}{}% 8
+\BOOKMARK [2][-]{subsubsection.4.0.1}{Identification}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Overview of Endogeneity and Instruments}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Fixed Effects Specification}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Instrumental Variables}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Changes Over Time in Industry Wage and Gender Ratio}{subsection.4.3}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Growth in Industry Employment}{subsection.4.3}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Changes Over Time in Employment by Gender}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Firm Willingness-to-Pay Parameters}{subsection.4.3}% 16
+\BOOKMARK [1][-]{section.5}{Data}{}% 17
+\BOOKMARK [1][-]{section.6}{Model Estimates}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Reservation Wages and Willingness-to-pay}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.2}{Gender Preference Results}{section.6}% 20
+\BOOKMARK [1][-]{section.7}{Counterfactuals}{}% 21
+\BOOKMARK [2][-]{subsection.7.1}{Future Cohorts under Status Quo}{section.7}% 22
+\BOOKMARK [2][-]{subsection.7.2}{Initial Parity}{section.7}% 23
+\BOOKMARK [2][-]{subsection.7.3}{Equilibria by Occupation}{section.7}% 24
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Conditions for Multiple Equilibria}{subsection.7.3}% 25
+\BOOKMARK [2][-]{subsection.7.4}{Impulse Response Examples}{section.7}% 26
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 27
+\BOOKMARK [1][-]{section.9}{Appendix}{}% 28
+\BOOKMARK [2][-]{subsection.9.1}{Figures}{section.9}% 29
+\BOOKMARK [2][-]{subsection.9.2}{Tables}{section.9}% 30
+\BOOKMARK [2][-]{subsection.9.3}{General Model Structure}{section.9}% 31
+\BOOKMARK [1][-]{section.10}{Equilibrium Wages and Stability}{}% 32
+\BOOKMARK [2][-]{subsection.10.1}{Feasibility}{section.10}% 33
+\BOOKMARK [2][-]{subsection.10.2}{Stability}{section.10}% 34
+\BOOKMARK [2][-]{subsection.10.3}{Proof of Pairwise Stability}{section.10}% 35
+\BOOKMARK [2][-]{subsection.10.4}{Pan 2010 Tipping Model}{section.10}% 36
+\BOOKMARK [2][-]{subsection.10.5}{List of occupation Codes}{section.10}% 37
+\BOOKMARK [2][-]{subsection.10.6}{Joint Likelihood Tobit Type 5}{section.10}% 38
+\BOOKMARK [2][-]{subsection.10.7}{Lifetime Income Estimation}{section.10}% 39
+\BOOKMARK [3][-]{subsubsection.10.7.1}{Comparison of Lifetime Income Estimates to PSID}{subsection.10.7}% 40
+\BOOKMARK [3][-]{subsubsection.10.7.2}{Histogram of lifetime income: PSID ages 25-55}{subsection.10.7}% 41
+\BOOKMARK [2][-]{subsection.10.8}{More Model Results}{section.10}% 42
+\BOOKMARK [3][-]{subsubsection.10.8.1}{Model Job Parameter Estimates by Year}{subsection.10.8}% 43
+\BOOKMARK [3][-]{subsubsection.10.8.2}{Model Fit for Years 2000/2012}{subsection.10.8}% 44
+\BOOKMARK [1][-]{section*.42}{References}{}% 45
