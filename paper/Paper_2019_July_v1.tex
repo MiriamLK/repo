@@ -42,7 +42,7 @@
 
 %\renewcommand{\baselinestretch}{2.0}
 
-%\usepackage[margin = 1.5in]{geometry}
+\usepackage[margin = 1in]{geometry}
 
 \newcommand*{\graphicPath}{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"}% 
 \newcommand*{\TablePath}{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/"}% 
@@ -143,8 +143,8 @@
 
 %The increase in the female labor force participation rate over the past 60 years has had a disparate impact on the femininity of occupations. While women entered many occupations at rates that could have been predicted given past shares, some occupations remained entirely male dominated, and still others ``tipped" and became female dominated. These gendered patterns are not well understood, with some widely explored mechanisms including preferences, productivity differences, and discrimination. Understanding the dynamics of occupation gender segregation could be important if preference against being the minority gender is acting as an entry barrier distorting occupation choice. Preferences over the fraction female in the occupation itself rather than occupation tasks and amenities may lead to segregation that is not socially optimal due to mismatch. To understand the causes and consequences of occupation gender segregation, I introduce a transferable utility matching model adapted from \citeA{Choo2006} and \citeA{Salanie2013a}, and identify it using wages as transfers. The estimated model will allow me to separately identify the worker and job match surpluses and then test my hypothesis of gender ratio as an entry barrier to the worker. If my hypothesis is true, incentivizing entry into opposite gender occupations could cause long run movement towards an unsegregated equilibrium by eliminating distortion in the occupation choice of future generations.
 
-%\newpage
-%\tableofcontents
+\newpage
+\tableofcontents
 
 \newpage
 \section{Introduction}
@@ -229,20 +229,20 @@ Lastly, future research should address the source of the gender preference to de
 
 %The distinction is key because it means that, all else fixed, there are no ``better" stable sorting patterns that can be achieved by manipulating the gender composition of occupations alone. 
  
-Section \ref{model} introduces the structure of the transferable utility matching model. Section \ref{equilibrium} describes equilibrium wages. Section \ref{empirical} describes the empirical specification and first stage of estimation, recovering the firm side parameters and reservation wages. Section \ref{stage2} describes the second stage of estimation, the decomposition of worker utility taking reservation wages as given. Section \ref{data} describes the data sources. Section \ref{results} presents results, and Section \ref{counterfactuals} presents simulations of segregation dynamics, including counterfactuals.
+Section \ref{model} introduces the structure of the transferable utility matching model and equilibrium wages. Section \ref{empirical} describes the empirical specification including recovering the firm side parameters and wage offer distribution, and the decomposition of worker utility into fixed occupation attributes and gender preference. Section \ref{data} describes the data sources. Section \ref{results} presents results, and Section \ref{counterfactuals} presents simulations of segregation dynamics, including counterfactuals.
 
 
 
-\section{Matching Model with Observed Transfers} \label{model}
+\section{Model} \label{model}
 
-\section{Empirical Strategy} \label{empirical}
+The identification strategy in this paper builds off empirical applications of matching models to marriage markets (e.g. \citeA{Choo2006} and \citeA{Chiappori2015}), but differs in that I use data on transfers (wages) to separately identify worker and firm payoffs. In the marriage market, a lack of data on transfers means that only the sum of wage and non-wage utility is identified.\footnote{\citeA{Fox2008c} is able to estimate payoffs from the interaction of characteristics of both sides of the market but not full payoff functions.}. Another key difference from previous literature is that I use the distribution of transfers (wages) for identification.
 
-The identification strategy in this paper builds off empirical applications of matching models to marriage markets (e.g. \citeA{Choo2006} and \citeA{Chiappori2015}), but differs in that I use data on transfers (wages) to separately identify worker and firm payoffs. In the marriage market, a lack of data on transfers means that only the sum of wage and non-wage utility is identified.\footnote{\citeA{Fox2008c} is able to estimate payoffs from the interaction of characteristics of both sides of the market but not full payoff functions.}. Because my research question is how non-wage utility varies with occupation fraction female, it is critical that I separately identify non-wage utility from utility from wages. 
+%Because my research question is how non-wage utility varies with occupation fraction female, it is critical that I separately identify non-wage utility from utility from wages. 
 
 % REPLACE
 %The difficulty is that observetd transfers are the sum of an idiosyncratic and an aggregate component, as discussed above, and for counterfactuals these must be separately identified. The observed distribution of wages is also the result of optimization over these components and other model parameters to be estimated, specifically the willingness-to-pay for workers by gender and the variance of the distribution of unobserved heterogeneity in job amenities. 
 
-The first step towards separate identification is to assume that observed wages are the transfers between job and worker that clear the market. Although some transfers in the labor market may be non-wage, such as enhanced benefits, wages are a natural first-order approximation. Previous literature applying transferable utility to the marriage market has assumed a logit assumption for unobserved transfers because logit is most tractable. I model wages as lognormal in order to match the observed wage distribution, which is greater than zero and has a long right tail.\footnote{Unlike the logit case, the variance of the distribution of the maximum of lognormals depends on other model parameters to be estimated, so the variance needs to be jointly estimated unlike in \citeA{Salanie2014a} for example.} Second, I define an unmatched worker to be a worker who is unemployed or out of the labor force, and an unmatched job to be a posted vacancy that has remained unfilled for a period of time. Since vacancy data is potentially a poor proxy for what it means for a job to be unmatched, I try to limit the importance of the vacancy data in my estimation procedure by choosing a specification that in principle does not require it, by assuming non-negative profit on the job side. 
+The first step towards separate identification of firm and worker non-wage parameters is to assume that observed wages are the transfers between job and worker that clear the market. Although some transfers in the labor market may be non-wage, such as enhanced benefits, wages are a natural first-order approximation. Previous literature applying transferable utility to the marriage market has assumed a logit assumption for unobserved transfers because logit is most tractable. I model wages as lognormal in order to match the observed wage distribution, which is greater than zero and has a long right tail.\footnote{Unlike the logit case, the variance of the distribution of the maximum of lognormals depends on other model parameters to be estimated, so the variance needs to be jointly estimated unlike in \citeA{Salanie2014a} for example.} Second, I define an unmatched worker to be a worker who is unemployed or out of the labor force, and an unmatched job to be a posted vacancy that has remained unfilled for a period of time. Since vacancy data is potentially a poor proxy for what it means for a job to be unmatched, I try to limit the importance of the vacancy data in my estimation procedure by choosing a specification that in principle does not require it, by assuming non-negative profit on the job side. Thus identification relies more heavily on the wage distribution.
 
 
 %The empirical strategy consists of two stages: first I use maximum likelihood to disentangle the selection effects of worker and firm optimization on observed matches and wages. I am able to separately identify the willingness-to-pay of the firm and the reservation wage distributions of the workers. This effectively separates the two sides of the market, unlike previous applications of transferable utility matching models, such as \citeA{Choo2006} and \citeA{Chiappori2015}, who were only able identify total match surplus because they lacked data on transfers.\footnote{\citeA{Fox2008c} is able to estimate payoffs from the interaction of characteristics of both sides of the market but not full payoff functions.}
@@ -311,20 +311,24 @@ For clarity of identification, I estimate the two sides of the market, workers a
 %$$\pi^g_j = \pi^g_o - w^g_j $$ and the utility of worker $i$ of accepting job $j$: $$u_{ij} = u^g_o + w^g_j + \xi^g_j + \eta^i_o$$ Crucially preferences satisfy additive separability, meaning that preferences can only depend on the unobserved attributes of both sides of the market in an additive way. This means that the matching problem can be divided into two separate optimization problems connected only through transfers.
 
 \subsection{Payoff Functions}
-\subsection{Job}
+\subsubsection{Firm}
 
 %Jobs choose the gender of worker that will maximize productivity per dollar spent, which may be differentially valued by men and women. This is consistent with a model of firms where jobs within a firm are filled independently, perhaps due to costly coordination or low complementarity. Individual jobs optimizing over rate of return does not imply a specific firm-level production function, but it produces similar behavior as firms minimizing cost with production quotas. Without data on firm size, I take this as an approximation of firm behavior.
 
-Jobs care only about the relative productivity of men and women and the wage that they will have to pay to an individual worker. Let $WTP^g_o$ be the willingness-to-pay of a job in occupation $o$ of hiring a worker of gender $g$. The total payoff to job $j$, $\pi^g_j$, is specified as the ratio of willingness-to-pay to the cost of hiring a worker.
+% the relative productivity of men and women and the wage that they will have to pay to an individual worker.
+
+Firms are willing to pay different amounts for male and female workers. I do not take a stance as to the cause of the difference. Let $WTP^g_o$ be the most that a job in occupation $o$ would be willing to pay to hire a worker of gender $g$. The total payoff to job $j$, $\pi^g_j$, also depends on the cost of hiring a worker, ${Wage^g_j}$, which varies at the job level according to how attractive the job is to workers.
 
 \begin{align} \label{firm}
  \pi^g_j = \frac{WTP^g_o}{Wage^g_j} 
 \end{align}
 %$$$$ % = \frac{WTP^g_o}{W^g_o * \xi^g_j}
 
-The ratio in equation \ref{firm} is used as opposed to an additive profit function for two reasons. First, since firms in the model only fill one vacancy at a time, rate of return is a reasonable object for firms to care about that does not require making assumptions about the number of total vacancies at a firm. By allowing the firm to maximize return on a single vacancy at a time I make a reasonable job-level approximation of a firm level profit function. Second, it is common in labor economics to specify wages as lognormally distributed. The multiplicative specification allows model wages to be normal in the estimation stage, when wages are assumed to be lognormal. The log payoff to the firm $j$ is:
+I specify the payoff function as a ratio for both economic and computational reasons. First, maximizing rate of return is consistent with a firm only filling one vacancy at a time, and allows me to avoid making assumptions about the number of vacancies at a firm or complementarities between those vacancies. Second, the multiplicative specification allows wages to be lognormally distributed, which is common in labor economics to match the observed shape of the wage distribution, while still additive and normal when logged, which is computationally attractive. 
 
+The log payoff to the firm $j$ is:
 
+%First, since firms in the model only fill one vacancy at a time, rate of return is a reasonable object for firms to care about that does not require making assumptions about the number of total vacancies at a firm. By allowing the firm to maximize return on a single vacancy at a time I make a reasonable job-level approximation of a firm level profit function. 
 
 
 %Second, the rate of return specification is more tractable for estimation under the assumption that wages are lognormal. I later allow wages to be distributed lognormal so that log wages is normal and additive in the firm payoff.
@@ -341,35 +345,38 @@ The ratio in equation \ref{firm} is used as opposed to an additive profit functi
 
 
 
-\subsection{Worker}
+\subsubsection{Worker}
 %In a competitive equilibrium firms will produce at the production level that minimizes average cost, or equivalently maximizes willingness-to-pay over cost.
 
-Workers choose an occupation at the beginning of their lives, based on their individual tastes for occupations and the wage offer for their gender in that occupation. The job choice is binding for life.\footnote{Since there is no switching jobs, I assume that education choice is tied to job choice and do not treat education as a separate decision.} I assume that workers are myopic and do not anticipate future changes in the market that would lead them to want to switch occupations.\footnote{Lowering switching cost would lead to faster convergence to a fixed point in the fraction female by occupation. However, relaxing myopia would pose a challenge to tractability because the endogenous attribute (fraction female) would then depend on expectations over the future behavior of all agents, complicating today's choice set considerably.}
+Workers choose an occupation at the beginning of their lives, based on their individual tastes for occupations and the wage offer for their gender in that occupation. The job choice is binding for life.\footnote{Since there is no switching jobs, I assume that education choice is tied to job choice and do not treat education as a separate decision. Lowering switching cost would lead to faster convergence to a fixed point in the fraction female by occupation.} I assume that workers are myopic and do not anticipate future changes in the market that would lead them to want to switch occupations.\footnote{Relaxing myopia would mean that the endogenous attribute of interest, the fraction female, would depend on expectations over other workers' occupation choices, which in turn are affected by the fraction female. This would pose a challenge to tractability.}
 
 The worker's taste for the occupation consists of two components: $u^g_o$ which is common to all workers of gender $g$ matching to jobs in occupation $o$, and $\eta^i_o$ which is worker $i$'s specific utility from occupation $o$. The dis-amenities of job $j$, which are denoted $\xi^g_j$, are the same for everyone conditional on gender.
 
+%Non-employment is defined as either not in the labor force or unemployed, and the payoff to non-employment is $ \bar{\eta}^i_N $, the idiosyncratic taste for non-employment.
 
-The payoff to worker $i$ is specified as:
+The payoff to worker $i$ from job $j$ is specified as:
 \begin{align} \label{worker}
 u^i_j &= \frac{ u^g_o*Wage^g_j *  \eta^i_o } {\xi^g_j}    
 \end{align}
 
-Non-wage and wage utility thus enter the specification multiplicatively, including the taste heterogeneity term $\eta^i_o$. Define log utility to be $\bar{u}^{i}_j$ and re-parameterizing in terms of logs we have:
+Defining log utility to be $\bar{u}^{i}_j$ and re-parameterizing in terms of logs we have:
 
 \begin{align} \label{logworker}
 \bar{u}^{i}_j \equiv log(u^i_j) &= log(u^g_o) + log(Wage^g_j)  + log(\eta^i_o) - log(\xi^g_j)   \\ \nonumber
 &\equiv  \bar{u}^{g}_o + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j 
 \end{align}
 
-Workers choose a job $j$ to maximize log utility $\bar{u}^{i}_j$. The common taste parameter for non-employment $\bar{u}^g_N$, where non-employment means either not in the labor force or unemployed, is normalized to zero. It is also assumed that in non-employment workers receive no wages or value from job amenities. The payoff to non-employment ($\bar{u}^i_N$) is therefore  $ \bar{\eta}^i_N $, the idiosyncratic taste for non-employment.
+%Workers choose a job $j$ to maximize log utility $\bar{u}^{i}_j$. The common taste parameter for non-employment $\bar{u}^g_N$, where non-employment means either not in the labor force or unemployed, is normalized to zero. It is also assumed that in non-employment workers receive no wages or value from job amenities. The payoff to non-employment ($\bar{u}^i_N$) is therefore  $ \bar{\eta}^i_N $, the idiosyncratic taste for non-employment.
+
+
 
 %\footnote{The log utility parameters for working, $\bar{u}^g_o$, include the disutility of working at all and are expected to be negative. However the underlying utility parameters $u^g_o = exp(\bar{u}^g_o)$ will always be positive leading to complementarity in wage and non-wage utility. Similarly, ${\xi^g_j}$ will be assumed to be log-normally distributed and therefore always positive, so the higher the dis-amenity value of the job the lower the utility. }
 
-Furthermore worker utility will be decomposed into a common component and a dependence on the fraction female in the occupation, which is the endogenous amenity of interest. Let $F_o$ be the fraction female in occupation $o$. To avoid simultaneity, the fraction female is defined as the fraction female of the occupation in period $t-1$, that is, the fraction female that would be observed by the worker as they make their occupation decisions.
+Furthermore worker utility will be decomposed into a common component and a dependence on the fraction female in the occupation, which is the endogenous amenity of interest. Let $F_o$ be the fraction female in occupation $o$. To avoid simultaneity, the fraction female is defined as the fraction female of the occupation among older workers (ages 35-65), that is, the fraction female that would be observed by the worker as they make their occupation decisions. To make the timing assumption clear I use subscript $t-1$ for the fraction female.
 
 \begin{align*}
 \bar{u}^{i}_j &= \bar{u}^{g}_o + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j \\
-    &= \alpha^g_o +   \gamma^g F_o + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j
+    &= \alpha^g_o +   \gamma^g F_{o,t-1} + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j
 \end{align*}
 % \frac{\beta^g}{\sigma^g_{\eta}}  X_o+
 
@@ -378,56 +385,75 @@ Furthermore worker utility will be decomposed into a common component and a depe
 \subsection{Market Clearing Wages}
 
 % REPLACE
-The lifetime income distributions by gender and occupation needed to clear the market are determined in equilibrium to equate demand and supply, and are made up of two components: a job-specific component, and an aggregate component that varies by occupation and gender. The job-specific component reflects the idiosyncratic disutility of taking a specific job. In equilibrium firms must make workers indifferent across individual jobs within an occupation, and therefore firms perfectly compensate workers for idiosyncratic disutility. Wage heterogeneity within occupation and gender emerges from these job-specific compensating differentials. 
+%The lifetime income distributions by gender and occupation needed to clear the market are determined in equilibrium to equate demand and supply, and are made up of two components: a job-specific component, and an aggregate component that varies by occupation and gender. The job-specific component reflects the idiosyncratic disutility of taking a specific job. In equilibrium firms must make workers indifferent across individual jobs within an occupation, and therefore firms perfectly compensate workers for idiosyncratic disutility. Wage heterogeneity within occupation and gender emerges from these job-specific compensating differentials. 
 
-In addition to an individual job level compensating differential, there is a component of wages which is common across individuals within gender and occupation, and serves to equate supply and demand. It is a function of all parameters in the model, specifically, both of the utility that workers receive from occupations as well as the value that jobs have for male and female workers. This component of wage can be thought of as the result of a market-wide open-ended ascending price auction where jobs make wage bids for workers, but each job can only ``win" one worker, and there are no search frictions. The assumption of no search frictions is made more reasonable by the fact that I am considering lifetime occupation choices, not individual jobs. In order for equilibrium wages to not depend on sample size I must assume a large number of workers and jobs of each type \cite{Galichon2013b}. In my model this means a large number of men and women and jobs in each occupation.\footnote{For reference, simulations of an ascending price auction with sample size of 20 already produce a wage vector similar to the equilibrium vector assumed by the large sample. I perform the simulations using a modified version of the auction mechanism outlined in \citeA{RothSotomayor} page 209.}
+%In addition to an individual job level compensating differential, there is a component of wages which is common across individuals within gender and occupation, and serves to equate supply and demand. It is a function of all parameters in the model, specifically, both of the utility that workers receive from occupations as well as the value that jobs have for male and female workers. 
 
-The equilibrium wage vector I propose,  $\widebar{Wage}^g_j$, equates supply and demand for workers by gender and jobs by occupation. It does so by compensating the worker for the idiosyncratic dis-amenities of a particular job within occupation, and through a common component $W^g_o$, which varies by gender and occupation.
+
+
+%\footnote{For reference, simulations of an ascending price auction with sample size of 20 already produce a wage vector similar to the equilibrium vector assumed by the large sample. I perform the simulations using a modified version of the auction mechanism outlined in \citeA{RothSotomayor} page 209.}
+
+The equilibrium wages I propose, $\widebar{Wage}^g_j$, equate supply and demand for workers by gender and jobs by occupation. They do so by compensating the worker for the idiosyncratic dis-amenities of a particular job within occupation, and through a common component $W^g_o$, which varies by gender and occupation. These equilibrium wages support the pairwise stable matching of workers and jobs through the optimization on both sides of the market. See appendix \ref{sec.Stability} for proof of stability.
 
 \begin{align}
 Wage^g_j = W^g_o * \xi^g_j 
 \end{align}
 
 
-A firm receives a draw of $\xi^M_j$ and $\xi^F_j$, which is the amenity value of the job to men and women respectively. The firm then chooses to hire a male or female worker based on the overall productivity of men and women in that occupation ($WTP^g_o$) and the cost of hiring men and women which varies in order to compensate exactly for the utility or disutility experienced by the worker due to $\xi^M_j$ and $\xi^F_j$. This is a compensating differential at the job level. Compensating differentials also emerge at the occupation level through the common component of wages, $W^g_o$.
+A firm receives a draw of $\xi^M_j$ and $\xi^F_j$, which is the amenity value of the job to men and women respectively. The firm then chooses to hire a male or female worker based on the overall productivity of men and women in that occupation ($WTP^g_o$) and the cost of hiring men and women which varies in order to compensate exactly for the utility or disutility experienced by the worker due to $\xi^M_j$ and $\xi^F_j$. This is a compensating differential at the job level. 
 
-The fact that jobs care only about whether to hire a male or female worker and the wage that they must pay means that conditional on gender, all workers are equally productive. This assumption is important because it allows me to separate the matching problem into two separate discrete choice problems, one for each side of the market \cite{Galichon2013}. The counterfactual dynamics I am interested in are at the level of occupation and gender, and productivity and utility are allowed to vary freely by occupation and gender. Therefore including individual worker productivity heterogeneity should not have a major impact on my results. In terms of biasing parameter estimates, I may overestimate how undesirable small occupations are. High wages in small occupations may be due to selecting the most skilled workers rather than dis-amenities. Similarly I may overestimate the value of amenities in large occupations if wages are low due to a lower than average level of worker skill, rather than attractive amenities.
-% JUSTIFY MORE WHY ORTHOGONAL
+Compensating differentials also emerge at the occupation level through the common component of wages, $W^g_o$, which will vary according to the utility that workers receive from occupations, as well as the value that jobs have for male and female workers, in order to equate supply and demand. This component of wages can be thought of as the result of a market-wide open-ended ascending price auction where jobs make wage bids for workers, but each job can only ``win" one worker.\footnote{In order for equilibrium wages to not depend on sample size I must assume a large number of workers of each gender and jobs of each occupation \cite{Galichon2013b}.}
 
-The worker utility function therefore takes into account the job dis-amenities $\xi^M_j$ and $\xi^F_j$ as well as the workers taste for that occupation, and because $log(Wage^g_j) = log(W^g_o * \xi^g_j) = \bar{W^g_o} + \bar{\xi^g_j}$, workers are exactly compensated for $ \xi^g_j$ in the utility function. Plugging in and cancelling we get equilibrium utility for workers of
+% , and there are no search frictions. The assumption of no search frictions is made more reasonable by the fact that I am considering lifetime occupation choices, not individual jobs.
+
+
+
+Plugging in equilibrium wages we have the following equilibrium utility for workers:
 
 \begin{align} \label{utility}
 \bar{u}^i_o &= \bar{u}^{g}_o + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j  \\ \nonumber
 &= \bar{u}^{g}_o +  \bar{W}^g_o + \bar{\xi}^g_j  + \bar{\eta}^i_o - \bar{\xi}^g_j  \\ \nonumber
 &=  \bar{u}^{g}_o + \bar{W}^g_o  + \bar{\eta}^i_o  \\ \nonumber
-&=  \alpha^g_o + \gamma^g F_o + \bar{W}^g_o  + \bar{\eta}^i_o 
+&=  \alpha^g_o + \gamma^g F_{o,t-1} + \bar{W}^g_o  + \bar{\eta}^i_o 
 \end{align}
 
-The equilibrium payoff to a firm is then
+Workers are exactly compensated for the job dis-amenities, $ \xi^g_j$, in equilibrium, leaving the taste for occupation, $\bar{\eta}^i_o$, as the heterogeneity at the individual worker level. 
+
+%The worker utility function therefore takes into account the job dis-amenities $\xi^M_j$ and $\xi^F_j$ as well as the workers taste for that occupation, and because $log(Wage^g_j) = log(W^g_o * \xi^g_j) = \bar{W^g_o} + \bar{\xi^g_j}$, 
+
+The equilibrium payoff to a firm is
 
 \begin{align}
   \bar{\pi}^g_j =& \widebar{WTP}^g_o - \widebar{Wage}^g_j \\ \nonumber
   =& \widebar{WTP}^g_o -  \bar{W}^g_o - \bar{\xi}^g_j
 \end{align}
 
-The fact that this wage vector supports the pairwise stable matching follows from the optimization problems of jobs and workers. See appendix \ref{sec.Stability} for proof of stability.
+Firms care only about the value proposition of hiring a man or woman ($\widebar{WTP}^g_o -  \bar{W}^g_o$), and the idiosyncratic appeal of their job to men and women, $\bar{\xi}^g_j$. This means that, as on the worker side, there is only one source of heterogeneity in the equilibrium payoff. This is a critical assumption because it allows me to separate the matching problem into two separate discrete choice problems, one for each side of the market \cite{Galichon2013}. The cost of this assumption is that there is no individual worker productivity heterogeneity. Selection on productivity is orthogonal to my research question, but it may lead me to underestimate the value of amenities of small occupations and overestimate the appeal of large occupations.
+
+%The counterfactual dynamics I am interested in are at the level of occupation and gender, and productivity and utility are allowed to vary freely by occupation and gender. Therefore including individual worker productivity heterogeneity should not have a major impact on my results. In terms of biasing parameter estimates, I may overestimate how undesirable small occupations are. High wages in small occupations may be due to selecting the most skilled workers rather than dis-amenities. Similarly I may overestimate the value of amenities in large occupations if wages are low due to a lower than average level of worker skill, rather than attractive amenities.
+% JUSTIFY MORE WHY ORTHOGONAL
+
+
 
 %%%% CUT AND REWRITE
  %% PUT IN FOOTNOTE why sigmas matter, but CUT THIS
 %Lastly, I estimate four variance parameters in total: variance of taste for occupation for men and women, and variance of job dis-amenities for men and women. These parameters are important because they govern the elasticity of labor supply to changes in wages or other non-wage amenities such as the gender ratio in the counterfactual, as well as the demand response to changes in equilibrium wage. Unlike \citeA{Chiappori2015}, who uses many markets to identify these parameters, I use the observed wage distribution as suggested in \citeA{Salanie2014a}. However I estimate using maximum likelihood in order to use the information from the wage distribution efficiently, and because the lognormal assumption means that the scale parameters cannot be separately estimated from all other parameters, as noted above. For all these reasons maximum likelihood is the most natural strategy for my application.
 
+\section{Empirical Strategy} \label{empirical}
 
-\subsection{Estimation}
 
+Estimation follows from distributional assumptions on the unobserved heterogeneity on each side of the market.
 
-Estimation then follows from distributional assumptions on the unobserved heterogeneity on each side of the market. The equilibrium solution allows separate estimation of each side.
+\subsection{Firm Estimation}
 
 \begin{assumption}
-Let the heterogeneity in job amenities, $\xi^g_j$, be distributed lognormal, and independently across $j$, such that $\bar{\xi}^g_j = ln(\xi^g_j)$ is distributed normally with location parameter normalized to zero and scale parameters for each gender, $\sigma^F_{\xi}$ and $\sigma^M_{\xi}$.
+Let the heterogeneity in job amenities for each gender, $\xi^g_j$, be distributed lognormal and independent across $j$, such that $\bar{\xi}^g_j = ln(\xi^g_j)$ is distributed $\mathcal{N}(0, \sigma^g_{\xi}$).
 \end{assumption}
 
 
-Since we observe log wages $\widebar{Wage}^g_j$, the expectation of observed wages suggests itself as an estimator for $\bar{W}^g_o$. Unfortunately there is a wrinkle to this strategy. There is a selection problem in that the only wages that are observed are the wages that maximize the job's choice over male, female, or not hiring any worker. The choice to not hire at all is especially problematic since it implies a truncation point that depends on $W^g_o$ which is unknown. Likewise, the selection effects depend on the scale of the unobserved job heterogeneity, $\sigma^g_\xi $, which is unknown.\footnote{Estimating this parameter is important because is governs the elasticity of labor supply to changes in wages or other non-wage amenities such as the gender ratio in the counterfactual, as well as the demand response to changes in equilibrium wage. Unlike \citeA{Chiappori2015}, who uses many markets to identify these parameters, I use the observed wage distribution as suggested in \citeA{Salanie2014a}.} The problem therefore suggests joint likelihood estimation with selection and truncation, where the selection takes the form of a Tobit Type 5, to estimate $WTP^g_o$, $W^g_o$ and $\sigma^g_{\xi}$. See Appendix \ref{sec.likelihood} for the likelihood function in the notation of \citeA{Amemiya1985} and my notation.
+I also assume that if a job is unattractive enough, it will not be filled. This allows me to identify the model without use of vacancy data on the firm side. In practice I use vacancy data in estimation for stability of the estimator and to avoid relying too much on extreme data points for identification.
+
+%I make the assumption of a fixed outside option because then the model is identified without use of data on vacancies, allowing me to test robustness to the use of the vacancy data. I can estimate the willingness-to-way of the firms with the maximum observed wage by gender and occupation. This strategy is less stable than using vacancy data. 
 
 
 
@@ -443,73 +469,75 @@ Since we observe log wages $\widebar{Wage}^g_j$, the expectation of observed wag
 %&= \int_{-\infty}^{\infty} {\Phi_{0,\sigma^M_{\xi}}(\widebar{WTP}^F_o - \bar{W}^F_o - \widebar{WTP}^M_o - \bar{W}^M_o + \xi^F_j)}  \phi_{0,\sigma^F_{\xi}}(\xi^F_j) d\xi^F_j\\
 %\end{align*}
 
-A firm will only hire a worker if the willingness-to-pay for that worker is higher than the wage the worker will accept in equilibrium, which means the payoff $ \pi^g_j $ must be greater than one. 
+%A firm will only hire a worker if the willingness-to-pay for that worker is higher than the wage the worker will accept in equilibrium, which means the payoff $ \pi^g_j $ must be greater than one. 
 
-$$ \pi^g_j = \frac{WTP^g_o}{Wage^g_j} \geq 1 $$
+%$$ \pi^g_j = \frac{WTP^g_o}{Wage^g_j} \geq 1 $$
 
 \begin{assumption}
-Jobs will remain unfilled if the wage is higher than the willingness-to-pay for both men and women.
+A firm will not hire a worker if the wage for men is higher than the willingness-to-pay for men ($WTP^M_o$) and the wage for women is higher than the firm's willingness-to-pay for women ($WTP^F_o$).
 \end{assumption}
 
-$$ \pi^F_j = \frac{WTP^F_o}{Wage^F_j} < 1 \hspace{3mm} \text{and}  \hspace{3mm} \pi^M_j = \frac{WTP^M_o}{Wage^M_j} < 1 \hspace{3mm} \implies \hspace{3mm} \text{$j$ unfilled}$$
+$$ \bar{\pi}^g_j = \widebar{WTP}^g_o - \widebar{Wage}^g_j <  0 \hspace{3mm} \text{for} \hspace{3mm} g \in \{M,F\}  \hspace{3mm} \implies \hspace{3mm} \text{$j$ unfilled}$$
 
 %This differs from the classic multinomial choice model because there is no unobserved heterogeneity in the outside option. That is to say, t
 
-The above assumption implies that jobs are unfilled when both $\bar{\xi}^M_j$ and $\bar{\xi}^F_j$ are very high. High $\bar{\xi}^M_j$ and $\bar{\xi}^F_j$ means very high dis-amenity value to both men and women, requiring high wages to compensate. So if a job is unattractive enough, it will not be filled. I make the assumption of a fixed outside option because then the model is identified without use of data on vacancies, allowing me to test robustness to the use of the vacancy data. I can estimate the willingness-to-way of the firms with the maximum observed wage by gender and occupation. This strategy is less stable than using vacancy data. 
+%The above assumption implies that jobs are unfilled when both $\bar{\xi}^M_j$ and $\bar{\xi}^F_j$ are very high. High $\bar{\xi}^M_j$ and $\bar{\xi}^F_j$ means very high dis-amenity value to both men and women, requiring high wages to compensate. 
 
+We observe log wages ($\widebar{Wage}^g_j$), but the only wages that are observed are the wages that maximize the job's choice over male, female, or not hiring any worker, so the observed data are the result of both selection and truncation. The selection and truncation depends on the $\bar{W}^g_o$, which is an unknown equilibrium object to be estimated, as well as the scale of the unobserved job heterogeneity, $\sigma^g_\xi $, which is unknown.\footnote{Estimating scale is important because is governs the elasticity of labor supply to changes in wages or other non-wage amenities such as the gender ratio in the counterfactual, as well as the demand response to changes in equilibrium wage. Unlike \citeA{Chiappori2015}, who uses many markets to identify these parameters, I use the observed wage distribution as suggested in \citeA{Salanie2014a}.} To back out the unobserved wage offer distribution from the observed wages I use Tobit Type 5 maximum likelihood estimation. This allows me to estimate $WTP^g_o$, $W^g_o$ and $\sigma^g_{\xi}$ while accounting for selection and truncation. See Appendix \ref{sec.likelihood} for the likelihood function in the notation of \citeA{Amemiya1985} and my notation.
+
+%Since we observe log wages $\widebar{Wage}^g_j$, the expectation of observed wages suggests itself as an estimator for $\bar{W}^g_o$. Unfortunately there is a wrinkle to this strategy. There is a selection problem in that . 
+
+
+
+\subsection{Worker Estimation}
 
 \begin{assumption}
 Let the worker taste heterogeneity for occupations, $\eta^i_o$, be independently distributed extreme value type 1.\footnote{Also known as gumbel for maxima or logit.} 
 \end{assumption}
 
-The location parameter of $\eta^i_o$ is normalized to zero, and the scale parameter is estimated separately for each gender, resulting in two scale parameters $\sigma^M_{\eta}$ and $\sigma^F_{\eta}$ for men and women respectively. In \citeA{Chiappori2015} the scale parameters require many markets to estimate but with observed transfers we can rely on variation in lifetime income across occupations to trace out the scale.
+The location parameter of $\eta^i_o$ is normalized to zero, and the scale parameter is estimated separately for each gender, resulting in two scale parameters $\sigma^M_{\eta}$ and $\sigma^F_{\eta}$ for men and women respectively. I leverage well known properties of extreme value distributions to obtain occupation choice probabilities in terms of utility parameters. Recall that $log(u^i_g) = log(u^g_o) + log(W^g_o)  + \eta^i_o \equiv  \bar{u}^{g}_o + \bar{W}^g_o   + \eta^i_o  $.
 
-I leverage well known properties of extreme value distributions to obtain choice probabilities, or the probability that the utility from one option is higher than the utility of all other options. Recall that $log(u^i_g) = log(u^g_o) + log(W^g_o)  + \eta^i_o \equiv  \bar{u}^{g}_o + \bar{W}^g_o   + \eta^i_o  $.
+%In \citeA{Chiappori2015} the scale parameters require many markets to estimate but with observed transfers we can rely on variation in lifetime income across occupations to trace out the scale.
+
+
 
 %$$ Pr(j \in Y \text{ chooses } i \in X) = \frac{exp(\frac{\Pi^g_o}{\sigma^g_{\xi}})}{\sum_X exp(\frac{\Pi^g_o}{\sigma^g_{\xi}})}$$
 
-$$ Pr(i \in g \text{ chooses } \forall  j \in o) = \frac{exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}{\sum_o exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}$$
+$$ Pr(i \in g \text{ chooses } \forall  j \in o) = \frac{exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}{\sum_{k \in O} exp(\frac{\bar{u}^{g}_k + \bar{W}^g_k}{\sigma^g_{\eta}})}$$ 
 
 
 \begin{assumption}
-Let $u^i_N = \eta^i_N$. This implies that the $u^g_N=0$ and no wages are received, leaving only idiosyncratic taste for non-employment $\eta^i_N$.
+I normalize the log utility from non-employment to be zero ($\bar{u}^g_N=0$). 
 \end{assumption}
 
 %$$ \frac{Pr(j \in Y \text{ chooses } i \in X)}{Pr(j \in Y \text{ chooses } 0)} = \frac{ \frac{exp(\frac{\Pi^g_o}{\sigma^g_{\xi}})}{\sum_X exp(\frac{\Pi^g_o}{\sigma^g_{\xi}})} } {\frac{1}{\sum_X exp(\frac{\Pi^g_o}{\sigma^g_{\xi}})}} =  exp(\frac{\Pi^g_o}{\sigma^g_{\xi}})$$
 
-We can then define the probability of choosing occupation $o$ relative to the probability of choosing non-employment.
+Since no wages are received in non-employment, this leaves only the idiosyncratic taste for non-employment $\eta^i_N$. We can then define the probability of choosing occupation $o$ relative to the probability of choosing non-employment in terms of the share of workers of gender $g$ who match to occupation $o$ ($s^g_o$), and  the share that choose non-employment ($s^g_N$), which are observed. Recall that the non-wage utility ($\bar{u}^{g}_o$) can then be decomposed into utility from the occupation ($\alpha^{g}_o$) and utility from the fraction female ($\gamma^g F_{o,t-1}$).
 
-$$ \frac{Pr(i \in g \text{ chooses } \forall j \in o)}{ Pr(i \in g \text{ chooses }N)}= \frac{ \frac{exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}{\sum_Y exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}  } {\frac{1}{\sum_Y exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})} } = exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})$$
-
-Let $s^g_o$ be the share of workers of gender $g$ who match to occupation $o$, and $s^g_N$ the share that choose non-employment. These shares are observed. Rearranging from above we have
-
-%$$ \Pi^g_o = \sigma^g_{\xi} ln(  \mu_{X|Y}) - \sigma^g_{\xi}  ln(\mu_{0|Y})= \sigma^g_{\xi} ln(  \mu^g_o) -  \sigma^g_{\xi} ln(\mu_{0Y}) $$
-\begin{align} \label{logit}
-  \sigma^g_{\eta} ln(s^g_o) -  \sigma^g_{\eta} ln(s^g_N) &= \bar{u}^{g}_o + \bar{W}^g_o \\
-     ln(s^g_o) - ln(s^g_N) &= \frac{\bar{u}^{g}_o + \bar{W}^g_o}{ \sigma^g_{\eta} } \\
-     &= \frac{\alpha^{g}_o + \gamma^g F_o + \bar{W}^g_o}{ \sigma^g_{\eta} }
-\end{align}
+%$$ \frac{Pr(i \in g \text{ chooses } \forall j \in o)}{ Pr(i \in g \text{ chooses }N)}= \frac{ \frac{exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}{\sum_Y exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}  } {\frac{1}{\sum_Y exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})} } = exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})$$
 
 
+\begin{equation} \label{eq:1}
+\begin{split}
+ln \left( \frac{Pr(i \in g \text{ chooses } \forall j \in o)}{ Pr(i \in g \text{ chooses }N)} \right) &= ln(s^g_o) - ln(s^g_N) \\
+ &= \frac{\bar{u}^{g}_o + \bar{W}^g_o}{ \sigma^g_{\eta} } = \frac{\alpha^{g}_o + \gamma^g F_{o,t-1}  + \bar{W}^g_o}{ \sigma^g_{\eta} } 
+ \end{split}
+\end{equation}
 
 
-%\section{Preference for Gender Ratio} \label{stage2}
-
-Recall that in a logit model the mean utility in occupation $o$ is equal to the log of the ratio of the share employed ($s^g_o$) in that occupation to the share in non-employment ($s^g_N$), or $ ln(s^g_o) - ln(s^g_N) $. The mean utility can then be decomposed into wage and non-wage utility which are common to all worker and job matches of a given occupation and gender. The non-wage component is $\bar{u}^{g}_o$ and the wage component $\bar{W}^g_o$. The impact of both on mean utility is mediated by the scale of the taste heterogeneity ($\sigma^g_{\eta}$).
+This equation \ref{eq:1} cannot be estimated in the cross section because there are only as many moments as occupations, and I must estimate $\gamma^g$ and $\sigma^g_{\eta}$ in addition to an $\alpha^g_o$ for each occupation. Therefore I pool all six cross sections of data (1960-2012), allowing me to estimate the occupation-specific intercepts, $\alpha^g_o$ and use time variation in fraction female and reservation wages to identify coefficients $\frac{\gamma^g}{\sigma^g_{\eta}}$ and $\frac{1}{\sigma^g_{\eta}}$. In order to better match time variation in shares, a time effect $\beta^g_t$ is added. In addition, in the spirit of \citeA{Berry1994}, $\epsilon^g_{o,t}$ represents changes over time in the utility of workers due to changes in unobserved occupation attributes, so changes not due to movement in the fraction female or the reservation wages.
 
 \begin{align*}
-     ln(s^g_o) - ln(s^g_N) = \frac{\bar{u}^{g}_o + \bar{W}^g_o}{ \sigma^g_{\eta} } = \frac{\bar{\alpha}^{g}_o + \gamma^g F_o  + \bar{W}^g_o}{ \sigma^g_{\eta} } 
+ln(s^g_{o,t}) - ln(s^g_{N,t}) =   \frac{ \beta^g_t + \alpha^g_o +  \gamma^g F_{o} +  \bar{W}^g_{o,t} + \epsilon^g_{o,t}}{\sigma^g_{\eta}}  \\
 \end{align*}
 
+%In the sections below I introduce several strategies to identify the parameters $\frac{\gamma^g}{\sigma^g_{\eta}}$ and $\frac{1}{\sigma^g_{\eta}}$. 
+
+Unfortunately using time variation means that estimates of $\frac{\gamma^g}{\sigma^g_{\eta}}$ and $\frac{1}{\sigma^g_{\eta}}$ likely suffer from omitted variable bias. Changes over time in both the gender ratio and the reservation wage are likely correlated with changes in unobserved occupation attributes $\epsilon^g_{o,t}$.
+
+For example if an occupation is becoming more family friendly over time, and this causes more women to enter the occupation, the coefficient on fraction female will be biased upward for women. Similarly if occupation amenities deteriorate over time, this may be correlated with increases in wages, causing a downward bias on the coefficient on the reservation wage $W^g_o$.
 
 
-This equation cannot be estimated in the cross section because we have one $\alpha^g_o$ parameter for each occupation, in addition to $\gamma^g_o$ and $\sigma^g_{\eta}$, and only $n_o$ moments.
-
-In the sections below I introduce several strategies to identify the parameters $\frac{\gamma^g}{\sigma^g_{\eta}}$ and $\frac{1}{\sigma^g_{\eta}}$. First, I pool all six cross sections of data (1960-2012), allowing me to estimate the occupation-specific intercepts, $\alpha^g_o$ and use time variation in fraction female and reservation wages to identify coefficients $\frac{\gamma^g}{\sigma^g_{\eta}}$ and $\frac{1}{\sigma^g_{\eta}}$. Unfortunately using time variation means that estimates of $\frac{\gamma^g}{\sigma^g_{\eta}}$ and $\frac{1}{\sigma^g_{\eta}}$ likely suffer from omitted variable bias. Changes over time in both the gender ratio and the reservation wage are likely correlated with changes in unobserved occupation attributes. 
-
-For example if an occupation is becoming more family friendly over time, and this causes more women to enter the occupation, the coefficient on fraction female will be biased upward for women. Similarly compensating differentials would lead us to expect a downward bias on the coefficient on the reservation wage $W^g_o$. For both men and women if occupation amenities deteriorate over time, this may be correlated with increases in wages.
-
-Therefore I introduce Bartik-style instruments that exploit variation in the industry composition of occupations to isolate changes over time in the fraction female and wage by occupation that are caused by labor demand shifters. The use of instruments should isolate labor demand shocks, thus tracing out the labor supply curve conditional on fraction female and wage level. 
 
 % \subsection{Fixed Effects Specification}
  
@@ -517,31 +545,23 @@ Therefore I introduce Bartik-style instruments that exploit variation in the ind
 %
 %$$\bar{u}^i_o =  \alpha^g_o + \gamma^g_o F^g_o + \bar{W}^g_o  + \bar{\eta}^i_o $$
 
-Recall from equation \ref{logit} that worker utility can be written as a function of the share of workers by gender in each occupation and in non-employment:
-
-\begin{align}
-     ln(s^g_o) - ln(s^g_N) = \frac{\alpha^{g}_o + \gamma^g F_o + \bar{W}^g_o}{ \sigma^g_{\eta} }
-\end{align}
  
 % Let worker utility in occupation $o$ in time $t$ for either men or women be given by
 %\begin{align*}
 %u^{i}_{o,t} &= \alpha_o +   \gamma_t +  \gamma F_{o,t} + \delta log(W^g_{o,t}) + \eta^i_{o,t} + \epsilon_{o,t}   \\
 %\end{align*}
 
-In order to better match time variation in shares, a time effect $\beta^g_t$ is added. In addition, in the spirit of \citeA{Berry1994}, $\epsilon^g_{o,t}$ represents changes over time in the utility of workers due to changes in unobserved occupation attributes, so changes not due to movement in the fraction female or the reservation wages.
 
-\begin{align*}
-ln(s^g_{o,t}) - ln(s^g_{N,t}) =   \frac{ \beta^g_t + \alpha^g_o +  \gamma^g F_{o,t} +  \bar{W}^g_{o,t} + \epsilon^g_{o,t}}{\sigma^g_{\eta}}  \\
-\end{align*}
 
-One concern with estimating this equation is that, leaving aside the structural interpretation of the discrete choice model, it is unclear if the coefficients reflect labor demand or labor supply. Skill requirements of occupations for example is one factor, unmodeled on the firm side, that could lead to a spurious negative correlation between the wage and the share of workers in an occupation. Simultaneously, there is the problem of omitted variable bias due to correlation between time varying occupation amenities $\epsilon_{o,t}$ and $F_{o,t}$ and $W^g_{o,t}$ discussed above. Ideally instruments driven by labor demand will also be uncorrelated with $\epsilon_{o,t}$ and therefore solve the endogeneity problem.
+%One concern with estimating this equation is that, leaving aside the structural interpretation of the discrete choice model, it is unclear if the coefficients reflect labor demand or labor supply. Skill requirements of occupations for example is one factor, unmodeled on the firm side, that could lead to a spurious negative correlation between the wage and the share of workers in an occupation. Simultaneously, there is the problem of omitted variable bias due to correlation between time varying occupation amenities $\epsilon_{o,t}$ and $F_{o,t}$ and $W^g_{o,t}$ discussed above. Ideally instruments driven by labor demand will also be uncorrelated with $\epsilon_{o,t}$ and therefore solve the endogeneity problem.
 
 %In order to trace out the labor supply curve, variation in the fraction female and the wage due to labor demand shocks is needed.
 
 % Instruments that use shocks to labor demand will ensure that $\gamma$ and $\delta$ reflect labor supply. 
 
 
-
+%ADD MORE INTRO TO IVs HERE???
+In the worker identification section below I introduce Bartik-style instruments that exploit variation in the industry composition of occupations to isolate changes over time in the fraction female and wage by occupation that are caused by labor demand shifts, allowing me to get clean identification of the labor supply parameters of the worker.
 
 
 
@@ -599,21 +619,37 @@ One concern with estimating this equation is that, leaving aside the structural 
 %Since we observe $w^g_j$, the worker-job match wage, for the matches that are made, it appears we could estimate the $\sigma^g_{\xi}$ from the scale of the observed wage distribution (especially given that the scale of a maximum of extreme value distributions is the same as scale of the original distributions\footnote{See Appendix}). However it is not possible to take this approach because of the positive willingness-to-pay product assumption, which implies a truncation of the job payoffs, and therefore a truncation of the observed wages at a truncation point for each type ($ \pi^g_o + W^g_o + \xi^g_j \geq 0 \implies \xi^g_j \geq - \pi^g_o - W^g_o$). This truncation point is unknown because $W^g_o$ is unknown.
 
 
+\subsection{Identification}
+I first discuss the identification in the first stage maximum likelihood estimation of the firm parameters ($\widebar{WTP}^g_{o}$ and $\sigma^g_{\xi}$) and centers of the equilibrium wage offer distributions ($W^g_{o}$). Then I discuss identification in the second stage instrumental variables regression of the worker parameters ($\alpha^g_o$, $\gamma^g$, and $\sigma^g_{\eta}$).
 
-\subsubsection{Identification of Firm Parameters}
+\subsubsection{Firm Identification}
 
-Separate identification of the willingness-to-pay and reservation wage parameters ($WTP^g_o$ and $W^g_o$) relies on the shape of the wage distribution, and in practice, the addition of vacancy data. We observe the share of jobs that are filled by men and women in each occupation, and the full distribution of $Wage^F_o$ and $Wage^M_o$ for those matches that do occur. Intuitively, the shape of the observed wage distribution will vary according to where the reservation wage distribution is centered, while what portion of the reservation wage distribution we see depends on the $WTP^g_o$, that is jobs relative valuation of male or female workers. To give intuition in terms of the likelihood function, $W^F_{o}$ and $W^M_{o}$ are pinned down by the $Pr(Wage^g_{j})$ component, while the relative difference between $WTP^F_o$ and $WTP^M_o$ is pinned down by the $Pr(\text{$j$ hire g} | Wage^g_{j} ) $ component, and the level of both $WTP^F_o$ and $WTP^M_o$ is pinned down by the denominator $Pr(\text{$j$ unfilled})$.
+I observe the share of jobs that are filled by men and women in each occupation, and the $Wage^F_o$ and $Wage^M_o$ for those matches that do occur. From these moments I need to identify how much the firm is willing to pay for men and women in each occupation ($WTP^F_o$ and $WTP^M_o$) and the center of the wage offer distributions for men and women by occupation ($W^F_{o}$ and $W^M_{o}$). The willingness-to-pay will be primarily pinned down by the shares and the right tail of the wage distribution (the most firms are willing to offer for workers of a gender in an occupation), while the wage offers will be primarily pinned down by the left tail of the wage distribution (the least workers are willing to accept for a job in an occupation).
 
-To illustrate identification consider the plots in Figures \ref{sales} and \ref{health}. These figures compare the reservation wage distributions implied by the model, with the wage distribution of matches, also implied by the model. The vertical lines denote the willingness-to-pay for male and female workers respectively, $\widebar{WTP}^M_{o}$ and $\widebar{WTP}^F_{o}$. In both example occupations, the wage distribution predicted for matches (top panel) is lower for women than men. In the first example in Figure \ref{sales}, Sales Representatives, Finance, and Business Services, this is the result of firm preferences. In the second example in Figure \ref{health}, Health Service occupations, this is the result of worker preferences.
+%Separate identification of the willingness-to-pay and reservation wage parameters ($WTP^g_o$ and $W^g_o$) relies on the shape of the wage distribution, and in practice, the addition of vacancy data. 
+%Intuitively, the shape of the observed wage distribution will vary according to where the reservation wage distribution is centered, while what portion of the reservation wage distribution we see depends on the $WTP^g_o$, that is jobs relative valuation of male or female workers. 
+%To give intuition in terms of the likelihood function, $W^F_{o}$ and $W^M_{o}$ are pinned down by the $Pr(Wage^g_{j})$ component, while the relative difference between $WTP^F_o$ and $WTP^M_o$ is pinned down by the $Pr(\text{$j$ hire g} | Wage^g_{j} ) $ component, and the level of both $WTP^F_o$ and $WTP^M_o$ is pinned down by the denominator $Pr(\text{$j$ unfilled})$.
 
-In the bottom panel of Figure \ref{sales}, we see that in Sales Representatives, Finance, and Business Services, the reservation wages of women and men are centered at approximately the same location. This implies that men and women value the amenities of the occupation similarly and have similar outside options. Differences in the wage distribution of predicted matches are driven instead by firms being willing to pay higher wages for male workers. This manifests itself in the wage distribution by a long right tail male wages, beyond the support of the female wage distribution. 
+Figures \ref{sales} and \ref{health} illustrate identification by comparing the observed wage distribution in two very different occupations. In both occupations, women are paid less than men, but in Sales Representatives, Finance, and Business Services, this is due to firms being willing to pay women less, while in Health Service Occupations, this is the result of women being willing to work for less.
 
-%In reality such differences in lifetime wages likely reflect mainly lower labor force attachment of women in this occupation, rather than productivity differences or direct wage discrimination.
+The willingness of firms to pay more for men in Sales Representatives, Finance, and Business Services manifests itself in the wage distribution through a long right tail male wages, well beyond the support of the female wage distribution. By contrast, in Health Service Occupations, the estimated willingness-to-pay gap is very small because the support of the right tails of the male and female wage distributions broadly overlaps.
 
-By contrast in Figure \ref{health}, in Health Service occupations, we see that the reservation wage distribution for men is much higher than for women. This means that men do not value this occupation, or have higher outside options. The high reservation wages for men drives the wage gap in this occupation. The estimated willingness-to-pay gap is very small because the support of the right tails of the male and female wage distributions broadly overlaps.
+Without the use of vacancy data the willingness-to-pay of the firm would in fact be identified from the maximum wage observed for each gender. Because this relies heavily on a single data point that could be an outlier or sampling error, I prefer to use a specification with vacancy data to help pin down how many jobs remain unfilled in the far right tail.
+
+For women in Health Services Occupations, the left tail of the observed wage distribution has a lot of density close to zero, implying that female workers are willing to work for very little in Health Service Occupations, so we would expect wage offers for women to be low in this occupation. The observed wage distribution for women in Sales Representatives, Finance, and Business Services is centered much further to the right, implying women need to be compensated more highly to work in this occupation, so we would expect the center of the wage offer distribution to be higher. Therefore the shape of the observed wage distributions and the shares together identify the locations of the wage offer distributions ($W^F_{o}$ and $W^M_{o}$) for each gender and occupation. Wage offers are be needed to back out worker utility parameters.
+
+%In summary using the model I am able to distinguish between the scenario in Figure \ref{sales}, where female workers are less valued than male workers, and the scenario in Figure \ref{health}, where female workers are cheaper to hire than male workers. In both cases the observed wages for women are lower, but the mechanisms are very different. Separately identifying reservation wages from willingness-to-pay is important because taking reservation wages as given is what allows me to estimate the worker side of the market. $W^F_{o}$ and $W^M_{o}$
+
+%To illustrate identification consider the plots in Figures \ref{sales} and \ref{health}. These figures compare the reservation wage distributions implied by the model, with the wage distribution of matches, also implied by the model. The vertical lines denote the willingness-to-pay for male and female workers respectively, $\widebar{WTP}^M_{o}$ and $\widebar{WTP}^F_{o}$. 
+
+%In both example occupations, the wage distribution predicted for matches (top panel) is lower for women than men. In the first example in Figure \ref{sales}, Sales Representatives, Finance, and Business Services, this is the result of firm preferences. In the second example in Figure \ref{health}, Health Service occupations, this is the result of worker preferences.
+
+%In the bottom panel of Figure \ref{sales}, we see that in Sales Representatives, Finance, and Business Services, the reservation wages of women and men are centered at approximately the same location. This implies that men and women value the amenities of the occupation similarly and have similar outside options. Differences in the wage distribution of predicted matches are driven instead by firms being willing to pay higher wages for male workers. This manifests itself in the wage distribution by a long right tail male wages, beyond the support of the female wage distribution. 
+
+%By contrast in Figure \ref{health}, in Health Service occupations, we see that the reservation wage distribution for men is much higher than for women. This means that men do not value this occupation, or have higher outside options. The high reservation wages for men drives the wage gap in this occupation. The estimated willingness-to-pay gap is very small because the support of the right tails of the male and female wage distributions broadly overlaps.
 
 
-In summary using the model I am able to distinguish between the scenario in Figure \ref{sales}, where female workers are less valued than male workers, and the scenario in Figure \ref{health}, where female workers are cheaper to hire than male workers. In both cases the observed wages for women are lower, but the mechanisms are very different. Separately identifying reservation wages from willingness-to-pay is important because taking reservation wages as given is what allows me to estimate the worker side of the market.
+
 
 %Recall that worker utility depends on non-wage utility from occupation $o$, denoted $\alpha^g_o$, the fraction female through coefficient $\gamma^g$, and the reservation wages through the scale parameter of the worker heterogeneity in tastes for occupation $\sigma^g_{\eta}$, where $\frac{1}{\sigma^g_{\eta}}$ is the coefficient on the reservation wage.
 
@@ -662,135 +698,68 @@ In summary using the model I am able to distinguish between the scenario in Figu
 
 
 
-\subsection{Identification of Worker Parameters}
+\subsubsection{Worker Identification}
 
-The identifying assumptions for the first set of instruments are that changes in industry wage levels and gender ratios over time are uncorrelated with changes in how workers value industries, and that changes in occupation attributes are independent across occupations. The identifying assumptions for the second pair of instruments is that changes in industry size over time that are correlated with initial wage and gender ratios, are uncorrelated with changes in the worker valuation of the industry. Lastly I introduce an instrument that interacts the initial gender ratio by occupation and the relative growth rates of men's and women's labor force participation over time. The identifying assumption is that changes in unobserved occupation attributes are independent across occupations.
+Recall that the worker's occupation choice depends on a fixed value for the occupation, as well as wages and the fraction female, which may change across cohorts of workers. Since the occupation fixed effects ($\alpha^g_o$) capture the fixed value of the occupations to men and women, the identification concern is that we would expect changes in the fraction female and the wage offer to be correlated with changes in the value of the occupation not captured in the $\alpha^g_o$. I therefore need instruments to get clean variation in $W^g_o$ and $F_{o,t-1}$ to identify the worker utility parameters.
+
+Occupations exist in a variety of different industries, and these industries have different wage offers and fraction females, and also experience different changes in wage offers and fraction female. The idea behind my first two instruments is to use industry level changes to predict wage offers and fraction female by occupation, under the assumption that industry level changes are driven by labor demand and not confounded by labor supply changes. For example, if wages in manufacturing are going up over time because the production technology in manufacturing has become more efficient, then we would expect this to have an impact on the wages of workers in occupations employed in manufacturing that is due to labor demand and independent of occupation amenities. Identification will be threatened if worker preferences for industry vary over time, or if worker preferences for occupations are changing over time in a way that is correlated across occupations. This type of instrument is commonly called a Bartik instrument.
+ 
+ %\footnote{The instrument is similar in style to \citeA{Autor2013e} where import demand is assumed uncorrelated across countries but import supply correlated across countries. It is also similar to Hausman instruments where product cost shocks are assumed correlated across markets but demand shocks are independent \cite{Hausman1996a, Nevo2001}.} 
+
+
+
+%Intuition:%Occupations exist in different industries%Industries experience growth and changes to fraction female and wages We can predict changes in occupation fraction female and wages using changes in industries%(Using labor demand shifts to trace out labor supply)%Threats to identification:%Worker preferences for industry vary over time%Changes in worker preferences for occupations are correlated across occupations
+
+%The identifying assumptions for the first set of instruments are that changes in industry wage levels and gender ratios over time are uncorrelated with changes in how workers value industries, and that changes in occupation attributes are independent across occupations. The identifying assumptions for the second pair of instruments is that changes in industry size over time that are correlated with initial wage and gender ratios, are uncorrelated with changes in the worker valuation of the industry. Lastly I introduce an instrument that interacts the initial gender ratio by occupation and the relative growth rates of men's and women's labor force participation over time. The identifying assumption is that changes in unobserved occupation attributes are independent across occupations.
 
  %two main variations on a Bartik instrument. The first, which can be constructed in the cross section, are the occupation wage levels and gender ratios that could be predicted solely from the industry composition of the occupation. The key assumption for these is the independence across occupations of worker preferences over industries. The second, which relies on panel data, are the changes in wage and gender ratio due solely to changes in industry size or the relative labor force size of men and women.
  
 
-\subsection{Instrumental Variables}
-\subsubsection{Changes Over Time in Industry Wage and Gender Ratio}
-The first set of instruments uses industry variation in wages and gender ratios, and variation in the presence of industries within occupations, to predict occupation level wages and gender ratios. For example, the reservation wage for administrative assistants will be the weighted sum of the wages by industry for all industries that exist in that occupation.\footnote{Industries used are aggregates of the harmonized IPUMS codes of ind1990. Industries are as follows: Agriculture, Forestry and Fisheries; Mining; Construction; Manufacturing; Transportation, Communications, and other public utilities; Wholesale Trade; Retail Trade; Finance, Insurance, and Real Estate; Business and Repair Service; Personal Services; Entertainment and Recreation Services; Professional and Related Services; Public Administration.}
+%\subsubsection{Instrumental Variables}
+%\subsubsection{Changes Over Time in Industry Wage and Gender Ratio}
+%The first set of instruments uses industry variation in wages and gender ratios, and variation in the presence of industries within occupations, to predict occupation level wages and gender ratios. For example, the reservation wage for administrative assistants will be the weighted sum of the wages by industry for all industries that exist in that occupation.
 
 %The basic idea is that various labor demand factors may cause variation in the reservation wage or gender ratio by industry. For example production technology or consumer demand may lead reservation wages for administrative assistants in manufacturing to be higher than in retail trade, and the gender ratio in that occupation to be highest in professional service and lowest in manufacturing. 
 
-The predicted fraction female in occupation $o$ in time $t$ is as follows:
+Let $p_{Io}$ be the fraction of occupation $o$ in industry $I$, and $\hat{F}_{Io}$ the fraction female in industry $I$ excluding workers in occupation $o$. I exclude the occupation that is being instrumented for so that changes in occupation amenities will not be included in estimates of changes in industry wages and fraction female. The industry composition $p_{Io}$ is be fixed in 1950, prior to the sample data. Then the predicted fraction female in occupation $o$ in time $t$ is as follows:
 
 $$\hat{F}_{o,t} = \sum_I  p_{Io}*\hat{F}_{Io,t} $$
 
-Where $p_{Io}$ is the fraction of occupation $o$ in industry $I$, and $\hat{F}_{Io}$ the fraction female in industry $I$ excluding workers in occupation $o$.\footnote{Note that in order for industry level fraction female or wage level to be estimated excluding occupation $o$, it is necessary that each industry contain multiple occupations. In fact at the level of aggregation I use, 14 major industries, every industry has employment in almost all occupations.} The predicted wage is similarly the sum over industry of the industry wage by the industry composition. Fraction female is measured as the fraction female in the older generations (ages 36-65) in the Census cross section. Industry wages are measured by gender as lifetime incomes of those beginning their careers in a given industry as simulated using the Census and SIPP data described above.
+The predicted wage is similarly the sum over industry of the industry wage by the industry composition. For the instrument to work it is necessary that each industry contain multiple occupations. At the level of aggregation I use, 14 major industries,\footnote{Industries used are aggregates of the harmonized IPUMS codes of ind1990. Industries are as follows: Agriculture, Forestry and Fisheries; Mining; Construction; Manufacturing; Transportation, Communications, and other public utilities; Wholesale Trade; Retail Trade; Finance, Insurance, and Real Estate; Business and Repair Service; Personal Services; Entertainment and Recreation Services; Professional and Related Services; Public Administration.} every industry has employment in almost all occupations.
 
-Pooling all six waves of data (1960-2010) is critical to the quality of the instruments in two ways. First, the industry composition can be fixed in 1950, prior to the sample data. This alleviates any concern that changes in industry composition are correlated with changes in unobserved occupation amenities, which is critical for the validity of the instrument \cite{SorkinBartik}. Second, occupation fixed effects absorb the mean utility coming from the industry composition. Therefore we must only assume that \textit{changes} in how workers value industries are independent across occupation, but changes in industry demand are correlated across occupations. For example, if wages in manufacturing are going up over time because the production technology in manufacturing has become more efficient, then we would expect this to have an impact on the wages of workers in occupations employed in manufacturing that is due to labor demand and independent of occupation amenities.\footnote{The instrument is similar in style to \citeA{Autor2013e} where import demand is assumed uncorrelated across countries but import supply correlated across countries. It is also similar to Hausman instruments where product cost shocks are assumed correlated across markets but demand shocks are independent \cite{Hausman1996a, Nevo2001}.} To avoid contaminating the estimate of industry wages and fraction female with changes in occupation amenities, they are calculated excluding the occupation that is being instrumented for.
+%\footnote{Note that in order for industry level fraction female or wage level to be estimated excluding occupation $o$, it is necessary that each industry contain multiple occupations. In fact at the level of aggregation I use, 14 major industries, every industry has employment in almost all occupations.} 
+
+ %Fraction female is measured as the fraction female in the older generations (ages 36-65) in the Census cross section. Industry wages are measured by gender as lifetime incomes of those beginning their careers in a given industry as simulated using the Census and SIPP data described above.
+
+%Pooling all six waves of data (1960-2010) is critical to the quality of the instruments in two ways. First, the industry composition can be fixed in 1950, prior to the sample data. This alleviates any concern that changes in industry composition are correlated with changes in unobserved occupation amenities, which is critical for the validity of the instrument \cite{SorkinBartik}. 
+
+%Second, occupation fixed effects absorb the mean utility coming from the industry composition. Therefore we must only assume that \textit{changes} in how workers value industries are independent across occupation, but changes in industry demand are correlated across occupations. 
+
+
 
 %One might worry that the reason reservation wages are increasing in manufacturing is due to a compensating differential from exactly the unobserved amenities that confound the OLS regression on reservation wages. To avoid this concern, the reservation wage level in the industry is calculated excluding the reservation wages in the occupation being instrumented. So for example in the case of administrative assistants, manufacturing wages would be calculated taking the mean over only other occupations in manufacturing. 
 
-The instrument will be invalidated if changes in industry amenities are correlated across occupation. For example, if the working conditions for all workers in manufacturing are getting worse over time, and this is causing the working conditions for administrative assistants in the manufacturing sector to get worse over time, then the instrument will predict an increase in wages among administrative assistants that is correlated with the change in working conditions.
-
-%This so called leave-one-out estimator makes sense if the occupation wage or gender ratio can be decomposed into a component due to its industry composition, and another component due to occupation amenities\footnote{For example let the fraction female in occupation $o$ and industry $I$ be $F_{Io}$, which can be decomposed into an industry component $F_I$ and an industry*occupation component, $\epsilon_{Io}$, which is assumed independent across occupations. If labor supply side factors affecting either wage or fraction female are independent across occupation they will be subsumed in $\epsilon_{Io}$. Then $ F_{Io} = F_I + \epsilon_{Io}$, and $\hat{F}_{I} = mean(F_{Io})$ will be a consistent estimator for $F_I$. Recall also that the mean must exclude the instrumented occupation $o^*$ to avoid contamination from $\epsilon_{Io^*}$, so $\hat{F}_{Io^*} = \frac{1}{\#o - 1} \sum_{o \neq o^*} F_{Io}$.}. The occupation amenity component is assumed to be idiosyncratic and independent across occupations, so that industry wage or gender ratios measured in other occupations are not correlated with the idiosyncratic amenity component of the given occupation. 
+%The instrument will be invalidated if changes in industry amenities are correlated across occupation. For example, if the working conditions for all workers in manufacturing are getting worse over time, and this is causing the working conditions for administrative assistants in the manufacturing sector to get worse over time, then the instrument will predict an increase in wages among administrative assistants that is correlated with the change in working conditions.
 
 
 
-%This occupation-specific component is the confounder in the regression of the log shares on the fraction female.
+%\subsubsection{Growth in Industry Employment}
+I also use a more standard Bartik instrument, which predicts changes in occupation wage offers and fraction female due to changes in the relative size of industries. For example, if manufacturing is declining, the number of administrative assistants who work in manufacturing will decrease, and we can use this to predict changes in the wage offer and fraction female of administrative assistants. The key identifying assumption is that changes in the prominence of certain industries due to production technology or demand side factors, not labor supply changes.
 
 
-%occupations exist within various industries, and industries are associated with different wage levels and gender ratios. For example in 1990 administrative support occupations have substantial presence in professional and related services; finance, insurance, and real estate; retail trade; and manufacturing. I refer to this as the industry composition of the occupation. Of these industries, wages in administrative support are highest in manufacturing and lowest in retail trade, and fraction female is highest in professional service and lowest in manufacturing. 
+%The growth rate of industries since 1950 is the treatment and the initial wages and industry fraction female\footnote{Industry composition by gender is set in 1950. Wages are set in 1960 because the sample size in the 1950 Census is too small to calculate lifetime wages} are the exposure to the treatment. Changes in employment by industry is a fundamentally different source of variation. 
 
+%The instrument predicts changes in occupation wage and gender ratio over time due to t, not including the impact of these factors on changes in wage or gender ratio since these are fixed in the initial period, and therefore controlled by the occupation fixed effects.
 
-
-%The identifying assumption would not hold if changes in industry wages and gender ratios reflect compensating differential to work in any occupation in a given. Then the industry component of occupation wages is driven primarily by industry amenities. Similarly for the gender ratio, some industries could be more attractive to men or women. In the cross section the instrument must necessarily include such effects if they exist. In the section below I will pool years so the assumption will become that changes in industry amenities are not driving changes in industry wages and gender ratios. Controlling for industry composition is a good idea, though not necessarily crucial since the validity of the instrument relies on the exogeneity of the industry composition not the treatment \cite{SorkinBartik}.
-
- 
- %Analagous to difference-in-difference estimation, one can think of the wage and gender ratio by industry as the treatments, and the industry composition of the occupation as the exposure to the treatment (which in this case is continuous) \cite{SorkinBartik}.
-
-
-%In a classic Bartik set up one would have regional variation in industry composition and changes in national level industry size (excluding own region) to predict changes in employment by region. Here instead of regions I have occupations, and instead of changes in industry size, I have industry wage levels and gender ratios to predict occupation wage and gender ratios. 
-
-%The assumptions of the classic Bartik instrument are that industry composition is orthogonal to local labor shocks, and national growth rates are not correlated with local labor shocks. 
-
-%I must assume industry composition orthogonal to unobserved occupation attributes valued by workers. That is to say, worker demand for occupation amenities must not influence the industry composition of the occupation. This can be addressed by pooling data years and fixing the industry composition in 1950, as done in the next subsection. Secondly I assume industry wage and gender ratios to be uncorrelated with attributes of the instrumented occupation. This is possible if workers value industry attributes independently across occupations. 
-
-%Both of these assumptions boil down to needing workers to value industry attributes independently across occupations.
-
-%This means that industry composition must not depend on worker demand for industry attributes that are correlated across occupations.
-
-%The strength of the instrument relies on variation in labor demand by industry driving industry wages and gender ratios. Such drivers could include differential consumer demand for industry output, or variation in production technologies and other input prices. Industry variation in amenities that affects labor supply is potentially problematic since unobserved industry amenities as measured within an occupation will include the impact of unobserved occupation amenities. For this reason it is critical that industry wages and gender ratios are measured excluding the occupation they are instrumenting. 
-
-%This is similar to the classic Bartik IV where own region is excluded. citation needed
-
-
-
-%but occupation dummies will not be included until the next section.
-
-% Nevo uses time series and fixed effects see page 320
-
-% If industry amenities are not independent:  if I control for industry composition does that take care of this? variation that is left is other factors that would affect the number of men vs. women in the industry netting out how much men and women like that industry
-
-
-
-
-%$\hat{F}_{I,o}$ is an estimate of fraction female driven by labor demand side factors. $\hat{W}_{I,o}$ is similarly the estimate of wage driven by labor demand side factors.
-
-
-%Consumer demand and production technologies could also lead to variation in the fraction female across industries. It is harder to argue that labor supply side factors affecting the gender ratio are uncorrelated across occupation since labor supply is likely to be the main driver of variation across industry in the fraction female. For example a threat to the instrument would be if workers in all occupations prefer to work in manufacturing vs. in service.  If worker taste for industry is correlated across occupations, and these tastes drive the variation in industry wage and fraction female, controlling for industry composition is a good idea, though not necessarily crucial since the validity of the instrument relies on the exogeneity of the industry composition not the treatment \cite{SorkinBartik}.
-
-%The variation in the wage level and gender ratio by industry will be mechanically correlated with the unobserved variation in occupation attributes. To address this I exclude that occupation when calculating industry level incomes and gender ratios. This is similar to the classic Bartik set-up where own region is excluded. This method should ensure exogeneity as long as occupation*industry attributes are independent within occupation. This is similar to the assumption of Hausman instruments that labor supply side wage drivers are independent across markets. So for example I will run into trouble if the unobserved amenities offered in all industries in occupation 1 are higher than in other occupations.... then this is an occupation amenity...
-
-% hausman instrument would be wages in adjacent occupations correlated through competition but not correlation of the unobserved amenities
-
-%The addition of occupation fixed effects in the following section will mitigate concerns about the assumption of independence of industry amenities across occupation. With the fixed effects the assumption is that changes over time in industry amenities, rather than levels, are independent across occupation. Industry dummies also allow me to fix the industry composition before the sample period thereby eliminating worries that changes in industry composition are driven by changes in unobserved attributes.
-
-%The instrument relies on the exogeneity of the industry composition \cite{SorkinBartik}, which in this case means that the industry composition is uncorrelated with unobserved attributes of occupations. This may not be credible in the cross section since the number of jobs in a given industry must depend in equilibrium on the attractiveness of the occupations required by that industry's production technology. In the next section I include occupation fixed effects to address this concern.
-
-% could also calculate industry composition for opposite sex? or for own sex? might as well do it for own sex since estiation is separate by sex
-% hard to control for industry composition because it will be almost collinear with the instrument (IV is a vector times the sum of the composition, but the vector is almost identical for all occupations (leave one out).
-
-%\input{Stata_cvfirstW1_sex1}
-%\input{Stata_cvfirstg1_sex1}
-%\input{Stata_cvIV1_sex1}
-%\clearpage
-%\input{Stata_cvfirstW1_sex2}
-%\input{Stata_cvfirstg1_sex2}
-%\input{Stata_cvIV1_sex2}
-
-
-
-% BLP instruments are shitty
-%BLP instruments are the sum of other occupation attributes. The quality of other occupations will have an impact on the wage paid in a given occupation through competition for workers, but will not directly impact the utility of workers in their chosen occupation. 
-
-%\input{Stata_cvfirstW2_sex1}
-%\input{Stata_cvfirstg2_sex1}
-%\input{Stata_cvIV2_sex1}
-%\clearpage
-%\input{Stata_cvfirstW2_sex2}
-%\input{Stata_cvfirstg2_sex2}
-%\input{Stata_cvIV2_sex2}
-
-%are identified, they can be regressed on various occupation attributes including the variable of interest, the sex ratio of the occupation. To deal with potential omitted variable bias in a regression including sex ratio, fixed effects or instruments for sex ratio may be used. 
-
-%\begin{align*}
-%  \alpha^g_o =Z_y\beta_X + Z^g_o\beta_X + g_X(F)+ \xi_{Y} \\ 
-%\end{align*}
-
-%Attributes unobserved to the econometrician are $ \xi_{Y}$. Under the assumption that the relationship between the unobserved attributes and mean utility satisfies $E(\xi^g_o|Z_y,Z^g_o,g_X(F))=0$, this equation can be estimated with ordinary least squares. 
-
-%The object of interest is $g_X(F)$, which is a flexible function of the fraction female in the occupation $F$. The functional form allows for a linear term to absorb any unobserved characteristics that vary linearly with the fraction female, an then includes terms for preference against being a minority for men and women:
-
-%$$g_X(F)= \delta_{x}^1 F + \delta_{x}^2 \mathcal{I}(F<.5)(F-.5)^2 + \delta_{x}^3\mathcal{I}(F>.5)(F-.5)^2 $$
-
-
-\subsubsection{Growth in Industry Employment}
-I also use a more standard Bartik IV exploiting change over time in the the size of industries to instrument for the reservation wage and the fraction female. The growth rate of industries since 1950 is the treatment and the initial wages and industry fraction female\footnote{Industry composition by gender is set in 1950. Wages are set in 1960 because the sample size in the 1950 Census is too small to calculate lifetime wages} are the exposure to the treatment. Changes in employment by industry is a fundamentally different source of variation. The instrument predicts changes in occupation wage and gender ratio over time due to the prominence of certain industries due to production technology or demand side factors, not including the impact of these factors on changes in wage or gender ratio since these are fixed in the initial period, and therefore controlled by the occupation fixed effects.
-
-The predicted occupation fraction female is
+Let the occupation*industry composition, $p_{Io,initial}$, and the fraction female, $ F_{Io,initial}$ be fixed at the initial period (1950). Let $size_{Io,t}$ be the total employment level in industry $I$ excluding occupation $o$ in year $t$. I exclude the instrumented occupation in the estimation of industry size. The predicted occupation fraction female is then:
 
 $$\hat{F}_{o,t} = \sum_I p_{Io,initial}*F_{Io,initial}*\frac{size_{Io,t}}{size_{Io,initial}}$$
 
-where $p_{Io,initial}$ and $ F_{Io,initial}$ are the occupation*industry composition and fraction female respectively, which are fixed at the initial period, and the $size_{Io,t}$ is the total employment level in industry $I$ excluding occupation $o$ in year $t$. The changes over time in the predicted $\hat{F}_{o,t}$ are driven by changes in industry size. I exclude own occupation in the estimation of industry size.
+%The changes over time in the predicted $\hat{F}_{o,t}$ are driven by changes in industry size.
 
-One requirement for validity of the instrument is that the growth in the size of industries, and therefore the exposure of occupations to the wages and gender ratios predicted by those industries, is due to product demand or productive efficiency changes over time. So for example say that demand for manufacturing is growing over time and therefore more jobs are available in the occupations in manufacturing. We would expect the wages and gender ratios in occupations found in manufacturing to be more and more reflective of the growing prevalence of manufacturing.
+%One requirement for validity of the instrument is that the growth in the size of industries, and therefore the exposure of occupations to the wages and gender ratios predicted by those industries, is due to product demand or productive efficiency changes over time. So for example say that demand for manufacturing is growing over time and therefore more jobs are available in the occupations in manufacturing. We would expect the wages and gender ratios in occupations found in manufacturing to be more and more reflective of the growing prevalence of manufacturing.
 
-The main threat to validity of the instrument is if the wages and gender ratio in manufacturing are reflective of underlying amenity values that are common across all occupations in manufacturing. In that case, even if the growth of an industry is exogenous, its increased prevalence in an occupation will be correlated with a change in the amenities in that occupation. This is less important to the extent that my paper is concerned with occupation amenities not industry amenities.
+%The main threat to validity of the instrument is if the wages and gender ratio in manufacturing are reflective of underlying amenity values that are common across all occupations in manufacturing. In that case, even if the growth of an industry is exogenous, its increased prevalence in an occupation will be correlated with a change in the amenities in that occupation. This is less important to the extent that my paper is concerned with occupation amenities not industry amenities.
 
 %This instrument would be invalid if industry growth rates are driven by changes in occupation amenities, and these changes in amenities are correlated with wage levels or fraction female in the initial period. We might worry, for example, that industries with initially low wages grow at a faster rate and this growth is due to the expansion of unobserved amenities correlated with the low wages in the initial period. If this is the case then we would be predicting low wages in occupations that 
 
@@ -798,18 +767,9 @@ The main threat to validity of the instrument is if the wages and gender ratio i
 
 % I could also argue the independence of industry amenities across occupation here but I do not think it is necessary given the paragraph below.
 
+The last Bartik-style instrument predicts changes in the fraction female of occupations over time by interacting changes in the overall labor force participation rate of relative to women with the initial fraction female by occupation. The idea is that as the relative value of home and work changes, women may be more likely to enter occupations that historically have had more women due to higher fixed values of those occupations ($\alpha^o_g$).\footnote{This is similar to instrumenting for immigration patterns based on overall flows of immigrants and initial shares \cite{Altonji1991a}.} 
 
-
-\subsubsection{Changes Over Time in Employment by Gender}
-Another source of variation made possible by the panel is variation in the relative value of employment and non-employment for men vs. women over time. Fixing occupation gender ratios in the initial period, the instrument predicts changes in occupation gender ratios due only to the gender ratio of those employed in all other occupations. Assuming changes in occupation attributes are independent across occupation, growth in the ratio of employed to non-employed in all other occupations will not be correlated with growth in amenities in the given occupation. 
-
-The identifying variation is changes in the relative value of home vs. work by gender, projected onto current occupation gender ratios based on previous gender ratios. This is similar to instrumenting for immigration patterns based on overall flows of immigrants and initial shares \cite{Altonji1991a}. One might expect initial fraction female to impact flows into an occupation through occupation attributes that are fixed over time. Since fixed attributes are controlled by fixed effects, variation over time is assumed to be due only to changes in labor force attachment of men relative to women relative to the initial period. For recent evidence of changes in labor force attachment by gender see \citeA{Albanesi2017}. 
-
-The instrument may be invalid if the changes in labor force attachment are driven by changes in occupation amenities, and these changes are correlated with initial amenities. So for example we see a high fraction female for teaching non-postsecondary in 1960 and also growth in the number of female teachers over time. Under the assumption of the instrument the growth in the number of female teachers is due to an overall increase in female labor force participation and the fixed amenities component of teaching being attractive for women. However, if the increase in female labor force participation is driven by growth in the amenity value of teaching, and the amenity value growth is correlated with the initial amenity value, then the instrument is endogenous.
-
-The instrument is constructed as follows. Let $F_{o,initial}$ be the fraction female in the occupation in the initial period. Let the number of men and women employed in all occupations except $o$ in time period $t$ be $\#M_t$ and $\#W_t$.
-
-Define the relative growth in female vs. male employment $r_t$ as
+The instrument is constructed as follows. Let $F_{o,initial}$ be the fraction female in the occupation in the initial period, 1950. Let the number of men and women employed in all occupations except $o$ in time period $t$ be $\#M_t$ and $\#W_t$. I define the relative growth in female vs. male employment $r_t$ as
 
 $$ r_t = \frac{ \frac{\#F_t}{\#M_t} }{ \frac{\#F_{initial}}{\#M_{initial}} }$$
 
@@ -817,15 +777,34 @@ Then the fraction female in occupation $o$ predicted by the instrument in time t
 
 $$\hat{F}_{o,t} = F_{o,initial} * r_t $$
 
-\subsubsection{Firm Willingness-to-Pay Parameters}
-Since the first stage F statistics are low, I additionally include the willingness-to-pay estimates $WTP^g_o$ from the job side of the model, as instruments. The $WTP^g_o$ are a measure of how much firms value workers should be uncorrelated with unobserved amenities, assuming amenities are fixed, and therefore are a good proxy for labor demand side factors that will shift the reservation wage. The ratio of $\frac{WTP^M_o}{WTP^F_o}$ is also used as a proxy for labor demand.
+The instrument will be invalid if the changes in labor force attachment are driven by changes in occupation amenities, and these changes are correlated with initial amenities. For example, if high fraction female occupations in the initial period are becoming relatively more attractive to women over time, and this change is driving the increase in female labor force participation, the instrument will be invalid.
+ 
+ %I assume that the growth in the ratio of employed to non-employed in all other occupations will not be correlated with growth in amenities in the instrumented occupation. 
+% So for example we see a high fraction female for teaching non-postsecondary in 1960 and also growth in the number of female teachers over time. Under the assumption of the instrument the growth in the number of female teachers is due to an overall increase in female labor force participation and the fixed amenities component of teaching being attractive for women. However, if the increase in female labor force participation is driven by growth in the amenity value of teaching, and the amenity value growth is correlated with the initial amenity value, then the instrument is endogenous.
+
+
+%\subsubsection{Changes Over Time in Employment by Gender}
+%Another source of variation made possible by the panel is variation in the relative value of employment and non-employment for men vs. women over time. Fixing occupation gender ratios in the initial period, the instrument predicts changes in occupation gender ratios due only to the gender ratio of those employed in all other occupations. Assuming changes in occupation attributes are independent across occupation, growth in the ratio of employed to non-employed in all other occupations will not be correlated with growth in amenities in the given occupation. 
+
+%The identifying variation is changes in the relative value of home vs. work by gender, projected onto current occupation gender ratios based on previous gender ratios. This is similar to instrumenting for immigration patterns based on overall flows of immigrants and initial shares \cite{Altonji1991a}. One might expect initial fraction female to impact flows into an occupation through occupation attributes that are fixed over time. Since fixed attributes are controlled by fixed effects, variation over time is assumed to be due only to changes in labor force attachment of men relative to women relative to the initial period. For recent evidence of changes in labor force attachment by gender see \citeA{Albanesi2017}. 
+
+
+
+
+
+%\subsubsection{Firm Willingness-to-Pay Parameters}
+Lastly, I include the willingness-to-pay estimates $WTP^g_o$ from the firm side of the model as instruments. The $WTP^g_o$ are a measure of how much firms value workers should be uncorrelated with unobserved amenities, assuming amenities are fixed, and therefore are a good proxy for labor demand side factors that will shift the reservation wage and the relative number of men or women through firm preference for hiring men vs. women, whether this be consumer demand driven, productivity differences, or discrimination.
+
+%The ratio of $\frac{WTP^M_o}{WTP^F_o}$ is also used as a proxy for labor demand.
 
 \section{Data} \label{data}
-The primary data elements needed to estimate the model described above are: expectations of lifetime labor income by occupation and gender, shares of workers by gender and age cohort choosing each occupation and non-employment, a measure of unfilled jobs by occupation (for some specifications), and occupation attributes (for some specifications).
+The primary data elements needed to estimate the model described above are: expectations of lifetime labor income by occupation and gender, shares of workers by gender and age cohort choosing each occupation and non-employment, and a measure of unfilled jobs by occupation.
 
-Lifetime wages and shares of workers by gender and occupation are estimated using a combination of Census data and SIPP data.\footnote{Public use Census 1960, 1970, 1980, 1990, 2000, and 2012 three-year ACS data obtained from IPUMS \cite{IPUMSUSA}. SIPP data from the 2004 and 2008 panels are constructed using the NBER files \cite{SIPP}. } Occupation codes are constructed by aggregation of the IPUMS harmonized codes (occ1990). Aggregation is done to achieve sufficient sample size. See appendix \ref{occupations} for the full list of occupation codes.
+While the Census and ACS provide cross sectional wage and occupation, the SIPP is needed to provide a panel for the construction of lifetime labor income estimates.\footnote{Public use Census 1960, 1970, 1980, 1990, 2000, and 2012 three-year ACS data obtained from IPUMS \cite{IPUMSUSA}. SIPP data from the 2004 and 2008 panels are constructed using the NBER files \cite{SIPP}. } Occupation codes are constructed by aggregation of the IPUMS harmonized codes (occ1990) to achieve sufficient sample size.\footnote{See appendix \ref{occupations} for the full list of occupation codes.}
 
-While the Census and ACS provide cross sectional wage and occupation, the SIPP is needed to provide a panel for the construction of lifetime labor income. While using cross sectional data may be sufficient to create estimates of lifetime income when only a few moments are needed, for my identification strategy the shape of the wage distribution is critical, and I therefore cannot assume that every worker obtains, for example, the median income for their chosen occupation at each age. The resulting distribution is mechanically quite lumpy. One reason that the lifetime income distribution in reality might be much smoother than a cross-sectional approximation is that workers transition stochastically over time between wage levels and occupations.
+Lifetime wages and shares of workers by gender and occupation are estimated using a combination of Census data and SIPP data.
+
+ While using cross sectional data may be sufficient to create estimates of lifetime income when only a few moments are needed, for my identification strategy the shape of the wage distribution is critical, and I therefore cannot assume that every worker obtains, for example, the median income for their chosen occupation at each age. The resulting distribution is mechanically quite lumpy. One reason that the lifetime income distribution in reality might be much smoother than a cross-sectional approximation is that workers transition stochastically over time between wage levels and occupations.
 
 To model worker transitions over time as probabilistic, panel data from the SIPP is essential. Using pooled data from the 2004 and 2008 panels, which are four and five years long respectively, I construct transition rates through five quantiles of earnings and occupations by worker age and gender. Because of limited sample size, I assume that transition rates are the same for each five year period starting at age 25, and depend only on the current state not the past history (first order markov assumption). The five quantile cut offs are estimated in the Census data where the larger overall sample size allows for more accuracy. 
 
@@ -853,7 +832,7 @@ To assess the impact of my assumption that workers make lifetime occupation choi
 
 
 \section{Model Estimates} \label{results}
-\subsection{Reservation Wages and Willingness-to-pay}
+\subsection{Model Parameters and Fit}
 Unlike the mean wage by occupation, the latent reservation wage $\bar{W}^g_o $ controls for the fact that in observed wages, we see only the most attractive jobs filled in each occupation.  $\bar{W}^g_o $ is unconditional on selection effects, and reflects the common component of the reservation wage to every worker of gender $g$ at any job in occupation $o$. 
 
 In Table \ref{modelestimates} we see the ``Reservation Wage Gap", which is the female to male ratio of reservation wage common components, ``WTP Gap", which is the ratio of willingness-to-pay parameters, and ``Lifetime Income Gap", which is the ratio of estimated lifetime income. All values are averaged across year by occupation. The full set of job side model parameter values and histograms of the model fit of the lifetime income distributions and shares can be found in Appendix Section \ref{modelresults}.
@@ -1041,11 +1020,11 @@ Given this observation of $F_t$ in each occupation, the young cohort makes their
 
 
 
-\subsection{Future Cohorts under Status Quo}
+\subsection{Dynamics}
 
 %\subsubsection{Finding Stable Equlibria}
 
-In Figures \ref{fig:sq1}-\ref{fig:sq4} below, I simulate future generations of workers to determine if the current level of sorting is stable, and if not, to what fraction females the occupations will converge in the future. For counterfactual simulations I assume there are no changes to parameters, which isolates the impact of the endogenous movement of the fraction female across generations. In particular, I assume that the willingness-to-pay parameters $WTP^g_o$ on the firm side are fixed, and that worker utility only changes due to changes in the fraction female $F_o$, and changes to the equilibrium wage. All other inputs are fixed at the 2012 values, the last year of data. 
+In Figures \ref{fig:sq1}-\ref{fig:sq4} below, I simulate future generations of workers to determine if the current level of sorting is stable, and if not, to what fraction females the occupations will converge in the future. For counterfactual simulations I assume there are no changes to parameters, which isolates the impact of the endogenous movement of the fraction female across generations. In particular, I assume that the willingness-to-pay parameters $WTP^g_o$ on the firm side are fixed, and that worker utility only changes due to changes in the fraction female $F_{o,t-1}$, and changes to the equilibrium wage. All other inputs are fixed at the 2012 values, the last year of data. 
 
 % ($\bar{u}^i_j =  \alpha^g_o + \gamma^g F_o + \bar{W}^g_o  + \bar{\eta}^i_o $)
 % $\bar{W}^g_o$
@@ -1139,10 +1118,7 @@ The fit of the model can be assessed by comparing the top left panel, which is o
 
 
 
-\subsection{Initial Parity}
-If preferences over an endogenous amenity like the fraction female are strong enough, there could be multiple equilibria. In this case long run sorting patterns could depend on the initial conditions, or historical segregation, which would determine which equilibrium is selected. As a first pass at testing this hypothesis, I begin my simulation with all occupations at 50\% female in the initial year of 1960. The figures \ref{fig:ip1} through \ref{fig:ip4} show that this does not affect the long run outcome. The patterns are shockingly similar today as if occupations had begun from the observed segregated position. 
 
-This result suggests that we are currently in a stable equilibrium, and that parity is close enough to this stable equilibrium that it leads to convergence. It could also suggest that each occupation has in fact only one stable equilibrium in the fraction female, and would converge to this equilibrium regardless of any starting point. In the next section I further explore this question by searching for all equilibria in the fraction for each occupation separately.
 
 
 %especially in the case where I do not allow the equilibrium wage to update. However overall, 
@@ -1247,7 +1223,7 @@ This result suggests that we are currently in a stable equilibrium, and that par
 
 %\input{Estimation_occfinal_sex_1_year_2012}
 
-\subsection{Equilibria by Occupation}
+\subsection{Steady States by Occupation}
 I search for all equilibria in the fraction female for each occupation individually. To do so I graph the mapping between fraction female in the current period and the next period. Recall that fraction female chosen today affects the choices in the next period through women's preference for higher fraction female. By examining these graphs it is easy to find fixed points, where the fraction female this period is the same as the fraction female in next period, by observing intersections with the 45 degree line. I fix all attributes of other occupations, including the fraction female, to focus only on the occupation at hand. I graph ten equidistant starting points between 0\% female and 100\% female using 2012 parameter values, and show a fitted line through these points on the graphs.
 
 I find that every occupation has one unique equilibrium in the fraction female. The equilibria are close to the observed 2012 values of fraction female, and where there is deviation from the observed fraction female they are close to the long run equilibria shown in Figures \ref{fig:sq1} through \ref{fig:sq4} where the fraction female is allowed to evolve in all occupations at once. The transition graphs for some selected occupations are shown in Figures \ref{transitions17} through \ref{transitions83}.
@@ -1270,7 +1246,7 @@ Furthermore, only a few occupations are characterized by very male or female dom
 
 %The location of the stable equilibria depend on the location and shape of the male and female labor supply curves. More occupations have an equilibrium at close to 0\% female than 100\% female. This is partly due to the lack of male preferences over fraction female, meaning that it is possible for women to be priced out of a very male occupation, but difficult for men to be priced out of female occupations. This is exacerbated by the fact that in most occupations firms have a higher willingness to pay for male workers.
 
-\subsubsection{Conditions for Multiple Equilibria}
+\subsubsection{Conditions for Multiple Steady States}
 Although the estimated parameter values produce only one equilibrium in the fraction female for each occupation, the model does allow for multiple equilibria to emerge. Below I explore two scenarios that could lead to multiple equilibria in the fraction female. First, doubling the magnitude of the preference for women to work with women, and second, fixing equilibrium wages so they are not allowed to adjust and form compensating differentials.
 
 %predict multiple equilibria to emerge with a stronger gender preference, or by fixing equilibrium wages. Below I run simulations to find the multiple equilibria by occupation with a higher gender preference, and with a fixed wage. In the following section I further discuss the mechanisms by which wages prevent multiple equilibria in the fraction female.
@@ -1339,6 +1315,11 @@ In the second example, I set ``Mechanics and Repairers", a male dominated occupa
 %On the other hand, in occupations with low fraction female, wage adjustment does allow movement to close to 100\% male. In these cases, the female reservation wage distribution moves up to the point that it is entirely above the firm's willingness-to-pay. This is again a phenomenon that hinges on the willingness-to-pay gap.
 
 %The extent to which occupations exhibit more or less tipping depends on the extent to which they are not yet in a stable equilibrium, which depends on the relative non-wage utility of male and female workers, the willingness-to-pay gap, and also these values in all other occupations since the workers' and firms' outside options matter for labor supply and demand. 
+
+\subsection{Simulation from Initial Parity}
+If preferences over an endogenous amenity like the fraction female are strong enough, there could be multiple equilibria. In this case long run sorting patterns could depend on the initial conditions, or historical segregation, which would determine which equilibrium is selected. As a first pass at testing this hypothesis, I begin my simulation with all occupations at 50\% female in the initial year of 1960. The figures \ref{fig:ip1} through \ref{fig:ip4} show that this does not affect the long run outcome. The patterns are shockingly similar today as if occupations had begun from the observed segregated position. 
+
+This result suggests that we are currently in a stable equilibrium, and that parity is close enough to this stable equilibrium that it leads to convergence. It could also suggest that each occupation has in fact only one stable equilibrium in the fraction female, and would converge to this equilibrium regardless of any starting point. In the next section I further explore this question by searching for all equilibria in the fraction for each occupation separately.
 
 
 \section{Conclusion}
@@ -1495,7 +1476,8 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \caption{Sales Representatives, Finance, and Business Services: Observed vs. Model Reservation Wages}
 \label{sales}
 %\footnotesize{\textbf{Sales Representatives, Finance, and Business Services}}
-\includegraphics[width=.7\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/offerwages_occfinal8reg1trunc_1960_v3"}
+%\includegraphics[width=.7\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/offerwages_occfinal8reg1trunc_1960_v3"}
+\includegraphics[width=.5\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/pofferwages_occfinal8reg1trunc_1960"}
 \end{figure}
 
 \begin{figure}[H]
@@ -1503,7 +1485,8 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \caption{Health Service occupations: Observed vs. Model Reservation Wages}
 \label{health}
 %\footnotesize{\textbf{Health Service occupations}}
-\includegraphics[width=.7\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/offerwages_occfinal18reg1trunc_1960_v3"}
+%\includegraphics[width=.7\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/offerwages_occfinal18reg1trunc_1960_v3"}
+\includegraphics[width=.5\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/pofferwages_occfinal18reg1trunc_1960"}
 \end{figure}
 
 \begin{figure}[H]
