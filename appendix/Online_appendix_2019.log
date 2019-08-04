@@ -1,0 +1,1178 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 AUG 2019 17:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Online_appendix_2019.tex
+(./Online_appendix_2019.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count99
+\bibleftmargin=\skip49
+\bibindent=\skip50
+\bibparsep=\skip51
+\bibitemsep=\skip52
+\biblabelsep=\skip53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count101
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count102
+\pstFP@xia=\count103
+\pstFP@xib=\count104
+\pstFP@xfa=\count105
+\pstFP@xfb=\count106
+\pstFP@rega=\count107
+\pstFP@regb=\count108
+\pstFP@regs=\count109
+\pstFP@times=\count110
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen112
+\pgfutil@tempdimb=\dimen113
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks31
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen114
+\pgf@xa=\dimen115
+\pgf@xb=\dimen116
+\pgf@xc=\dimen117
+\pgf@y=\dimen118
+\pgf@ya=\dimen119
+\pgf@yb=\dimen120
+\pgf@yc=\dimen121
+\c@pgf@counta=\count111
+\c@pgf@countb=\count112
+\c@pgf@countc=\count113
+\c@pgf@countd=\count114
+\pgfutil@tempcnta=\count115
+\pgfutil@tempcntb=\count116
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen122
+\pgfmath@count=\count117
+\pgfmath@box=\box28
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count118
+))
+\pgffor@iter=\dimen123
+\pgffor@skip=\dimen124
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+)
+\psLoopIndex=\count119
+
+`PSTricks' v2.66  <2016/05/18> (tvz)
+\pst@dima=\dimen125
+\pst@dimb=\dimen126
+\pst@dimc=\dimen127
+\pst@dimd=\dimen128
+\pst@dimg=\dimen129
+\pst@dimh=\dimen130
+\pst@dimm=\dimen131
+\pst@dimn=\dimen132
+\pst@dimo=\dimen133
+\pst@dimp=\dimen134
+\pst@hbox=\box29
+\pst@ibox=\box30
+\pst@boxg=\box31
+\pst@cnta=\count120
+\pst@cntb=\count121
+\pst@cntc=\count122
+\pst@cntd=\count123
+\pst@cntg=\count124
+\pst@cnth=\count125
+\pst@cntm=\count126
+\pst@cntn=\count127
+\pst@cnto=\count128
+\pst@cntp=\count129
+\@zero=\count130
+\pst@toks=\toks37
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen135
+\psxunit=\dimen136
+\psyunit=\dimen137
+\pst@C@@rType=\count131
+\pslinewidth=\dimen138
+\psk@startLW=\dimen139
+\psk@endLW=\dimen140
+\pst@customdefs=\toks38
+\pslinearc=\dimen141
+\pst@symbolStep=\dimen142
+\pst@symbolWidth=\dimen143
+\pst@symbolLinewidth=\dimen144
+\everypsbox=\toks39
+\psframesep=\dimen145
+\pslabelsep=\dimen146
+\sh@wgridXunit=\dimen147
+\sh@wgridYunit=\dimen148
+\pst@shift=\dimen149
+)
+File: pstricks.tex 2016/05/18 v2.66 `PSTricks' (tvz,hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2016/05/18 v2.66 `PST-fp' (hv)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sgame/sgamevar.sty
+\sglabelsep=\skip54
+\sgcolsep=\dimen150
+\sg@colwd=\dimen151
+\sg@xcolwd=\dimen152
+\sg@colnum=\count132
+\sg@colindex=\count133
+\sg@numcols=\count134
+\sg@xnumcols=\count135
+\sg@rowindex=\count136
+\sg@numrows=\count137
+\sg@strutbox=\box32
+\sg@tempsep=\dimen153
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/egameps/egameps.sty
+\egplayerlabelsep=\dimen154
+\egplayerboxsep=\dimen155
+\egactionlabelsep=\dimen156
+\egactionboxsep=\dimen157
+\egpayoffboxsep=\dimen158
+\egpayofflabelsep=\dimen159
+\@egxnum=\count138
+\@egxxnum=\count139
+\@egxxxnum=\count140
+\@egxxxxnum=\count141
+\@egynum=\count142
+\@egyynum=\count143
+\@egyyynum=\count144
+\@egyyyynum=\count145
+\@egrad=\dimen160
+\@egxdim=\dimen161
+\@egydim=\dimen162
+\@@egxnum=\count146
+\@@egxxnum=\count147
+\@@egxxxnum=\count148
+\@@egynum=\count149
+\@@egyynum=\count150
+\@@egyyynum=\count151
+\@eghnum=\count152
+\@egvnum=\count153
+\@egabshnum=\count154
+\@egabsvnum=\count155
+\@eghdistance=\count156
+\@tempcntx=\count157
+\@tempcnty=\count158
+\egalhshift=\count159
+\egalvshift=\count160
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cite/chapterbib.sty
+\c@inputfile=\count161
+Package: chapterbib 2010/09/18  v 1.17
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count162
+\LTcapwidth=\dimen165
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count163
+\LT@rows=\count164
+\c@LT@tables=\count165
+\c@LT@chunks=\count166
+\LT@p@ftn=\toks40
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count167
+\Gm@cntv=\count168
+\c@Gm@tempcnt=\count169
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks41
+)
+(./Online_appendix_2019.aux)
+\openout1 = `Online_appendix_2019.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+\c@maskedRefs=\count170
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count171
+\scratchdimen=\dimen174
+\scratchbox=\box37
+\nofMPsegments=\count172
+\nofMParguments=\count173
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count174
+\MPscratchDim=\dimen175
+\MPnumerator=\count175
+\makeMPintoPDFobject=\count176
+\everyMPtoPDFconversion=\toks43
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 38.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}]
+(/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Estimation_occfinal_yea
+r_1960.tex
+Overfull \hbox (17.13252pt too wide) in paragraph at lines 5--47
+ [][] 
+ []
+
+Missing character: There is no   in font cmr9!
+) [2]
+(/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Estimation_occfinal_yea
+r_1970.tex
+Overfull \hbox (17.13252pt too wide) in paragraph at lines 5--47
+ [][] 
+ []
+
+Missing character: There is no   in font cmr9!
+) [3
+
+]
+(/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Estimation_occfinal_yea
+r_1980.tex
+Overfull \hbox (18.95753pt too wide) in paragraph at lines 5--47
+ [][] 
+ []
+
+Missing character: There is no   in font cmr9!
+) [4
+
+]
+(/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Estimation_occfinal_yea
+r_1990.tex
+Overfull \hbox (13.48253pt too wide) in paragraph at lines 5--47
+ [][] 
+ []
+
+Missing character: There is no   in font cmr9!
+) [5
+
+]
+(/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Estimation_occfinal_yea
+r_2000.tex
+Overfull \hbox (13.48253pt too wide) in paragraph at lines 5--47
+ [][] 
+ []
+
+Missing character: There is no   in font cmr9!
+) [6
+
+]
+(/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Estimation_occfinal_yea
+r_2012.tex
+Overfull \hbox (8.00752pt too wide) in paragraph at lines 5--47
+ [][] 
+ []
+
+Missing character: There is no   in font cmr9!
+)
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPP_lifeinc_occfinal_
+1960".png, id=30, 816.04875pt x 593.71812pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPP_lifeinc_occf
+inal_1960".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPP_lifeinc_occfi
+nal_1960".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPP_lifeinc_occfinal_1960".png used on input line 60.
+(pdftex.def)             Requested size: 469.75502pt x 341.77483pt.
+ [7
+
+]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc".png, id=3
+6, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc".png 
+Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc".png used on input line 62.
+(pdftex.def)             Requested size: 469.75502pt x 341.67595pt.
+
+[8 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPP_lifeinc_occfina
+l_1960.png>] [9 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlif
+einc.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_0".png, id=46, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_0".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_0".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_0".png used on input line 66.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_0".png, id=47, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_0".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_0".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_0".png used on input line 68.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [10
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_0.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_0.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_1".png, id=53, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_1".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_1".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_1".png used on input line 70.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_1".png, id=54, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_1".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_1".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_1".png used on input line 72.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [11
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_1.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_1.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_2".png, id=60, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_2".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_2".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_2".png used on input line 74.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_2".png, id=61, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_2".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_2".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_2".png used on input line 76.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [12
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_2.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_2.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_3".png, id=67, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_3".png used on input line 78.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_3".png, id=68, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_3".png used on input line 80.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [13
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_3.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_4".png, id=75, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_4".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_4".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_4".png used on input line 82.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_4".png, id=76, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_4".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_4".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_4".png used on input line 84.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [14
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_4.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_4.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_5".png, id=82, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_5".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_5".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_5".png used on input line 86.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_5".png, id=83, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_5".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_5".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_5".png used on input line 88.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [15
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_5.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_5.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_6".png, id=89, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_o
+ccfinal_6".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_oc
+cfinal_6".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/SIPPlifeinc_age_occfinal_6".png used on input line 90.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfin
+al_6".png, id=90, 675.52374pt x 491.33563pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_o
+ccfinal_6".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_oc
+cfinal_6".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/PSIDlifeinc_age_occfinal_6".png used on input line 92.
+(pdftex.def)             Requested size: 375.80544pt x 273.34676pt.
+ [16
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfin
+al_6.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_a
+ge_occfinal_6.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+1reg1trunc_occfinal.png, id=96, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages11reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges11reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages11reg1trunc_occfinal.png used on input line 101.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+2reg1trunc_occfinal.png, id=97, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages12reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges12reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages12reg1trunc_occfinal.png used on input line 103.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [17
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages11
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages12reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+3reg1trunc_occfinal.png, id=101, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages13reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges13reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages13reg1trunc_occfinal.png used on input line 105.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+4reg1trunc_occfinal.png, id=102, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages14reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges14reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages14reg1trunc_occfinal.png used on input line 107.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [18
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages13
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages14reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+5reg1trunc_occfinal.png, id=106, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages15reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges15reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages15reg1trunc_occfinal.png used on input line 109.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+6reg1trunc_occfinal.png, id=107, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages16reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges16reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages16reg1trunc_occfinal.png used on input line 111.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [19
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages15
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages16reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+7reg1trunc_occfinal.png, id=112, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages17reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges17reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages17reg1trunc_occfinal.png used on input line 113.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+8reg1trunc_occfinal.png, id=113, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages18reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges18reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages18reg1trunc_occfinal.png used on input line 115.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [20
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages17
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages18reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages1
+9reg1trunc_occfinal.png, id=117, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages19reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges19reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages19reg1trunc_occfinal.png used on input line 117.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+0reg1trunc_occfinal.png, id=118, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages20reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges20reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages20reg1trunc_occfinal.png used on input line 119.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [21
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages19
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages20reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+1reg1trunc_occfinal.png, id=122, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages21reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges21reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages21reg1trunc_occfinal.png used on input line 121.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+2reg1trunc_occfinal.png, id=123, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages22reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges22reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages22reg1trunc_occfinal.png used on input line 123.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [22
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages21
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages22reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+3reg1trunc_occfinal.png, id=127, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages23reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges23reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages23reg1trunc_occfinal.png used on input line 125.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+4reg1trunc_occfinal.png, id=128, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages24reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges24reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages24reg1trunc_occfinal.png used on input line 127.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [23
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages23
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages24reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+5reg1trunc_occfinal.png, id=132, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages25reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges25reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages25reg1trunc_occfinal.png used on input line 129.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+6reg1trunc_occfinal.png, id=133, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages26reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges26reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages26reg1trunc_occfinal.png used on input line 131.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [24
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages25
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages26reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+7reg1trunc_occfinal.png, id=137, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages27reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges27reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages27reg1trunc_occfinal.png used on input line 133.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+8reg1trunc_occfinal.png, id=138, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages28reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges28reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages28reg1trunc_occfinal.png used on input line 135.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [25
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages27
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages28reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages2
+9reg1trunc_occfinal.png, id=143, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages29reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges29reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages29reg1trunc_occfinal.png used on input line 137.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages3
+0reg1trunc_occfinal.png, id=144, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages30reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges30reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages30reg1trunc_occfinal.png used on input line 139.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [26
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages29
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages30reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages3
+1reg1trunc_occfinal.png, id=148, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages31reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges31reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages31reg1trunc_occfinal.png used on input line 141.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages3
+2reg1trunc_occfinal.png, id=149, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages32reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges32reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages32reg1trunc_occfinal.png used on input line 143.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [27
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages31
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages32reg1trunc_occfinal.png (PNG copy)>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages3
+3reg1trunc_occfinal.png, id=153, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages33reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges33reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages33reg1trunc_occfinal.png used on input line 145.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwages3
+4reg1trunc_occfinal.png, id=154, 578.16pt x 433.62pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logw
+ages34reg1trunc_occfinal.png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/"logwa
+ges34reg1trunc_occfinal.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/matlabwages/"logwages34reg1trunc_occfinal.png used on input line 147.
+(pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [28
+
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages33
+reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
+tput/graphs/matlabwages/logwages34reg1trunc_occfinal.png (PNG copy)>] (./Online
+_appendix_2019.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11139 strings out of 493014
+ 201364 string characters out of 6133351
+ 269275 words of memory out of 5000000
+ 14425 multiletter control sequences out of 15000+600000
+ 14530 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,10n,68p,421b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on Online_appendix_2019.pdf (28 pages, 2506646 bytes).
+PDF statistics:
+ 191 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+

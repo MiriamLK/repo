@@ -800,31 +800,52 @@ Lastly, I include the willingness-to-pay estimates $WTP^g_o$ from the firm side 
 \section{Data} \label{data}
 The primary data elements needed to estimate the model described above are: expectations of lifetime labor income by occupation and gender, shares of workers by gender and age cohort choosing each occupation and non-employment, and a measure of unfilled jobs by occupation.
 
-While the Census and ACS provide cross sectional wage and occupation, the SIPP is needed to provide a panel for the construction of lifetime labor income estimates.\footnote{Public use Census 1960, 1970, 1980, 1990, 2000, and 2012 three-year ACS data obtained from IPUMS \cite{IPUMSUSA}. SIPP data from the 2004 and 2008 panels are constructed using the NBER files \cite{SIPP}. } Occupation codes are constructed by aggregation of the IPUMS harmonized codes (occ1990) to achieve sufficient sample size.\footnote{See appendix \ref{occupations} for the full list of occupation codes.}
+While the Census and ACS provide cross sectional wage and occupation, the SIPP is needed to provide a panel for the construction of lifetime labor income estimates.\footnote{Public use Census 1960, 1970, 1980, 1990, 2000, and 2012 three-year ACS data obtained from IPUMS \cite{IPUMSUSA}. SIPP data from the 2004 and 2008 panels are constructed using the NBER files \cite{SIPP}. Occupation codes are constructed by aggregation of the IPUMS harmonized codes (occ1990) to achieve sufficient sample size. See appendix \ref{occupations} for the full list of occupation codes.} Using pooled data from the 2004 and 2008 SIPP panels, which are four and five years long respectively, I construct transition rates through five quantiles of earnings and occupations by worker age and gender. Because of limited sample size, I assume that transition rates depend only on the current state not the past history. This transition matrix is then used to simulate worker career paths from the starting point of workers aged 25-35 in the Census and ACS. Their assigned choice of occupation is taken as the occupation they start out in at ages 25-35 as observed in the Census, which means that the occupation choice can be interpreted as including the expectation of all future transitions.
 
-Lifetime wages and shares of workers by gender and occupation are estimated using a combination of Census data and SIPP data.
+%\footnote{CPS or CPS MORG data could be added to get an earlier estimate of these transition rates.}
+%The lifetime income assigned to each observation in the Census or ACS is the sum of their simulated career path through the SIPP transition matrix. 
 
- While using cross sectional data may be sufficient to create estimates of lifetime income when only a few moments are needed, for my identification strategy the shape of the wage distribution is critical, and I therefore cannot assume that every worker obtains, for example, the median income for their chosen occupation at each age. The resulting distribution is mechanically quite lumpy. One reason that the lifetime income distribution in reality might be much smoother than a cross-sectional approximation is that workers transition stochastically over time between wage levels and occupations.
+%For a comparison of estimated lifetime income paths to observed lifetime income paths in the PSID, see appendix \ref{PSID}. 
 
-To model worker transitions over time as probabilistic, panel data from the SIPP is essential. Using pooled data from the 2004 and 2008 panels, which are four and five years long respectively, I construct transition rates through five quantiles of earnings and occupations by worker age and gender. Because of limited sample size, I assume that transition rates are the same for each five year period starting at age 25, and depend only on the current state not the past history (first order markov assumption). The five quantile cut offs are estimated in the Census data where the larger overall sample size allows for more accuracy. 
+%The five quantile cut offs are estimated in the Census data where the larger overall sample size allows for more accuracy. 
 
-Income quantiles from Censuse, by age, gender, and occupation, are denoted $quan$ below. Occupation is denoted $occ$, and five year age bracket $age$. Transition rates from year to year, where $x'$ indicates the value of $x$ in the following year, are then estimated non-parametrically as follows:
+%Lifetime wages and shares of workers by gender and occupation are estimated using a combination of Census data and SIPP data.
 
-\begin{align*}
-& Pr(quan',occ'|quan,occ,age)=  \frac{\sum_{i} \mathcal{I}(i \in quan',occ',quan,occ,age)}{ \sum_{i} \mathcal{I}(i \in quan,occ,age)}\\
-\end{align*}
+% While using cross sectional data may be sufficient to create estimates of lifetime income when only a few moments are needed, for my identification strategy the shape of the wage distribution is critical, and I therefore cannot assume that every worker obtains, for example, the median income for their chosen occupation at each age. The resulting distribution is mechanically quite lumpy. One reason that the lifetime income distribution in reality might be much smoother than a cross-sectional approximation is that workers transition stochastically over time between wage levels and occupations.
 
-This transition matrix is then used to simulate worker career paths from the starting point of workers aged 25-35 in the Census and ACS.\footnote{CPS or CPS MORG data could be added to get an earlier estimate of these transition rates.} The lifetime income assigned to each observation in the Census or ACS is the sum of their simulated career path through the SIPP transition matrix. For a comparison of estimated lifetime income paths to observed lifetime income paths in the PSID, see appendix \ref{PSID}. Their assigned choice of occupation is taken as the occupation they start out in at ages 25-35 as observed in the Census. This avoids measurement error in occupation that could come from simulated occupation choice, and allows for the interpretation that the occupation choice early in life includes the expectation of all future transitions.
+%To model worker transitions over time as probabilistic, panel data from the SIPP is essential. 
+
+
+
+%Income quantiles from Census, by age, gender, and occupation, are denoted $quan$ below. Occupation is denoted $occ$, and five year age bracket $age$. Transition rates from year to year, where $x'$ indicates the value of $x$ in the following year, are then estimated non-parametrically as follows:
+
+%\begin{align*}
+%& Pr(quan',occ'|quan,occ,age)=  \frac{\sum_{i} \mathcal{I}(i \in quan',occ',quan,occ,age)}{ \sum_{i} \mathcal{I}(i \in quan,occ,age)}\\
+%\end{align*}
+
+
 
 The Job openings and Labor Turnover Survey \cite{JOLTS} is used to construct a measure of unfilled jobs by occupation. Since JOLTS does not directly contain occupation, only NAICS industry codes, industries are projected into occupations using contemporaneous occupation industry shares estimated in CPS \cite{IPUMSCPS}. The estimated openings by occupation is then divided by the total number of people employed in the occupation to get the ratio of openings to employed.
 
-I also make an estimate of the number of openings that remain open at the end of the year by assuming that the probability that a job is filled is uniform across time and jobs. Then the daily rate of hiring is equal to the total number of hires that month divided by the number of days in the month. Then the probability a job is not filled on a given day is one minus this daily hire rate, and the probability a job is unfilled for the year is this probability to the power of 365. This measure of unfilled jobs will be used for robustness.
+%I also make an estimate of the number of openings that remain open at the end of the year by assuming that the probability that a job is filled is uniform across time and jobs. Then the daily rate of hiring is equal to the total number of hires that month divided by the number of days in the month. Then the probability a job is not filled on a given day is one minus this daily hire rate, and the probability a job is unfilled for the year is this probability to the power of 365. This measure of unfilled jobs will be used for robustness.
 
 %Additional data on occupation attributes from the Dictionary of Occupation Titles (1977), the ONET database (1998-2016), the CPS work supplement, and recently collected job opening data from \citeA{Atalay2017}, are included in some specifications. The DoT contains a number of measures of skill requirements of the occupation and occupation tasks in including the level of complexity with which a worker relates to people, data, and things on the job. The ONET contains a myriad of job context and task measures, most importantly competition, contact with others and time pressure, previously identified by \citeA{Goldin2014} to be of potential differential interest to women and men.\footnote{The ONET is updated continuously such that all occupations have been updated at least once during the period 1998-2016. Thus the oNET itself can be used as a measure of changes in occupation attributes but only during this limited time period. Similarly some occupations in the DoT were updated in 1991, allowing for some longitudinal variation between 1977-1991, and potential for rough mapping of the 1991 DoT into the 1998 oNET.} IPUMS CPS work supplement data from 1991, 1997, 2001, 2004 is pooled to obtain a measure of flexible working hours and nonstandard end time of job. I also use occupation attribute data from \citeA{Atalay2017}, who use changes over time in job opening ads in several major newspapers to get measures of occupation characteristics that vary over time.
 
 
 
-To assess the impact of my assumption that workers make lifetime occupation choices, I examine the extent to which workers switch occupations during their working lifetime. In my 1960 data, simulated from the Survey of Income and Program Participation (SIPP), 14\% of workers change occupation each year on average.\footnote{\citeA{Kambourov2008} find that on average 13\% of workers change occupation each year, by comparing retrospective and concurrent occupation data in the Panel Study of Income Dynamics (PSID). In my unadjusted PSID sample this number is 21\%.} However the statistic that matters is how many workers spend many or most of their working years in the same occupation, mirroring the lifetime occupation choice dictated by the model.  In the PSID, the average worker who spends most years working spends 80\% of working years in the same occupation\footnote{I observations from 1968-2011 that appear in the PSID for at least 25 years beginning before age 30 and ending after age 55, and are not missing occupation data, which results in a sample of 764 workers.} In my simulated 1960 SIPP sample this number is only 64\%. In reality dependence on past occupation likely extends beyond the immediate previous period, so this number is likely a lower bound due to my first-order Markov assumption in simulating the data. Furthermore, for 85\% of workers in the PSID and 57\% of workers in the simulated SIPP, the modal occupation for ages 25-35 is also the modal occupation for ages 25-55.
+To assess the impact of my assumption that workers make lifetime occupation choices, I examine the extent to which workers switch occupations during their working lifetime. In the PSID, the average worker who spends most years working spends 80\% of working years in the same occupation\footnote{I include observations that appear in the PSID for at least 25 years between 1968 and 2011, beginning before age 30 and ending after age 55, and are not missing occupation data. This results in a sample of 764 workers.} Furthermore, for 85\% of workers in the PSID the modal occupation for ages 25-35 is also the modal occupation for ages 25-55. My simulated lifetime income sample overestimates occupation transitions relative to the PSID, likely because occupation choice is more history dependent in reality. Either way, occupation choice appears to be fairly stable for a lot of people, and to the extent that people do transition, this is included in the expected value of the initial occupation choice.
+
+%and 57\% of workers in the simulated SIPP, 
+
+%In my 1960 data, simulated from the Survey of Income and Program Participation (SIPP), 14\% of workers change occupation each year on average.\footnote{\citeA{Kambourov2008} find that on average 13\% of workers change occupation each year, by comparing retrospective and concurrent occupation data in the Panel Study of Income Dynamics (PSID). In my unadjusted PSID sample this number is 21\%.} 
+
+%However the statistic that matters is how many workers spend many or most of their working years in the same occupation, mirroring the lifetime occupation choice dictated by the model.  
+
+
+
+%In my simulated 1960 SIPP sample this number is only 64\%. In reality dependence on past occupation likely extends beyond the immediate previous period, so this number is likely a lower bound due to my first-order Markov assumption in simulating the data. 
+
+
 
 %\footnote{The higher rate of transitions but lower rate of years in the same occupation in my simulated data is consistent with the first-order Markov assumption being overly simplistic. In reality dependence on past occupation likely extends beyond the immediately previous period.} 
 
@@ -833,17 +854,23 @@ To assess the impact of my assumption that workers make lifetime occupation choi
 
 \section{Model Estimates} \label{results}
 \subsection{Model Parameters and Fit}
-Unlike the mean wage by occupation, the latent reservation wage $\bar{W}^g_o $ controls for the fact that in observed wages, we see only the most attractive jobs filled in each occupation.  $\bar{W}^g_o $ is unconditional on selection effects, and reflects the common component of the reservation wage to every worker of gender $g$ at any job in occupation $o$. 
 
-In Table \ref{modelestimates} we see the ``Reservation Wage Gap", which is the female to male ratio of reservation wage common components, ``WTP Gap", which is the ratio of willingness-to-pay parameters, and ``Lifetime Income Gap", which is the ratio of estimated lifetime income. All values are averaged across year by occupation. The full set of job side model parameter values and histograms of the model fit of the lifetime income distributions and shares can be found in Appendix Section \ref{modelresults}.
 
-In general women have lower reservation wages than men ($  \frac{\bar{W}^F_o}{\bar{W}^M_o} < 1$) and are less valued by jobs ($ \frac{\widebar{WTP}^F_o}{\widebar{WTP}^M_o} < 1$). In general the higher the fraction female, the larger the gap between male and female reservation wages. On the other hand occupations with a high fraction female tend to have a smaller gap between male willingness-to-pay parameters. This is consistent with a Roy model with women sorting into occupations in which they are more valued by jobs.
+Figures \ref{modelwages1} and \ref{modelwages2} compare the observed wage distributions and the model predicted wage distributions for a few example occupations. The model predicted wages look very similar to observed wages. The full set of job side model parameter values and histograms of the model fit of the lifetime income distributions and shares can be found in the online appendix.
+
+Table \ref{modelestimates} shows the model estimates from the first stage of estimation by occupation, averaged across years. The first column is the fraction female, varying from .02 to .89, and all 34 occupations are ordered from highest fraction female (administrative support) to the lowest fraction female (construction and extraction). In the second column we see the ratio of the female wage offer to male wage offer ($  \frac{\bar{W}^F_o}{\bar{W}^M_o}$, which varies from .36 to 2.66, and in the third column we see the ratio of the firms' wilingness-to-pay for women vs. men ($ \frac{\widebar{WTP}^F_o}{\widebar{WTP}^M_o}$), which varies from .37 to 1.14. 
+
+
+
+In general women have lower reservation wages than men ($  \frac{\bar{W}^F_o}{\bar{W}^M_o} < 1$) and are less valued by jobs ($ \frac{\widebar{WTP}^F_o}{\widebar{WTP}^M_o} < 1$). In general the higher the fraction female, the lower the wage offers for women are in the occupation, relative to men. On the other hand firms tend to be willing to pay more for women relative to men in high fraction female occupations. Intuitively, women like, and are valued most at, highly female dominated occupations such as Administrative Support, Financial Records Processing Occupations, and Health Service Occupations, and women dislike and are valued least at highly male occupations such as Engineers, Architects, and Surveyors, Mechanics and Repairers, and Construction and Extraction.
+
+%This is consistent with a Roy model with women sorting into occupations in which they are more valued by jobs.
 
 % (thought not through a wage mechanism necessarily since both observed wages and reservation wages are lower for women in female-dominated occupations).
 
+It has been noted that both men and women have lower wages the higher the female share in an occupation (see eg. \citeA{Macpherson1995a, Levanon2009, Addison2017,Harris2018}). Unlike the mean wage by occupation, the centers of the wage offer distributions $\bar{W}^g_o $ control for the fact that in observed wages, we see only the most attractive jobs filled in each occupation, and by the workers that satisfy the firm's payoff maximization. Thus using the model allows me to look at the correlation between wage offers and fraction female unconditional on selection effects, which would downward bias any estimated correlation. I do not find a statistically significant correlation between my estimates of lifetime income and average fraction female in an occupation, but I do find that female wage offers are negatively correlated with the fraction female (correlation coefficient $-0.77$), while male wage offers are positively correlated with the fraction female (correlation coefficient $0.6$). 
 
-
-It has been noted that both men and women have lower wages the higher the female share in an occupation (see eg. \citeA{Macpherson1995a, Levanon2009, Addison2017,Harris2018}). I do not find a statistically significant correlation between my estimates of lifetime income and average fraction female in an occupation. However, I do find statistically significant correlations between estimated reservation wages and the occupation fraction female. I find that the centers of the reservation wage distribution for women ($\bar{W}^F_o $) are negatively correlated with the fraction female (correlation coefficient $-0.77$), but for men $\bar{W}^M_o $ are positively correlated with the fraction female (correlation coefficient $0.6$). 
+%and reflects the common component of the reservation wage to every worker of gender $g$ at any job in occupation $o$. 
 
 %Estimation results indicate that in contrast to observed wages, the model estimated reservation wages for men, $\bar{W}^M_o $, are positively correlated with the fraction female (estimated correlation coefficient of $0.6$), where the unit of observation is an occupation-year. The correlation coefficient between fraction female and observed labor income is $-0.16$. Reservation wages for women ($\bar{W}^F_o $) are negatively correlated with the fraction female (correlation coefficient $-0.77$), just like observed wages (correlation coefficient $-0.12$). 
 
@@ -851,7 +878,11 @@ It has been noted that both men and women have lower wages the higher the female
 
 % \cite{Baker2001} for canada evidence and non-linearities
 
-Reservation wages are more closely related to the value that the worker has for an occupation than observed wages, since observed wages reflect additional selection by the firm. This explains why reservation wages could be so strongly correlated with the fraction female, but lifetime income not so much. Although reservation wages for men in female-dominated occupations are quite high, in the observed wage data we see only those jobs within the occupation that are so attractive to men that the men can be hired an comparable wages to women. In contrast, the higher the fraction female in an occupation, the lower the reservation wage to women $\bar{W}^F_o$, but since women are cheap to hire relative to men, we see even the least attractive jobs being filled by women. The lower common component of reservation wage for women in female-dominated occupations is consistent with a female preference for working with women, and the higher reservation wage for men in female occupations is consistent with a male preference against working with women.
+%Reservation wages are more closely related to the value that the worker has for an occupation than observed wages, since observed wages reflect additional selection by the firm. This explains why reservation wages could be so strongly correlated with the fraction female, but lifetime income not so much. 
+
+%Although reservation wages for men in female-dominated occupations are quite high, in the observed wage data we see only those jobs within the occupation that are so attractive to men that the men can be hired an comparable wages to women. In contrast, the higher the fraction female in an occupation, the lower the reservation wage to women $\bar{W}^F_o$, but since women are cheap to hire relative to men, we see even the least attractive jobs being filled by women. 
+
+Lower wage offers for women in female-dominated occupations could be consistent with a female preference for working with women producing a compensating differential, but could also be the result of a strong preference for certain occupations. Similarly, the high wage offers for men in female occupations could be consistent with a male preference against working with women or strong tastes for occupations. In the next section I present the results of the instrumental variables regression of worker utility, and discuss whether the fraction female has a causal impact on worker utility.
 
 % this follows mechanically from the model maybe??
 
@@ -1490,6 +1521,18 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \end{figure}
 
 \begin{figure}[H]
+\centering
+\label{modelwages1}
+\includegraphics[width=.8\textwidth]{logwages13reg1trunc_occfinal}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\label{modelwages2}
+\includegraphics[width=.8\textwidth]{logwages14reg1trunc_occfinal}
+\end{figure}
+
+\begin{figure}[H]
 \caption{Male and Female Log Utility by Fraction Female in Occupation}
 \label{prefs}
 \begin{center}
@@ -1689,7 +1732,7 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \newpage
 \subsection{Tables}
 
-\input{Model_estimates_v2}
+\input{Model_estimates_v4}
 
 %\subsection{Comparison of Average Shares: Modal occupation vs. starting occupation 1960-2012}
 %
@@ -2022,47 +2065,6 @@ Pr(\widebar{Wage}^F_{j}) &=  \phi_{0,\sigma^F_{\xi}}( \widebar{Wage}^F_j - \bar{
 
 
 
-\subsection{Lifetime Income Estimation}
-\subsubsection{Comparison of Lifetime Income Estimates to PSID}
-
-%\includegraphics[width=\textwidth]{SIPPlifeinc}
-\includegraphics[width=\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPP_lifeinc_occfinal_1960"}
-\subsubsection{Histogram of lifetime income: PSID ages 25-55}
-\includegraphics[width=\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc"}
-
-\begin{center}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_0"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_0"}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_1"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_1"}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_2"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_2"}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_3"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_3"}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_4"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_4"}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_5"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_5"}
-\clearpage
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/SIPPlifeinc_age_occfinal_6"}
-\newline
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/PSIDlifeinc_age_occfinal_6"}
-\clearpage
-\end{center}
-
-
 %%% THESE gRAPHS USE STARTINg oCCUPATIoN AND 2000-2012 DATA FoR THE SIPP NoT 1960
 %\begin{center}
 %\clearpage
@@ -2099,19 +2101,7 @@ Pr(\widebar{Wage}^F_{j}) &=  \phi_{0,\sigma^F_{\xi}}( \widebar{Wage}^F_j - \bar{
 
 
 
-\subsection{More Model Results} \label{modelresults}
-\subsubsection{Model Job Parameter Estimates by Year}
-\input{Estimation_occfinal_year_1960}
-\clearpage
-\input{Estimation_occfinal_year_1970}
-\clearpage
-\input{Estimation_occfinal_year_1980}
-\clearpage
-\input{Estimation_occfinal_year_1990}
-\clearpage
-\input{Estimation_occfinal_year_2000}
-\clearpage
-\input{Estimation_occfinal_year_2012}
+
 
 
 %\subsection{Plots of Model Estimates over Time}
@@ -2260,55 +2250,7 @@ Pr(\widebar{Wage}^F_{j}) &=  \phi_{0,\sigma^F_{\xi}}( \widebar{Wage}^F_j - \bar{
 %\end{center}
 
 
-\subsubsection{Model Fit for Years 2000/2012}
 
-\includegraphics[width=.8\textwidth]{logwages11reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages12reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages13reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages14reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages15reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages16reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages17reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages18reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages19reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages20reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages21reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages22reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages23reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages24reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages25reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages26reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages27reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages28reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages29reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages30reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages31reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages32reg1trunc_occfinal}
-\clearpage
-\includegraphics[width=.8\textwidth]{logwages33reg1trunc_occfinal}
-\newline
-\includegraphics[width=.8\textwidth]{logwages34reg1trunc_occfinal}
 
 %
 %

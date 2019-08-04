@@ -11,18 +11,18 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Firm Identification}{14}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Worker Identification}{15}{subsubsection.3.3.2}
 \contentsline {section}{\numberline {4}Data}{18}{section.4}
-\contentsline {section}{\numberline {5}Model Estimates}{21}{section.5}
-\contentsline {subsection}{\numberline {5.1}Model Parameters and Fit}{21}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Gender Preference Results}{22}{subsection.5.2}
-\contentsline {section}{\numberline {6}Counterfactuals}{24}{section.6}
-\contentsline {subsection}{\numberline {6.1}Dynamics}{25}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Steady States by Occupation}{27}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Conditions for Multiple Steady States}{28}{subsubsection.6.2.1}
-\contentsline {subsection}{\numberline {6.3}Impulse Response Examples}{29}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Simulation from Initial Parity}{30}{subsection.6.4}
-\contentsline {section}{\numberline {7}Conclusion}{31}{section.7}
-\contentsline {section}{\numberline {8}Appendix}{33}{section.8}
-\contentsline {subsection}{\numberline {8.1}Figures}{33}{subsection.8.1}
+\contentsline {section}{\numberline {5}Model Estimates}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Model Parameters and Fit}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Gender Preference Results}{21}{subsection.5.2}
+\contentsline {section}{\numberline {6}Counterfactuals}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Dynamics}{24}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Steady States by Occupation}{25}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Conditions for Multiple Steady States}{27}{subsubsection.6.2.1}
+\contentsline {subsection}{\numberline {6.3}Impulse Response Examples}{28}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Simulation from Initial Parity}{29}{subsection.6.4}
+\contentsline {section}{\numberline {7}Conclusion}{30}{section.7}
+\contentsline {section}{\numberline {8}Appendix}{32}{section.8}
+\contentsline {subsection}{\numberline {8.1}Figures}{32}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Tables}{48}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}General Model Structure}{54}{subsection.8.3}
 \contentsline {section}{\numberline {9}Equilibrium Wages and Stability}{55}{section.9}
@@ -32,10 +32,4 @@
 \contentsline {subsection}{\numberline {9.4}Pan 2010 Tipping Model}{59}{subsection.9.4}
 \contentsline {subsection}{\numberline {9.5}List of occupation Codes}{60}{subsection.9.5}
 \contentsline {subsection}{\numberline {9.6}Joint Likelihood Tobit Type 5}{62}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Lifetime Income Estimation}{65}{subsection.9.7}
-\contentsline {subsubsection}{\numberline {9.7.1}Comparison of Lifetime Income Estimates to PSID}{65}{subsubsection.9.7.1}
-\contentsline {subsubsection}{\numberline {9.7.2}Histogram of lifetime income: PSID ages 25-55}{66}{subsubsection.9.7.2}
-\contentsline {subsection}{\numberline {9.8}More Model Results}{74}{subsection.9.8}
-\contentsline {subsubsection}{\numberline {9.8.1}Model Job Parameter Estimates by Year}{74}{subsubsection.9.8.1}
-\contentsline {subsubsection}{\numberline {9.8.2}Model Fit for Years 2000/2012}{80}{subsubsection.9.8.2}
-\contentsline {section}{References}{92}{section*.43}
+\contentsline {section}{References}{65}{section*.39}
