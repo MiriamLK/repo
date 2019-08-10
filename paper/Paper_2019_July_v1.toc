@@ -11,25 +11,24 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Firm Identification}{14}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Worker Identification}{15}{subsubsection.3.3.2}
 \contentsline {section}{\numberline {4}Data}{18}{section.4}
-\contentsline {section}{\numberline {5}Model Estimates}{19}{section.5}
-\contentsline {subsection}{\numberline {5.1}Model Parameters and Fit}{19}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Gender Preference Results}{21}{subsection.5.2}
+\contentsline {section}{\numberline {5}Model Estimates}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Model Parameters and Fit}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Worker Preference Results}{21}{subsection.5.2}
 \contentsline {section}{\numberline {6}Counterfactuals}{23}{section.6}
-\contentsline {subsection}{\numberline {6.1}Dynamics}{24}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Steady States by Occupation}{25}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Conditions for Multiple Steady States}{27}{subsubsection.6.2.1}
-\contentsline {subsection}{\numberline {6.3}Impulse Response Examples}{28}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Simulation from Initial Parity}{29}{subsection.6.4}
-\contentsline {section}{\numberline {7}Conclusion}{30}{section.7}
-\contentsline {section}{\numberline {8}Appendix}{32}{section.8}
-\contentsline {subsection}{\numberline {8.1}Figures}{32}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Tables}{48}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}General Model Structure}{54}{subsection.8.3}
-\contentsline {section}{\numberline {9}Equilibrium Wages and Stability}{55}{section.9}
-\contentsline {subsection}{\numberline {9.1}Feasibility}{55}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Stability}{56}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Proof of Pairwise Stability}{57}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Pan 2010 Tipping Model}{59}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}List of occupation Codes}{60}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Joint Likelihood Tobit Type 5}{62}{subsection.9.6}
-\contentsline {section}{References}{65}{section*.39}
+\contentsline {subsection}{\numberline {6.1}Steady States by Occupation}{24}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Conditions for Multiple Steady States}{26}{subsubsection.6.1.1}
+\contentsline {subsection}{\numberline {6.2}Impulse Response Examples}{27}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Simulation from Initial Parity}{28}{subsection.6.3}
+\contentsline {section}{\numberline {7}Conclusion}{29}{section.7}
+\contentsline {section}{\numberline {8}Appendix}{31}{section.8}
+\contentsline {subsection}{\numberline {8.1}Figures}{31}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Tables}{45}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}General Model Structure}{50}{subsection.8.3}
+\contentsline {section}{\numberline {9}Equilibrium Wages and Stability}{51}{section.9}
+\contentsline {subsection}{\numberline {9.1}Feasibility}{51}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Stability}{52}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Proof of Pairwise Stability}{53}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Pan 2010 Tipping Model}{55}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}List of occupation Codes}{56}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Joint Likelihood Tobit Type 5}{58}{subsection.9.6}
+\contentsline {section}{References}{61}{section*.35}

@@ -372,13 +372,34 @@ Defining log utility to be $\bar{u}^{i}_j$ and re-parameterizing in terms of log
 
 %\footnote{The log utility parameters for working, $\bar{u}^g_o$, include the disutility of working at all and are expected to be negative. However the underlying utility parameters $u^g_o = exp(\bar{u}^g_o)$ will always be positive leading to complementarity in wage and non-wage utility. Similarly, ${\xi^g_j}$ will be assumed to be log-normally distributed and therefore always positive, so the higher the dis-amenity value of the job the lower the utility. }
 
-Furthermore worker utility will be decomposed into a common component and a dependence on the fraction female in the occupation, which is the endogenous amenity of interest. Let $F_o$ be the fraction female in occupation $o$. To avoid simultaneity, the fraction female is defined as the fraction female of the occupation among older workers (ages 35-65), that is, the fraction female that would be observed by the worker as they make their occupation decisions. To make the timing assumption clear I use subscript $t-1$ for the fraction female.
+Furthermore worker utility will be decomposed into a common component and a dependence on the fraction female in the occupation, which is the endogenous amenity of interest. 
 
 \begin{align*}
 \bar{u}^{i}_j &= \bar{u}^{g}_o + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j \\
     &= \alpha^g_o +   \gamma^g F_{o,t-1} + \widebar{Wage}^g_j   + \bar{\eta}^i_o - \bar{\xi}^g_j
 \end{align*}
 % \frac{\beta^g}{\sigma^g_{\eta}}  X_o+
+
+Let $F_{o,t-1}$ be the fraction female among older workers, ages 35-65, in occupation $o$ observed by the younger workers, ages 25-34, at time $t$ as they make their lifetime occupation decisions. The youngest cohort, ages 25-34, observes $F_{o,t-1}$ and makes their occupation choices, producing the number of men and women in each occupation in the time $t$ cohort, $n^F_{o,t}$ and $n^M_{o,t}$. The dynamics of the model result from updating of the fraction female in each occupation with each successive cohort of workers.  Since the occupation choice of each worker is fixed for the rest of their working lifetime (assumed to be 40 years), their choice which will influence the fraction female observed by the next three cohorts of workers.
+
+%In each ten year period, only young workers ages 25-34 choose a new occupation, while older cohorts in age brackets 35-44, 45-54, 55-65 are fixed in their occupation.  To make the timing assumption clear I use subscript $t-1$ for the fraction female.
+
+
+
+$$F_{o,t-1} = \frac{n^F_{o,t-1} + n^F_{o,t-2} + n^F_{o,t-3}}{(n^F_{o,t-1} + n^M_{o,t-1}) + (n^F_{o,t-2} + n^M_{o,t-2}) + (n^F_{o,t-3} + n^M_{o,t-3}) } $$
+
+%When the current cohort of workers, ages 25-34, make occupational decisions, they face the gender ratio produced by older cohorts of workers. The occupation choice of each worker is fixed for the rest of their working lifetime (assumed to be 4 periods, or 40 years), and workers do not take into account predicted future evolution of the fraction female. 
+
+%Workers and jobs are assumed to be numerous enough that no single worker need take into account their own impact on the fraction female in their occupation of choice.
+
+%Let the fraction female in occupation $o$ observed by the young cohort before making their decisions be $F_o$. Let the fraction female among cohort $C$ in occupation $o$ be $F_{o,C}$. Note that $F_{o,C}$ results only from the decisions made by cohort $C$. Then the fraction female in occupation $o$ observed by the current generation when they make their decisions is $F_o$ and can be decomposed into the weighted average of decisions of previous generations as follows, where the weights are the cohort sizes $n_{o,C}$.
+
+%$$ F_o = \frac{n_{o,C-1}F_{o,C-1} + n_{o,C-2} F_{o,C-2} + n_{o,C-3} F_{o,C-3}}{n_{o,C-1}+n_{o,C-2}+n_{o,C-3}}$$ 
+%Let the fraction female in an occupation observed by the young cohort in time $t$ before making their decisions be $F_t$, where the occupation subscript $_o$ is omitted for convenience. Then we can write $F$ as a function of the number of men and women ($n^F$ and $n^M$) choosing that occupation in the previous three periods.
+
+
+
+
 
 
 
@@ -856,7 +877,9 @@ To assess the impact of my assumption that workers make lifetime occupation choi
 \subsection{Model Parameters and Fit}
 
 
-Figures \ref{modelwages1} and \ref{modelwages2} compare the observed wage distributions and the model predicted wage distributions for a few example occupations. The model predicted wages look very similar to observed wages. The full set of job side model parameter values and histograms of the model fit of the lifetime income distributions and shares can be found in the online appendix.
+Figures \ref{fig:modelwages1} and \ref{fig:modelwages2} compare the observed wage distributions and the model predicted wage distributions for a few example occupations. The model predicted wages look very similar to observed wages.\footnote{The full set of job side model parameter values and histograms of the model fit of the lifetime income distributions and shares can be found in the online appendix.} The fraction female observed in the Census data matches the model predicted fraction female in the cross section, and mostly follows with the model predicted fraction female over time, though not exactly since workers do not necessarily stay in their starting occupation for their lifetime, and the endogenous updating of the fraction female is not a moment targeted in the model.
+
+%The fit of the model can be assessed by comparing the top left panel, which is observed fraction female by occupation in the Census data,\footnote{Both observed and simulated fraction females are for age ranges 35-64} to the right and bottom panels, which are model simulations. Note that the model simulations do not exactly match the Census data patterns in the top left because the dynamic updating of the fraction female across cohorts was not a moment targeted by the model. In the data workers also do not necessarily stay in their starting occupation for their lifetime.
 
 Table \ref{modelestimates} shows the model estimates from the first stage of estimation by occupation, averaged across years. The first column is the fraction female, varying from .02 to .89, and all 34 occupations are ordered from highest fraction female (administrative support) to the lowest fraction female (construction and extraction). In the second column we see the ratio of the female wage offer to male wage offer ($  \frac{\bar{W}^F_o}{\bar{W}^M_o}$, which varies from .36 to 2.66, and in the third column we see the ratio of the firms' wilingness-to-pay for women vs. men ($ \frac{\widebar{WTP}^F_o}{\widebar{WTP}^M_o}$), which varies from .37 to 1.14. 
 
@@ -909,18 +932,20 @@ Lower wage offers for women in female-dominated occupations could be consistent 
 
 
 
-\subsection{Gender Preference Results}
-I find a strong and robust preference on the part of women for entering into more female-dominated occupations, which is around four times the preference for log wages, meaning that if the log reservation wage in an occupation went up by 10\% this would have an equivalent effect on log utility ($\bar{u}^F_o$) of an increase to the percent female in the occupation of around 5\%. I do not find evidence for a preference on the part of men against entering into more female-dominated occupations.
+\subsection{Worker Preference Results}
+As discussed above, I estimate worker utility parameters by regressing worker utility on occupation fixed effects, model predicted wage offers, and the fraction female, using Bartik-style instruments for the fraction female and wage offers. I find a strong preference on the part of women against entering in to male-dominated occupations, which is around twice the preference for log wages, meaning that if the log wage offers in an occupation went up by 10\%, this would have an equivalent effect on log utility ($\bar{u}^F_o$) as a 5 \% increase to the fraction female. I do not find evidence that men's utility depends on the fraction female. Figure \ref{prefs} shows the relationship between log utility and the fraction female for men and women. Women have increasing utility in the fraction female, and the increase is steeper the fewer women there are in the occupation. By contrast for men, utility is relatively flat in the fraction female and not statistically different from zero.\footnote{Results from a beta distribution specification follow a similar pattern.}
 
 % 10 \% increase in wages implies a 10/100 increase in log utility
 % then 4* change in F implies a 10/100 increase in log utility
 % then change in F must be 10/400= 2.5% or .025... 10/200 would be .05
 
-Graphical representation of the preference structure under the assumption of linear, quadratic or cubic form is given in Figure \ref{prefs}. Women have increasing utility in the fraction female, and the increase is steeper the fewer women there are in the occupation. By contrast for men, utility is relatively flat in the fraction female and not statistically different from zero.\footnote{Results from a beta distribution specification follow a similar pattern.}
 
-Results for the industry and employment growth panel instruments are in Tables \ref{IV1} and \ref{IV2}. All tables report fixed effects regressions on the pooled data. Estimation is done using limited information maximum likelihood for robustness to weak instruments, but two stage GMM results are similar. Standard errors clustered at the occupation level.\footnote{I expect errors correlated within occupation due to occupation fixed effects and possible differences in model fit across occupations.} I report only the linear specification for men and the cubic specification for women because these seem to fully capture the functional form and obtain the highest first stage F statistics in the preferred IV specification.
 
-The first column is an un-instrumented fixed effects regression. The second column (IV1) includes the instruments using variation in industry wage and fraction female over time. The third column (IV2) includes these instruments and subsequently includes instruments from the variation in occupation size over time. The fourth column (IV3) also includes all previous instruments and also adds in the instrument exploiting variation in the size of the male and female labor force relative to the initial period. The last column (IV4) additionally includes the firm willingness-to-pay parameters $WTP^g_o$ for men and women respectively and the ratio of firm willingness-to-pay parameters  $\frac{WTP^M_o}{WTP^F_o}$. This final column is the preferred specification because it has the strongest first stage.
+Tables \ref{IV1} and \ref{IV2} show the results of the fixed effect regression, and the fixed effect regression with instruments for fraction female and wage offers described above. The first stage has a Kleibergen-Papp F statistic of around 10 for women and 8.6 for men. Estimation is done using limited information maximum likelihood for robustness to weak instruments, but two stage GMM results are similar, and standard errors clustered at the occupation level.\footnote{I expect errors correlated within occupation due to occupation fixed effects and possible differences in model fit across occupations.} I report only the linear specification for men and the cubic specification for women because these seem to fully capture the functional form and obtain the highest first stage F statistics in the IV specification.
+
+%\footnote{Denoted ``KP rk F" in the tables.}
+
+%The first column is an un-instrumented fixed effects regression. The second column (IV) includes the instruments using variation in industry wage and fraction female over time, variation in industry size over time, variation in male and female labor force participation, and firm willingness-to-pay parameters $WTP^g_o$. This is the preferred specification because it has the strongest first stage, achieving a Kleibergen-Papp F statistic of around 10 for women and 8.6 for men.\footnote{Denoted ``KP rk F" in the tables.}
 
 %Pooling all six waves of data (1960-2010) allows for the addition of occupation and time fixed effects. These fixed effects should improve the quality of the instruments in two ways. First, the industry composition can be fixed in 1950, prior to the sample data. This alleviates any concern that changes in industry composition are correlated with changes in unobserved occupation amenities. Second, occupation fixed effects makes the assumption that industry amenities are independent across occupation easier to swallow since the assumption becomes industry amenities are independent net of mean occupation utility. 
 
@@ -942,9 +967,9 @@ The first column is an un-instrumented fixed effects regression. The second colu
 
 
 
-In the un-instrumented regression in the first column, both men and women have a negative wage coefficient. This implies that even though the fixed effects have controlled for any time invariant omitted variables, the changes over time may still be picking up unobserved labor demand factors, changes in occupation attributes, or other omitted variables. The instrumented specifications should avoid this endogeneity by identifying off of labor demand shocks. The wage coefficient is positive for men and women in all instrumented specifications. The last column, using all instruments discussed above, achieves an Kleibergen-Papp F statistic of around 10 for women and 8.6 for men.\footnote{Denoted ``KP rk F" in the tables.}
+In the un-instrumented regression in the first column, both men and women have a negative wage coefficient. The wage coefficient then becomes positive in the instrumented regression in the second column. This implies that there may be time-varying omitted variables, not controlled for by the fixed effects, such as changes in occupation amenities, or skill requirements. The instrumented specifications should avoid this endogeneity by identifying off of labor demand shocks. 
 
-In no specification do men have a significant preference over the fraction female. The instrumented point estimates are close to zero in the preferred specification, but the standard errors are high, so I cannot rule out moderate effects in either direction. The lack of precision could be due to a lack of variation over time in men's labor market outcomes, which is corroborated by the much higher total sum of squares in the female regression.
+By contrast, the signs of the fraction female coefficients do not change with the addition of instruments. In both specifications men have no preference over the fraction female, but the standard errors are high, so I cannot rule out moderate effects in either direction. The lack of precision could be due to a lack of variation over time in men's labor market outcomes, which is corroborated by the much higher total sum of squares in the female regression.
 
 %In fact, a regression of the log difference in shares on only time and occupation dummies produces and F statistic of 823 for women and 3167 for men.
 
@@ -972,13 +997,22 @@ In no specification do men have a significant preference over the fraction femal
 
 % also forget moving the wage since wage is in equilibrium? so make two columns, row 1 moving 10-20\% female, row 2, 80-90\% female, first column labor supply effect, second column equilibrium effect.
 
-For women the estimated preference is economically significant in terms of the impact on occupation choice. Moving the fraction female in a single occupation from 20\% ($F=.2$) to 80\% ($F=.8$) would have an average marginal effect of moving 1352\% more women into that occupation under the $IV4$ specification (see Table \ref{sumstat}). However this effect is exaggerated because it is partial equilibrium. Holding equilibrium wages fixed means that this result only reflects the decisions of workers without firm response. When firms are allowed to adjust wages in equilibrium, the effect of moving from $F=.2$ to $F=.8$ is only 124\% on average. So if an occupation moved from relatively male dominated to relatively female dominated that would just over double the number of women who would enter that occupation in equilibrium.
+For women the estimated preference is economically significant in terms of the impact on occupation choice. The average marginal effect of moving the fraction female in a single occupation from 20\% ($F=.2$) to 80\% ($F=.8$) would be to entice 124\% more women to enter that occupation in equilibrium. So if an occupation moved from relatively male dominated to relatively female dominated that would just over double the number of women who would enter that occupation in equilibrium.
+
+%In partial equilibrium, holding wages fixed, moving the fraction female in a single occupation from 20\% ($F=.2$) to 80\% ($F=.8$) would have an average marginal effect of moving 1352\% more women into that occupation under the $IV$ specification (see Table \ref{sumstat}). 
+
+
+The non-wage utility that workers get from each of the occupations ($\alpha^g_o$) are reported in Table \ref{FEs}, measured in log millions of dollars. These are the fixed effects from the regressions in Tables \ref{IV1} and \ref{IV2} with the excluded category being ``Teachers, Postsecondary". Generally we see that women have higher utility than men for female occupations and vice versa. The only male dominated occupations ($F<.2$) in which women have higher non-wage utility than men are Protective Service and Health Diagnosing Occupations, and there are no female dominated occupations ($F>.8$) in which men have higher non-wage utility.
+
+%In combination with the estimated willingness-to-pay from Table \ref{modelestimates}, they track relatively closely with the observed fraction female by occupation. Occupations with higher female utility and higher willingness-to-pay for women have more women in them. 
+
+%However this effect is exaggerated because it is partial equilibrium. Holding equilibrium wages fixed means that this result only reflects the decisions of workers without firm response. 
 
 %The impact of moving the log reservation wage from the 25th to 75th percentile is offered for comparison purposes and is much smaller, only an average marginal effect of 90\% more women or 53\% more men. A change in fraction female from 0 to 100 would be equivalent to about a 300\% increase in log wages in terms of the effect on women's utility.
 
 %Fraction female from 0 to 100 increases female utility about 6 in cubic spec. so 6 = beta/100%*change in wage. Beta is 2. So 6 = 2/100%* change in wage. So the equivalent change in log wage is 100%*6/2, or 3*100% so 300%
 
-To check the sensibility of the model it is useful to look at the estimated fixed effects from the regressions in Tables \ref{IV1} and \ref{IV2}. These correspond to the estimated non-wage utility of men and women for each occupation. The occupation fixed effects by gender can be found in Table \ref{FEs}. The excluded category is ``Teachers, Postsecondary". In combination with the estimated willingness-to-pay from Table \ref{modelestimates}, they track relatively closely with the observed fraction female by occupation. Occupations with higher female utility and higher willingness-to-pay for women have more women in them. 
+
 
 % this would be a nice spot to run the counterfactuals setting um=uf and pim=pif and contrasting which contributes more to segregation
 
@@ -1034,234 +1068,45 @@ To check the sensibility of the model it is useful to look at the estimated fixe
 
 %BLP instruments have no variation across time so they should be almost collinear with the occupation fixed effects as is the problem with Nevo's cereal application
 
-\section{Counterfactuals} \label{counterfactuals}
-The dynamics of the model result from updating of the fraction female in each occupation with each successive cohort of workers. In each ten year period, only young workers ages 25-34 choose a new occupation, while older cohorts in age brackets 35-44, 45-54, 55-65 are fixed in their occupation. When the current cohort of workers, ages 25-34, make occupational decisions, they face the gender ratio produced by older cohorts of workers. The occupation choice of each worker is fixed for the rest of their working lifetime (assumed to be 4 periods, or 40 years), and workers do not take into account predicted future evolution of the fraction female. 
-
-%Workers and jobs are assumed to be numerous enough that no single worker need take into account their own impact on the fraction female in their occupation of choice.
-
-%Let the fraction female in occupation $o$ observed by the young cohort before making their decisions be $F_o$. Let the fraction female among cohort $C$ in occupation $o$ be $F_{o,C}$. Note that $F_{o,C}$ results only from the decisions made by cohort $C$. Then the fraction female in occupation $o$ observed by the current generation when they make their decisions is $F_o$ and can be decomposed into the weighted average of decisions of previous generations as follows, where the weights are the cohort sizes $n_{o,C}$.
-
-%$$ F_o = \frac{n_{o,C-1}F_{o,C-1} + n_{o,C-2} F_{o,C-2} + n_{o,C-3} F_{o,C-3}}{n_{o,C-1}+n_{o,C-2}+n_{o,C-3}}$$ 
-Let the fraction female in an occupation observed by the young cohort in time $t$ before making their decisions be $F_t$, where the occupation subscript $_o$ is omitted for convenience. Then we can write $F$ as a function of the number of men and women ($n^F$ and $n^M$) choosing that occupation in the previous three periods.
-
-
-$$F_t = \frac{n^F_{t-1} + n^F_{t-2} + n^F_{t-3}}{(n^F_{t-1} + n^M_{t-1}) + (n^F_{t-2} + n^M_{t-2}) + (n^F_{t-3} + n^M_{t-3}) } $$
-
-Given this observation of $F_t$ in each occupation, the young cohort makes their own occupation decisions. Their decisions determine the number of men and women in the occupation in time $t$, or $n^F_t$ and $n^M_t$, which will influence the fraction female observed by the next three cohorts of workers.
 
 
 
-\subsection{Dynamics}
+
+\section{Counterfactuals}
 
 %\subsubsection{Finding Stable Equlibria}
 
-In Figures \ref{fig:sq1}-\ref{fig:sq4} below, I simulate future generations of workers to determine if the current level of sorting is stable, and if not, to what fraction females the occupations will converge in the future. For counterfactual simulations I assume there are no changes to parameters, which isolates the impact of the endogenous movement of the fraction female across generations. In particular, I assume that the willingness-to-pay parameters $WTP^g_o$ on the firm side are fixed, and that worker utility only changes due to changes in the fraction female $F_{o,t-1}$, and changes to the equilibrium wage. All other inputs are fixed at the 2012 values, the last year of data. 
+The first question I can answer with this model is whether occupation segregation is stable over time. Since I find that women have a preference over the fraction female, we might expect the fraction female to evolve endogenously causing some occupations to become more male or female over time, even if every other aspect of labor supply and demand is fixed. In these simulations the only changes to worker utility are due to changes in the fraction female $F_{o,t-1}$, and changes to the equilibrium wage.\footnote{I solve for the new $ \bar{W}^{*g}_o$ the equates the supply and demand for workers and jobs, given the changes to worker utility due to the evolution of fraction female.}  All other inputs are fixed at the 2012 values, the last year of data.  
 
-% ($\bar{u}^i_j =  \alpha^g_o + \gamma^g F_o + \bar{W}^g_o  + \bar{\eta}^i_o $)
-% $\bar{W}^g_o$
+Given my parameter estimates, the model predicts that only a few occupations will see substantial evolution in the fraction female in the future. Figure \ref{fig:sq1} shows four occupations predicted to become more female, and two occupations predicted to become less female. Health diagnosing occupations  is predicted to move from 38\% to 60\% female, engineers, architects and surveyors from 17\% to 30\%, math computer and natural science from  32\% to 43\%, and precision production occupations 25\% to 38\%. Meanwhile machine operators, fabricators, assemblers, testers moves from 20\% to 5\% female, and metal, wood, plastic, print, textile from 30\% to 10\%.
 
-%We can get a sense of model fit by comparing the model simulated segregation patterns over the time period for which we observe real segregation patterns (1960-2012).
+Although the male preference for working with men is close to zero and not statistically significant, these predicted future patterns hold broadly even if men are given a coefficient on fraction female at the lower bound of the confidence interval. So even if men had a relatively strong preference against working with women, most occupations would see little change in segregation based on endogenous evolution of the fraction female alone.
 
-%For the purposes of these stylized simulations I assume that workers are fixed in their starting occupation for the rest of their lives, rather than impute later life changes in occupation which may be biased or noisy. 
+It appears that most occupations are in a steady state in the fraction female, meaning that roughly the same number of women are entering each year as are retiring. The next question is whether these steady states are stable, or whether, for example, a shock to the number of women in an occupation in a given cohort could create a feedback loop causing ``tipping" to a new steady state.  
 
-In the top right panels of Figures \ref{fig:sq1}-\ref{fig:sq4}, I assume that the wage levels by occupation are fixed over time, simulating the outcome in a one-sided model of occupation choice. In this case, all occupations eventually converge to fully male or female due to the preference for fraction female.
-
-
-
-In the bottom panel I allow the wages to update through the market clearing condition of the matching model described above. I solve for the new $ \bar{W}^{*g}_o$ the equates the supply and demand for workers and jobs, given the changes to worker utility due to the evolution of fraction female. 
-
-
-%%%%
-%\subsection{Counterfactual Wage Equilibrium}
-
-%The main counterfactual will be a manipulation of the fraction female in each occupation, affecting worker share of match surplus, $u^g_o$. To perform any counterfactual simulations, including changes in the size of the female labor force, changes in amenities, and changes in $F$, we must leverage the fact that we identified the job payoffs $WTP^g_o$. For counterfactuals we must assume $u^g_o$ and $WTP^g_o$ remain fixed, other than any specific changes to $u^g_o$ that are part of the counterfactual.
-
-%and the number of jobs left unfilled in each occupation $ln(\mu_{0Y})$
-
-%In the dynamic simulations I assume that the willingness-to-pay parameters $WTP^g_o$ are fixed. The choices of the previous cohort produces new values of worker utility ($u^g_o \rightarrow u^{*g}_o$) through the fraction female. 
-
-%I then solve for the new type level transfers $\bar{W}^{*g}_o$ that equate the market. $ \bar{W}^{*g}_o$ is then the center of the counterfactual reservation wage distribution which equates the new supply and demand for workers and jobs, assuming the distribution of individual job and worker taste heterogeneity is held fixed. 
-
-%$\bar{W}^{*g}_o$ must equate the number of jobs in $o$ choosing gender $g$ to the number of workers of gender $g$ choosing occupation $o$. This must hold for any gender $g \in G$ and occupation $o \in O$. Intuitively, with equilibrium wages there can be no workers or jobs that want to match but cannot. 
-
-%$$ Pr(\text{worker of gender $g$ chooses occupation } o) = Pr(\text{job in occupation $o$ chooses gender } g)$$
-%$$ \text{Workers of gender $g$ choosing occupation } o = \text{Number of jobs in occupation $o$ choosing gender } g)$$
-
-In equilibrium, there can be no workers or jobs that want to match but cannot. Recall that $n_o$ is the number of jobs in occupation $o$, and $n^g$ the number of workers of gender $g$. Then for all occupations $o$ and gender $g$ the $ \bar{W}^{*g}_o$ must solve
-
-$$n^g*Pr(\text{$i \in g$ chooses } o)  =n_o*Pr(\text{$j \in o$ chooses } g) $$
-
-which in terms of the choice probabilities defined above is
-
-
-\begin{align*}
-n^g\frac{exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}{\sum_o exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})} =& n_oPr(\widebar{WTP}^g_o - \bar{W}^g_o + \bar{\xi}^g_j \geq \widebar{WTP}^{-g}_o - \bar{W}^{-g}_o + \bar{\xi}^{-g}_j) \\ 
-& *Pr ( \bar{\xi}^F_j \geq {-\widebar{WTP}^F_o + \bar{W}^F_o} ) *Pr ( \bar{\xi}^M_j \geq {-\widebar{WTP}^M_o + \bar{W}^M_o} )     \\
-\end{align*}
-
-
-%%%
-
-
-In with equilibrium wages clearing the market, there is much less movement in segregation patterns\footnote{Although the male preference for working with men is weakly identified (and not statistically significant) these predicted future patterns hold broadly even if men are given a coefficient on fraction female at the lower bound of the confidence interval. This is the case in which we would assume men would be most likely to flee female fields and reinforce tipping.} because most occupations are very close to their unique equilibrium. However the model does predict changes in the gender composition of some occupations. Occupations predicted to become more than 10\% more female in the long run include Health diagnosing occupations (38\% to 60\%), engineers, architects and surveyors (17\% to 30\%), math computer and natural science (32\% to 43\%), and precision production occupations (25\% to 38\%). Male occupations predicted to become less female in the future include various machine operators fabricators assemblers testers (20\% to 5\%) and metal wood plastic print textile (30\% to 10\%).
-
-%We also see executive, administrative and managerial, post-secondary teachers, and management related occupations become more female. 
-
-
-
-%Some occupations, e.g. nursing and administrative support, remain very female dominated. 
-
-%Other occupations such as manufacturing and farming converge to fully male. 
-
-
-
-
-
-%However, future adjustment in the fraction female, with equilibrium wages, has the impact of furthering the feminization of some occupations. 
-
-
-
-%Occupations that appear to tip male include food preparation and service and retail. 
-
-
-%Whether or not management related occupations becomes male or female depends on whether the market clearing wage is allowed to update. If the wage is fixed this occupation becomes highly male dominated. However if the market clearing wage is adjusted, it becomes female dominated. 
-
-%This is because the reservation wage decreases for women relative to men.
-
-%\subsubsection{Status Quo Simulation Results}
-%% Linear for men cubic for women, no wage updating
-%% in these the wage updates only after 2022
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_occ64"}
-%\end{center}
-
-
-
-%These results are surprising given the observed slowing down of integration of occupations since the 1980s. With the estimated gender preferences we continue to see drastic movement in the fraction female in some occupation over the next 100 years based solely on the evolution of the fraction female as an endogenous attribute. In fact, all occupations do not appear to to be in stable fixed points in the fraction female until after 2200. This occurs in the absence of any shocks to overall labor supply of men or women to the market. 
-
-The fit of the model can be assessed by comparing the top left panel, which is observed fraction female by occupation in the Census data,\footnote{Both observed and simulated fraction females are for age ranges 35-64} to the right and bottom panels, which are model simulations. Note that the model simulations do not exactly match the Census data patterns in the top left because the dynamic updating of the fraction female across cohorts was not a moment targeted by the model. In the data workers also do not necessarily stay in their starting occupation for their lifetime.
-
-%Another reason for discrepancy between the model predictions prior to 2012 and the observed data prior to 2012 is that the model prediction fixes workers in their starting occupation for their entire lifetime. Therefore we would expect a discrepancy to the extent that some occupations have a different fraction female among younger workers than older workers, for example if there is differential attrition due to fertility among women by occupation.
-
-
-
-
-
-
-
-%especially in the case where I do not allow the equilibrium wage to update. However overall, 
-
-
-
-%In general, with a starting point at parity, occupations converge to a gender ratio closer to parity than reality.
-
-% Linear for men cubic for women
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_f_nowW_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_f_nowW_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_f_nowW_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clin_f_nowW_occ64"}
-%\end{center}
-
-
-
-
-
-%If the fraction female in each occupation does converge to a fixed point, a follow up question is how many generations does this take to occur. I expect to find that we are approaching a stable equilibrium. This would be consistent with the slowing down in the integration of occupations since the 1980s. I do not expect to see drastic movement in the fraction female without major changes to other parameters, some of which will be experimented with below.
-	
-
-
-%\clearpage
-%\subsubsection{Cubic specification: recentered, impose top of CI for male wage coef}
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_occ64"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_occ65"}
-%\end{center}
-
-
-%\clearpage
-%\subsubsection{Linear Specification}
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_lin_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_lin_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_lin_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_lin_occ64"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_lin_occ65"}
-%\end{center}
-
-%\clearpage
-%\subsubsection{Linear for men cubic for women, wage updating, need to re-run with liml}
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_occ64"}
-%\end{center}
-
-%\clearpage
-%\subsubsection{Simulation Results}
-%% Linear for men cubic for women, no wage updating
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_nowW_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_nowW_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_nowW_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_clin_nowW_occ64"}
-%\end{center}
-
-
-%
-%\clearpage
-%\subsubsection{Quadratic for both, no wage updating}
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_qq_nowW_occ61"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_qq_nowW_occ62"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_qq_nowW_occ63"}
-%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_qq_nowW_occ64"}
-%\end{center}
-
-%
-%	
-%	Second I plan to simulate the sensitivity of equilibria to initial sorting patterns. For example I may change the initial starting point of the fraction female faced by the 1960 cohort, and observe the ramifications through subsequent cohorts. This is a compelling exercise if one views initial sorting patterns as somewhat arbitrary, perhaps due to idiosyncratic cultural factors (cite the occupation ladder book here). In this exercise again we fix all parameters at their estimated values. Much of the variation over time will be explained by the time*gender dummies and the changes in the firm side willingness-to-pay parameters estimated in each cross section. 
-%	
-%	I will observe how the counterfactual evolution of the gender ratio and wages compare to the evolution from the starting point in the data, and how long the segregation takes to converge to the same or a different equilibrium from this different starting point. I expect that the ultimate stable equilibrium will be highly sensitive to the initial condition due to the preferences over the gender ratio.
-	
-%\subsubsection{Welfare Impact of Policies}
-%
-%	If gender segregation is viewed as a problem, the welfare impact of policies to combat it is important. I simulate several policies that could be used to pull workers into occupations in which they are the minority, for example men into nursing and women into STEM. I can imagine this hypothetical policy in two ways. First one could increase the utility value of that occupation by a certain percentage for the minority gender. In reality this could reflect adding amenities valued by men or women, perhaps through government mandate or subsidy. Second one could incentivize affirmative action on the part of employers by increasing the value to the employer of hiring a worker of a given gender. One could imagine this through a tax rebate or other subsidy mechanism. I expect only fairly dramatic fixed alterations to the firm or worker side payoffs will result in convergence to a different equilibrium.
-%	
-%	The last simulation exercise will be to erode the gender preference itself. This makes most sense if the preference arises from a malleable source such as a stigma and not actual amenities correlated with the fraction female. One could imagine a public relations campaign encouraging welcoming environments or inspiring workers to envision themselves in a particular occupation that previously seemed off limits. I will start the simulation at the initial 1960 period but this time with no gender preferences and compare the evolution of segregation and wages.
-
-
-
-
-%such that the number of jobs demanded by each worker type equals the number of jobs provided. The supply of workers is equal to the share of workers picking each type of job times the total number of potential workers in the economy. The demand for workers is likewise the share of jobs choosing each type of worker times the total number of jobs in the economy.
-
-%$$ Pr(i \in g \text{ chooses } j \in o) = \frac{exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}{\sum_o exp(\frac{\bar{u}^{g}_o + \bar{W}^g_o}{\sigma^g_{\eta}})}$$
-
-%\begin{align*}
-%Pr(j \in o \text{ choose } F , \widebar{WTP}^F_o - \bar{W}^F_o + \bar{\xi}^F_j \geq 0) &=  Pr(\widebar{WTP}^F_o - \bar{W}^F_o + \bar{\xi}^F_j \geq \widebar{WTP}^M_o - \bar{W}^M_o + \bar{\xi}^M_j) ( 1-Pr ( \bar{\xi}^F_j < {-\widebar{WTP}^F_o + \bar{W}^F_o} ))   \\
-%\end{align*}
-
-%\begin{align*}
-% \frac{exp(\frac{u'^g_o+W'^g_o}{\sigma_Y})}{\sum_{y} exp(\frac{u'^g_o+W'^g_o}{\sigma_Y})} = \frac{exp(\frac{U'^g_o}{\sigma_Y})}{\sum_{y} exp(\frac{U'^g_o}{\sigma_Y})} = \frac{exp(\frac{\Pi'^g_o}{\sigma^g_{\xi}})}{\sum_{x} exp(\frac{\Pi'^g_o}{\sigma^g_{\xi}})}=  \frac{exp(\frac{\pi^g_o-W'^g_o}{\sigma^g_{\xi}})}{\sum_{x} exp(\frac{\pi^g_o-W'^g_o}{\sigma^g_{\xi}})}\\
-%\end{align*}
-
-%\input{Estimation_occfinal_sex_1_year_2012}
 
 \subsection{Steady States by Occupation}
-I search for all equilibria in the fraction female for each occupation individually. To do so I graph the mapping between fraction female in the current period and the next period. Recall that fraction female chosen today affects the choices in the next period through women's preference for higher fraction female. By examining these graphs it is easy to find fixed points, where the fraction female this period is the same as the fraction female in next period, by observing intersections with the 45 degree line. I fix all attributes of other occupations, including the fraction female, to focus only on the occupation at hand. I graph ten equidistant starting points between 0\% female and 100\% female using 2012 parameter values, and show a fitted line through these points on the graphs.
+My model is uniquely positioned to answer the question of whether occupations might have more than one stable segregation pattern, where stable means that the relative number of women entering the occupation is the same as the relative number of women retiring from the occupation. With a strong preference over the fraction female, as I have estimated, it possible that a given occupation could have either a high or low stable fraction female, and the equilibrium that is selected would depend on historical sorting patterns. 
 
-I find that every occupation has one unique equilibrium in the fraction female. The equilibria are close to the observed 2012 values of fraction female, and where there is deviation from the observed fraction female they are close to the long run equilibria shown in Figures \ref{fig:sq1} through \ref{fig:sq4} where the fraction female is allowed to evolve in all occupations at once. The transition graphs for some selected occupations are shown in Figures \ref{transitions17} through \ref{transitions83}.
+For example, Food Preparation and Service Occupations is majority female at 74\%, but employers are willing to pay more for men (See Table \ref{modelestimates} $ \frac{\widebar{WTP}^F_o}{\widebar{WTP}^M_o} = .74$), and men value the occupation more than women (See Table \ref{FEs}, fixed effect of 1.66 vs. 1.35), so we might not expect this occupation to be majority female based on preferences for fixed attributes of occupations and workers. However the occupation was historically female, and the preference for women to work with women means that firms can hire women for cheaper than men in this occupation, which cause the occupation to maintain majority female status based purely on inertia. On the other hand, I estimate that firms value men and women in Administrative Support roughly equally  and women appear to like the occupation much more than men . So it seems unlikely that this occupation is 89\% female for purely for historical reasons. 
+
+%(See Table \ref{modelestimates} $ \frac{\widebar{WTP}^F_o}{\widebar{WTP}^M_o} = .97$), (See Table \ref{FEs}, fixed effect of 2.04 vs. .36)
+
+This question of which, if any, occupations are segregated for historical reasons can be answered by using the estimated model to search systematically for steady states in the fraction female by occupation. To do so I graph the mapping between fraction female in the current period and the next period, by occupation, at ten equidistant starting points between 0\% female and 100\% female using 2012 parameter values, and show a fitted line through these points. By examining these graphs it is easy to find fixed points, where the fraction female this period is the same as the fraction female in next period, by observing intersections with the 45 degree line. 
+
+%I fix all attributes of other occupations, including the fraction female, to focus only on the occupation at hand. I graph ten equidistant starting points between 0\% female and 100\% female using 2012 parameter values, and show a fitted line through these points on the graphs.
+
+
+
+I find that every occupation has one unique equilibrium in the fraction female. The equilibria are close to the observed 2012 values of fraction female, and where there is deviation from the observed fraction female they are close to the long run steady state. The transition graphs for some selected occupations are shown in Figures \ref{transitions17} through \ref{transitions83}.
+
+%shown in Figures \ref{fig:sq1} through \ref{fig:sq4}, where the fraction female is allowed to evolve in all occupations at once. 
 
 %\footnote{As discussed above, in Figures \ref{fig:sq1} through \ref{fig:sq4} all occupations are allowed to evolve to a fixed point at the same time. In these graphs, changes in fraction female in any one occupation have repercussions for the fraction female in all other occupations.}
 
 %The transition graphs also show that the further away the starting point is from the stable equilibrium, the faster the convergence towards that equilibrium. 
+
+Equilibrium wages play a key role in limiting the number of possible steady states by adjusting to equate supply and demand.
 
 If the preference for working with women is strong enough, as women leave a male occupation female wages will rise enough to price women out of the occupation and produce a 0\% female equilibrium. Because I do not estimate a preference on the part of men to work with men, they will not be similarly priced out of female occupations, so a 100\% female equilibrium is unlikely. As a result with a female preference, I would expect occupations to have equilibria at either 0\% female, somewhere in between 0\% and 100\% female, or both. Figure \ref{fig:tipping} illustrates the stylized model for the case in which the gender preference produces both an all male and a mixed equilibrium (mixed meaning between 0\% and 100\% female). 
 
@@ -1522,13 +1367,15 @@ In addition, although I do not find evidence of tipping between multiple equilib
 
 \begin{figure}[H]
 \centering
-\label{modelwages1}
+\caption{Model Fit}
+\label{fig:modelwages1}
 \includegraphics[width=.8\textwidth]{logwages13reg1trunc_occfinal}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\label{modelwages2}
+\caption{Model Fit}
+\label{fig:modelwages2}
 \includegraphics[width=.8\textwidth]{logwages14reg1trunc_occfinal}
 \end{figure}
 
@@ -1536,44 +1383,56 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \caption{Male and Female Log Utility by Fraction Female in Occupation}
 \label{prefs}
 \begin{center}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Prefs_linear_quadratic_cubic_dashed"}
+\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Prefs_cublin"}
 %\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Prefs_cubic"}
-\begin{minipage}{.8\textwidth}
-\begin{tablenotes}
-\footnotesize
-\item Results of instrumental variables regressions with occupation fixed effects on 6 waves of Census and ACS data (1960-2012), 34 occupations, using reservation wages estimated earlier using MLE.
-\end{tablenotes}
-\end{minipage}
+%\begin{minipage}{.8\textwidth}
+%\begin{tablenotes}
+%\footnotesize
+%\item Results of instrumental variables regressions with occupation fixed effects on 6 waves of Census and ACS data (1960-2012), 34 occupations, using wage offers estimated earlier using MLE.
+%\end{tablenotes}
+%\end{minipage}
 \end{center}
 \end{figure}
 
 
 \begin{center}
-% in these the wage updates after 1960
 \begin{figure}[H]
 \centering
 \caption{Status Quo: Simulated Occupation Segregation Patterns}
 \label{fig:sq1}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ61"}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ61"}
+\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/HPDVstart__clinv2_sc"}
 \end{figure}
-\begin{figure}[H]
-\centering
-\caption{Status Quo: Simulated Occupation Segregation Patterns}
-\label{fig:sq2}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ62"}
-\end{figure}
-\begin{figure}[H]
-\centering
-\caption{Status Quo: Simulated Occupation Segregation Patterns}
-\label{fig:sq3}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ63"}
-\end{figure}
-\begin{figure}[H]
-\centering
-\caption{Status Quo: Simulated Occupation Segregation Patterns}
-\label{fig:sq4}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ64"}
-\end{figure}
+
+%% in these the wage updates after 1960
+%\begin{figure}[H]
+%\centering
+%\caption{Status Quo: Simulated Occupation Segregation Patterns}
+%\label{fig:sq1}
+%%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ61"}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/FPDVstart_1_clinv4_sc"}
+%\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Status Quo: Simulated Occupation Segregation Patterns}
+%\label{fig:sq2}
+%%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ62"}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/FPDVstart_2_clinv4_sc"}
+%\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Status Quo: Simulated Occupation Segregation Patterns}
+%\label{fig:sq3}
+%%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ63"}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/FPDVstart_3_clinv4_sc"}
+%\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Status Quo: Simulated Occupation Segregation Patterns}
+%\label{fig:sq4}
+%%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_nowW_occ64"}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/FPDVstart_2_clinv4_sc"}
+%\end{figure}
 \end{center}
 
 \begin{center}
@@ -1738,20 +1597,21 @@ In addition, although I do not find evidence of tipping between multiple equilib
 %
 %\input{share_census_lifeinc}
 
-\input{Stata10_pvIV_PDVstartsex1__v2_}
+\input{Stata10_pvIV_PDVstartsex1__v4_}
 
 %\input{Stata10_pvIV_PDVstartsex2__v2_}
 
-\input{Stata10_pvIV_PDVstartsex2__v2_sc}
+\input{Stata10_pvIV_PDVstartsex2__v4_sc}
 
 %\input{peffect}
 
 %\input{peffect2018}  corrected for coding error not updating deltas
 
 
-\input{peffect20182080}  % corrected for other coding error no updating wage
+%\input{peffect20182080} % corrected for other coding error no updating wage THIS IS MOST UP TO DATE
 
-\input{FE_nowW_PDVstart_clinv2_sc}\label{FEs}
+%\input{FE_nowW_PDVstart_clinv2_sc}\label{FEs}
+\input{FE3_PDVstart_clinv2_sc}
 
 \input{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Wage_gap_occs_clinv4_mw0.tex"}
 
