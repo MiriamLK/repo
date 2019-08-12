@@ -729,7 +729,13 @@ Occupations exist in a variety of different industries, and these industries hav
 
 
 
-%Intuition:%Occupations exist in different industries%Industries experience growth and changes to fraction female and wages We can predict changes in occupation fraction female and wages using changes in industries%(Using labor demand shifts to trace out labor supply)%Threats to identification:%Worker preferences for industry vary over time%Changes in worker preferences for occupations are correlated across occupations
+%Intuition:
+%Occupations exist in different industries
+%Industries experience growth and changes to fraction female and wages We can predict changes in occupation fraction female and wages using changes in industries
+%(Using labor demand shifts to trace out labor supply)
+%Threats to identification:
+%Worker preferences for industry vary over time
+%Changes in worker preferences for occupations are correlated across occupations
 
 %The identifying assumptions for the first set of instruments are that changes in industry wage levels and gender ratios over time are uncorrelated with changes in how workers value industries, and that changes in occupation attributes are independent across occupations. The identifying assumptions for the second pair of instruments is that changes in industry size over time that are correlated with initial wage and gender ratios, are uncorrelated with changes in the worker valuation of the industry. Lastly I introduce an instrument that interacts the initial gender ratio by occupation and the relative growth rates of men's and women's labor force participation over time. The identifying assumption is that changes in unobserved occupation attributes are independent across occupations.
 
@@ -1098,7 +1104,7 @@ This question of which, if any, occupations are segregated for historical reason
 
 
 
-I find that every occupation has one unique equilibrium in the fraction female. The equilibria are close to the observed 2012 values of fraction female, and where there is deviation from the observed fraction female they are close to the long run steady state. The transition graphs for some selected occupations are shown in Figures \ref{transitions17} through \ref{transitions83}.
+I find that every occupation has one unique equilibrium in the fraction female. The equilibria are close to the observed 2012 values of fraction female, and where there is deviation from the observed fraction female they are close to the long run steady state. The transition graphs for some selected occupations are shown in Figures \ref{transitions17} through \ref{transitions83}. This means that given my estimated parameter values, the model predicts current segregation patterns to emerge regardless of historical gender segregation patterns.
 
 %shown in Figures \ref{fig:sq1} through \ref{fig:sq4}, where the fraction female is allowed to evolve in all occupations at once. 
 
@@ -1106,24 +1112,30 @@ I find that every occupation has one unique equilibrium in the fraction female. 
 
 %The transition graphs also show that the further away the starting point is from the stable equilibrium, the faster the convergence towards that equilibrium. 
 
-Equilibrium wages play a key role in limiting the number of possible steady states by adjusting to equate supply and demand.
-
-If the preference for working with women is strong enough, as women leave a male occupation female wages will rise enough to price women out of the occupation and produce a 0\% female equilibrium. Because I do not estimate a preference on the part of men to work with men, they will not be similarly priced out of female occupations, so a 100\% female equilibrium is unlikely. As a result with a female preference, I would expect occupations to have equilibria at either 0\% female, somewhere in between 0\% and 100\% female, or both. Figure \ref{fig:tipping} illustrates the stylized model for the case in which the gender preference produces both an all male and a mixed equilibrium (mixed meaning between 0\% and 100\% female). 
-
-% IS THIS INTERESTING?? CUT THIS?
-%In simulating future sorting patterns with endogenous wages, I see that some occupations still converge to almost 0\% female, whereas no occupation lands above 90\% female. This is because firms are willing to pay more for men, and men do not have a preference against working with women. So if enough women leave a male occupation, female wages can become so high that it is no longer profitable to hire any women. On the other hand, as men leave a female occupation, female wages cannot go negative, so firms are still willing to pay for some men.
-
-
-I estimate that all occupations have only the mixed equilibrium. This is because the gender preference is not strong enough to cause female labor supply to actually cross male labor supply, meaning that employers are always able to hire a few women who really love the job for cheap, making a 0\% female occupation unsustainable.
-
-%So rather than having stable equilibria at 0\% or 100\% female as might be predicted by the \citeA{Pan2010} model, starting at such extreme points actually leads to large movements to the more moderate stable equilibrium in most cases. 
-
-Furthermore, only a few occupations are characterized by very male or female dominated equilibria. At greater than 80\% female we have only Health Services Occupations with a fixed point at around 87\% female, and Health Assessment and Treating and Therapists at around 85\% female. At under 20\% female we have Agriculture Forestry and Fishing at around 12\% female, Machine Operators Fabricators Assemblers and Testers at around 15\% female, Road Rail and Water Transportation at around 10\%, and both Mechanics and Repairers, and Construction and Extraction, at around 5\% female.
-
 %The location of the stable equilibria depend on the location and shape of the male and female labor supply curves. More occupations have an equilibrium at close to 0\% female than 100\% female. This is partly due to the lack of male preferences over fraction female, meaning that it is possible for women to be priced out of a very male occupation, but difficult for men to be priced out of female occupations. This is exacerbated by the fact that in most occupations firms have a higher willingness to pay for male workers.
 
-\subsubsection{Conditions for Multiple Steady States}
-Although the estimated parameter values produce only one equilibrium in the fraction female for each occupation, the model does allow for multiple equilibria to emerge. Below I explore two scenarios that could lead to multiple equilibria in the fraction female. First, doubling the magnitude of the preference for women to work with women, and second, fixing equilibrium wages so they are not allowed to adjust and form compensating differentials.
+\subsection{Wage Adjustment Process}
+Wage adjustment in equilibrium is the main reason that we observe unique steady states in every occupation. To take a closer look at how wages adjust to compensate for the preference over fraction female, I plot the response of wage to a change in the fraction female in two case studies. Specifically I set a female dominated occupation to be 0\% female, and separately, a male dominated occupation to be 100\% female, and observe how wage adjustment facilitates convergence back to the unique stable equilibria, which occurs after about eight cohorts of workers.
+
+% How do I explain that the transition graphs show no state dependence even without wage adjustment, but the graphs with all of them moving do so state dependence??? mechanics and repairers stays female without wage adjustment...... and nurses stays male.... what the hell... moving all occupatoins at the same time causes more polarization?
+
+
+%Firm preferences generally mitigate the impact of the worker side gender preferences in determining sorting patterns. 
+
+In the first simulation I set nursing (``Health Technologists and Technicians") to be 0\% female in 1960. In reality nursing was close to 100\% female in 1960. If wages were fixed, 0\% female would be a steady state in the fraction female for nursing. With equilibrium wages the female wage offer must be set high to equate supply and demand, while compensating women for the disutility of the low fraction female.
+
+Women with particularly high utility from nursing are enticed to enter the occupation by the high wages, which in turn makes nursing more attractive for the next cohort. This in turn lowers the equilibrium wage offers for the next cohort of women, which also makes women cheaper for firms to hire. This process continues until nursing is female-dominated and simulated wage offers have dropped to the levels estimated in the data. 
+
+%However, the gender preference is not strong enough to completely price women out of nursing once wages adjust to reflect labor demand. It is still cost-effective for firms to hire some women who really love nursing jobs, and so the female wage offer rate must be set high to equate supply and demand by compensating women for the disutility of the low fraction female.
+
+%In the simulation, 0\% male is a stable equilibrium if we fix wages and thereby ignore firm preferences. Without equilibrium wages, no women want to enter nursing when it is 0\% female because of the preference for working with women. 
+
+ % and women are cheaper to hire.
+
+In the second simulation, I set ``Mechanics and Repairers" to be a 100\% female in 1960 when in reality it was close to 0\% female. If wages were fixed, the occupation would converge to a majority female stable equilibrium at around 80\% female. However, with wage adjustment, which can be seen in Figure \ref{mechanics}, female wages quickly skyrocket as more and more men start to become Mechanics and Repairers. After about eight cohorts, women are no longer affordable to hire and the occupation has converged to its unique stable equilibrium at around 0\% female.
+
+\subsection{Conditions for Multiple Steady States}
+Although the estimated parameter values produce only one steady state in the fraction female for each occupation, the model does allow for multiple equilibria to emerge. Below I explore two scenarios that could lead to multiple equilibria in the fraction female. First, doubling the magnitude of the preference for women to work with women, and second, fixing equilibrium wages so they are not allowed to adjust and form compensating differentials.
 
 %predict multiple equilibria to emerge with a stronger gender preference, or by fixing equilibrium wages. Below I run simulations to find the multiple equilibria by occupation with a higher gender preference, and with a fixed wage. In the following section I further discuss the mechanisms by which wages prevent multiple equilibria in the fraction female.
 
@@ -1131,15 +1143,68 @@ I find that doubling the preference over the fraction female produces multiple e
 
 %It turns out that allowing wages to vary freely to equate supply and demand plays a key role in eliminating multiple equilibria.
 
-Next I fix the wage so that the gender composition reflects only labor supply, and the fixed wage will no longer be able to clear the market as the fraction female changes. In the case of fixed wages, 27 of the 34 occupations have two stable equilibria as opposed to one. Figures \ref{ftransitions17} through \ref{ftransitions83} show the same set of occupations as Figures \ref{transitions17} through \ref{transitions83} but with fixed wages. In all of these examples we have an equilibrium that is majority female, and an equilibrium that is close to zero percent female, implying that allowing wages to vary freely to equate supply and demand plays a key role in eliminating multiple equilibria..
+Next I fix the wage so that the gender composition reflects only labor supply, and the wage will no longer be able to adjust to clear the market as the fraction female changes. When wages are fixed most occupations (27 out of 34) have two stable equilibria, one that is near zero percent female and one that is majority female. Clearly it is important to have a model with equilibrium wages, like my model, to accurately assess the impact of the gender preference. In the next section I drill down deeper into how wage adjustment leads to less segregated outcomes.
 
-The wage moderates the impact of the preference of women to enter more female occupations, as it would over any endogenous amenity. As more women enter an occupation it becomes more attractive, but at the same time wages go down as employers are able to attract more women at lower cost, thus ultimately dampening the supply of women to the occupation. Likewise as women leave an occupation, the wage offered to women in that occupation goes up, which increase female labor supply to that occupation and dampens the movement towards 0\% female.
+In the last set of simulations, I allow wages to adjust up and down, but I fix the ratio of male to female wages. I fix wage ratio at the ratio of male to female labor force participation, as measured in hours over the lifetime by gender and occupation. This roughly approximates an equal pay for equal work law that would prohibit wage variation based on productivity or labor supply factors (differential taste for job amenities for example). In the case of a fixed male-to-female wage ratio, 13 out of 34 occupations have multiple steady states in the fraction female.  Of the remaining 21 occupations that have only one equilibrium, 16 are only stable at 0\% female, and 5 at close to 100\% female. As a result, equal pay for equal work produces even more segregation in the counterfactual than fixing the wages at their 2012 values (which may reflect compensating differentials by gender or productivity differences in addition to hours differences).
+
+%Why does fixed ratio mean fewer multiple equilibria than the completely fixed simulation? but the single equilibria are very segregated? Hence you get more segregation?
+
+Figures \ref{transitions17} and \ref{transitions83} show examples of transitions in the fraction female in two example occupations. Health Technologists and Technicians has a single female dominated steady state, but with fixed wages it also has a steady state at 0\% female. Under equal pay for equal work, both of these steady states become more female. Engineers, Architects, and Surveyors has a single male dominated steady state. With fixed wages it has two steady states, one close to 0\% female and one close to 100\% female, and under equal pay for equal work only the 0\% female steady state remains.
+
+%Adjusters and Investigators follows a similar pattern.
+
+Table \ref{counterfactuals} shows the gender wage gap and a measure of segregation under various counterfactual regimes, as compared with the status quo. In the status quo model as estimated, the ratio of female to male lifetime wages, or gender wage gap, is 0.71, and 41\% of worker would have to change occupations to achieve parity.\footnote{This measure is called the Duncan Segregation Index.} If there were no preference on the part of women against working in male-dominated occupations, the gender wage gap would be reduced to 0.85, and the segregation index would be only 24\%. Not allowing wage adjustment to compensate for changes in the fraction female would result in a similar wage gap as in the status quo, 0.70, and a higher segregation index of 54\%. Requiring that men and women be paid equally per hour of work in a given occupation widens the pay gap slightly, putting women at earning 0.65 times that of men, but wildly increases segregation, producing an index of 80\%. 
+
+The equal pay requirement tends to increase women's pay by pinning it to that of men, but at the same time, the inability to adjust pay according to how men and women value occupations differently, and how firms value men and women differently, creates steady states that are close to 0\% or 100\% female, which drastically increases segregation. The increased segregation in turn lowers wages for women since concentration in certain occupations means low wage offers through the compensating differential of a high fraction female. Thus overall equal pay laws actually result in lower wages for women.
+
+
+
+
+
+
+
+%%%%% TABLE RESULTS:
+%		homophily 	no homophily		equal pay	 equal pay, no homophily   equal pay, 1/10 homophily equal pay half homophily
+%wage gap:	.71		.85			.65			.82			.82				.81
+%segregation:	41%		24%			80%			32%			35%				50%
+
+%under each regime:
+%				number of equilibria		location 1 		location 2		wage gap
+%top 3 female occs
+%top 3 male occs
+
+
+%Wage adjustment produces less segregated outcomes through compensating differentials: as more women enter an occupation women's wages go down, and as fewer women enter women's wages go up. 
+
+%Figures \ref{ftransitions17} through \ref{ftransitions83} show the same set of occupations as Figures \ref{transitions17} through \ref{transitions83} but with fixed wages. 
+
+%In all of these examples we have an equilibrium that is majority female, and an equilibrium that is close to zero percent female, implying that allowing wages to vary freely to equate supply and demand plays a key role i limiting the number of steady states in the fraction female.
+
+%The wage moderates the impact of the preference of women to enter more female occupations, as it would over any endogenous amenity. 
+
+%As more women enter an occupation it becomes more attractive, but at the same time wages go down as employers are able to attract more women at lower cost, thus ultimately dampening the supply of women to the occupation. Likewise as women leave an occupation, the wage offered to women in that occupation goes up, which increase female labor supply to that occupation and dampens the movement towards 0\% female. It is therefore crucial that the estimated model allows wages to adjust to equate supply and demand.
+
+%Figure \ref{fig:tipping} illustrates the stylized model for the case in which the gender preference produces both an all male and a mixed equilibrium (mixed meaning between 0\% and 100\% female). I estimate that all occupations have only the mixed equilibrium. This is because the gender preference is not strong enough to cause female labor supply to actually cross male labor supply, meaning that employers are always able to hire a few women who really love the job for cheap, making a 0\% female occupation unsustainable.
+
+
+
+%If the preference for working with women is strong enough, as women leave a male occupation female wages will rise enough to price women out of the occupation and produce a 0\% female equilibrium. Because I do not estimate a preference on the part of men to work with men, they will not be similarly priced out of female occupations, so a 100\% female equilibrium is unlikely. As a result with a female preference, I would expect occupations to have equilibria at either 0\% female, somewhere in between 0\% and 100\% female, or both. 
+
+% IS THIS INTERESTING?? CUT THIS?
+%In simulating future sorting patterns with endogenous wages, I see that some occupations still converge to almost 0\% female, whereas no occupation lands above 90\% female. This is because firms are willing to pay more for men, and men do not have a preference against working with women. So if enough women leave a male occupation, female wages can become so high that it is no longer profitable to hire any women. On the other hand, as men leave a female occupation, female wages cannot go negative, so firms are still willing to pay for some men.
+
+
+
+
+%So rather than having stable equilibria at 0\% or 100\% female as might be predicted by the \citeA{Pan2010} model, starting at such extreme points actually leads to large movements to the more moderate stable equilibrium in most cases. 
+
+%Furthermore, only a few occupations are characterized by very male or female dominated equilibria. At greater than 80\% female we have only Health Services Occupations with a fixed point at around 87\% female, and Health Assessment and Treating and Therapists at around 85\% female. At under 20\% female we have Agriculture Forestry and Fishing at around 12\% female, Machine Operators Fabricators Assemblers and Testers at around 15\% female, Road Rail and Water Transportation at around 10\%, and both Mechanics and Repairers, and Construction and Extraction, at around 5\% female.
 
 
 %% INCLUDE THESE WAGE RATIO RESULTS???
 %To explore the role of wages I run two sets of simulations. First I fix wages at their current value, allowing for no market clearing adjustment, and use transitions graphs as described above to observe the equilibria in fraction female. Next I impose only that the ratio of male to female wages is fixed, but that otherwise wages can adjust freely up or down. In both sets of simulations multiple equilibria emerge in some occupations.
 
-%In the next set of simulations, I allow wages to adjust up and down, but I fix the ratio of male to female wages. I fix wage ratio at the ratio of male to female labor force participation, as measured in hours over the lifetime by gender and occupation. This roughly approximates an equal pay for equal work law that would prohibit wage variation based on productivity or labor supply factors (differential taste for job amenities for example). Similarly to the case of fixing wages entirely, I find that with a fixed wage ratio many occupations have multiple equilibria in the fraction female. In fact fixing the male-female wage ratio appears to produce more multiple equilibria by increasing the sensitivity to the fraction female without allowing employers to impose their desired gender composition by changing relative wages.
+
 
 
 % no wage adjustment results:
@@ -1152,7 +1217,7 @@ The wage moderates the impact of the preference of women to enter more female oc
 
 
 
-%In the case of a fixed male-to-female wage ratio, many more occupations have multiple equilibria in the fraction female. NEED TO RUN ALL OF THESE TO COUNT THEM!!  Why does fixed ratio mean more multiple equilibria than the completely fixed simulation? accelerates convergence but employer still can't impose its preference over male vs. female so we still don't get the single equilibrium??
+
 
 	%include fixedratio graphs ?
 	
@@ -1165,23 +1230,7 @@ The wage moderates the impact of the preference of women to enter more female oc
 
 
 
-\subsection{Impulse Response Examples}
-To take a closer look at how wages adjust to compensate for the preference over fraction female, I plot the response of wage to a change in the fraction female in two case studies. Specifically I set a female dominated occupation to be 0\% female, and separately, a male dominated occupation to be 100\% female, and observe how wage adjustment facilitates convergence back to the unique stable equilibria, which occurs after about eight cohorts of workers.
 
-% How do I explain that the transition graphs show no state dependence even without wage adjustment, but the graphs with all of them moving do so state dependence??? mechanics and repairers stays female without wage adjustment...... and nurses stays male.... what the hell... moving all occupatoins at the same time causes more polarization?
-
-
-%Firm preferences generally mitigate the impact of the worker side gender preferences in determining sorting patterns. 
-
-In the first simulation I set nursing (``Health Technologists and Technicians") to be 0\% female in 1960. In reality nursing was close to 100\% female in 1960. If wages were fixed, 0\% female would be a stable equilibrium for nursing. However, the gender preference is not strong enough to completely price women out of nursing once wages adjust to reflect labor demand. It is still cost-effective for firms to hire some women who really love nursing jobs, and so the female wage offer rate must be set high to equate supply and demand by compensating women for the disutility of the low fraction female.
-
-%In the simulation, 0\% male is a stable equilibrium if we fix wages and thereby ignore firm preferences. Without equilibrium wages, no women want to enter nursing when it is 0\% female because of the preference for working with women. 
-
-The wage adjustment process for the simulation is shown in Figure \ref{nurses}. Solid lines are simulated counterfactual wage offer levels, while dotted lines are actual estimated wage offers. We can see that although simulated female wages in nursing start out way higher than reality due to the compensating differential, they very quickly drop as nursing feminizes. % and women are cheaper to hire.
-
-Women with particularly high utility from nursing are enticed to enter the occupation by the high wages, which in turn makes nursing more attractive for the next cohort. This in turn lowers the simulated reservation wages of the next cohort of workers, which also makes women cheaper for firms to hire. This process continues until nursing is female-dominated and simulated wage offers have dropped to the levels estimated in the data.
-
-In the second example, I set ``Mechanics and Repairers", a male dominated occupation, to be a 100\% female in 1960. If wages were fixed, the occupation would then converge to its majority female stable equilibrium at around 80\% female. However, with wage adjustment, which can be seen in Figure \ref{mechanics}, female wages quickly skyrocket as more and more men start to become Mechanics and Repairers. After about eight cohorts, women are no longer affordable to hire and the occupation has converged to its unique stable equilibrium at around 0\% female.
 
 
 
@@ -1192,10 +1241,10 @@ In the second example, I set ``Mechanics and Repairers", a male dominated occupa
 
 %The extent to which occupations exhibit more or less tipping depends on the extent to which they are not yet in a stable equilibrium, which depends on the relative non-wage utility of male and female workers, the willingness-to-pay gap, and also these values in all other occupations since the workers' and firms' outside options matter for labor supply and demand. 
 
-\subsection{Simulation from Initial Parity}
-If preferences over an endogenous amenity like the fraction female are strong enough, there could be multiple equilibria. In this case long run sorting patterns could depend on the initial conditions, or historical segregation, which would determine which equilibrium is selected. As a first pass at testing this hypothesis, I begin my simulation with all occupations at 50\% female in the initial year of 1960. The figures \ref{fig:ip1} through \ref{fig:ip4} show that this does not affect the long run outcome. The patterns are shockingly similar today as if occupations had begun from the observed segregated position. 
-
-This result suggests that we are currently in a stable equilibrium, and that parity is close enough to this stable equilibrium that it leads to convergence. It could also suggest that each occupation has in fact only one stable equilibrium in the fraction female, and would converge to this equilibrium regardless of any starting point. In the next section I further explore this question by searching for all equilibria in the fraction for each occupation separately.
+%\subsection{Simulation from Initial Parity}
+%If preferences over an endogenous amenity like the fraction female are strong enough, there could be multiple equilibria. In this case long run sorting patterns could depend on the initial conditions, or historical segregation, which would determine which equilibrium is selected. As a first pass at testing this hypothesis, I begin my simulation with all occupations at 50\% female in the initial year of 1960. The figures \ref{fig:ip1} through \ref{fig:ip4} show that this does not affect the long run outcome. The patterns are shockingly similar today as if occupations had begun from the observed segregated position. 
+%
+%This result suggests that we are currently in a stable equilibrium, and that parity is close enough to this stable equilibrium that it leads to convergence. It could also suggest that each occupation has in fact only one stable equilibrium in the fraction female, and would converge to this equilibrium regardless of any starting point. In the next section I further explore this question by searching for all equilibria in the fraction for each occupation separately.
 
 
 \section{Conclusion}
@@ -1349,20 +1398,20 @@ In addition, although I do not find evidence of tipping between multiple equilib
 
 \begin{figure}[H]
 \centering
-\caption{Sales Representatives, Finance, and Business Services: Observed vs. Model Reservation Wages}
+\caption{Lifetime Wages in Sales Representatives, Finance, and Business Services}
 \label{sales}
 %\footnotesize{\textbf{Sales Representatives, Finance, and Business Services}}
 %\includegraphics[width=.7\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/offerwages_occfinal8reg1trunc_1960_v3"}
-\includegraphics[width=.5\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/pofferwages_occfinal8reg1trunc_1960"}
+\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/pofferwages_occfinal8reg1trunc_1960"}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\caption{Health Service occupations: Observed vs. Model Reservation Wages}
+\caption{Lifetime Wages in Health Service occupations}
 \label{health}
 %\footnotesize{\textbf{Health Service occupations}}
 %\includegraphics[width=.7\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/offerwages_occfinal18reg1trunc_1960_v3"}
-\includegraphics[width=.5\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/pofferwages_occfinal18reg1trunc_1960"}
+\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/pofferwages_occfinal18reg1trunc_1960"}
 \end{figure}
 
 \begin{figure}[H]
@@ -1435,142 +1484,142 @@ In addition, although I do not find evidence of tipping between multiple equilib
 %\end{figure}
 \end{center}
 
-\begin{center}
-\begin{figure}[H]
-\centering
-\caption{Initial Parity: Simulated Occupationx Segregation Patterns}
-\label{fig:ip1}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ61"}
-\end{figure}
-\begin{figure}[H]
-\centering
-\caption{Initial Parity: Simulated Occupation Segregation Patterns}
-\label{fig:ip2}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ62"}
-\end{figure}
-\begin{figure}[H]
-\centering
-\caption{Initial Parity: Simulated Occupation Segregation Patterns}
-\label{fig:ip3}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ63"}
-\end{figure}
-\begin{figure}[H]
-\centering
-\caption{Initial Parity: Simulated Occupation Segregation Patterns}
-\label{fig:ip4}
-\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ64"}
-\end{figure}
-\end{center}
+%\begin{center}
+%\begin{figure}[H]
+%\centering
+%\caption{Initial Parity: Simulated Occupationx Segregation Patterns}
+%\label{fig:ip1}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ61"}
+%\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Initial Parity: Simulated Occupation Segregation Patterns}
+%\label{fig:ip2}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ62"}
+%\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Initial Parity: Simulated Occupation Segregation Patterns}
+%\label{fig:ip3}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ63"}
+%\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Initial Parity: Simulated Occupation Segregation Patterns}
+%\label{fig:ip4}
+%\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Final_v2_clinv2_f_occ64"}
+%\end{figure}
+%\end{center}
 
 
 % transitions with moving wage
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods}
-\label{transitions10}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10v3"}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods}
+%\label{transitions10}
+%\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot24_occ_10all"}
+%\end{figure}
 
 \begin{figure}[H]
 \centering
 \caption{Transitions in Fraction Female Across Periods}
 \label{transitions17}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_17v3"}
+\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot24_occ_17all"}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods}
-\label{transitions35}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_35v3"}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods}
+%\label{transitions35}
+%\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot24_occ_35all"}
+%\end{figure}
 
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods}
-\label{transitions51}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51v3"}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods}
+%\label{transitions51}
+%\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot24_occ_51all"}
+%\end{figure}
 
 \begin{figure}[H]
 \centering
 \caption{Transitions in Fraction Female Across Periods}
 \label{transitions83}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83v3"}
+\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot24_occ_83all"}
 \end{figure}
 
-% transitions with fixed wage
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
-\label{ftransitions10}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_10"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
-\label{ftransitions17}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_17"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
-\label{ftransitions35}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_35"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
-\label{ftransitions51}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_51"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
-\label{ftransitions83}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_83"}
-\end{figure}
-
-
-%  transitions with double the preference parameter for women
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
-\label{ftransitions10}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10double"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
-\label{ftransitions17}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_17double"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
-\label{ftransitions35}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_35double"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
-\label{ftransitions51}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51double"}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
-\label{ftransitions83}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83double"}
-\end{figure}
+%% transitions with fixed wage
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
+%\label{ftransitions10}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_10"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
+%\label{ftransitions17}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_17"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
+%\label{ftransitions35}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_35"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
+%\label{ftransitions51}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_51"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Fixed Wages}
+%\label{ftransitions83}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_83"}
+%\end{figure}
+%
+%
+%%  transitions with double the preference parameter for women
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
+%\label{ftransitions10}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10double"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
+%\label{ftransitions17}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_17double"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
+%\label{ftransitions35}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_35double"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
+%\label{ftransitions51}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51double"}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\centering
+%\caption{Transitions in Fraction Female Across Periods: Gender Preference Doubled}
+%\label{ftransitions83}
+%\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83double"}
+%\end{figure}
 
 % 
 
@@ -1578,13 +1627,13 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \centering
 \caption{Status Quo: Simulated Occupation Segregation Patterns}
 \label{nurses}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/WgPDVstart_occ17_clinv2_0_17sc"}
+\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Wg2PDVstart_occ17_clinv2_0_17sc"}
 \end{figure}
 \begin{figure}[H]
 \centering
 \caption{Status Quo: Simulated Occupation Segregation Patterns}
 \label{mechanics}
-\includegraphics[width=.6\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/WgPDVstart_occ51_clinv2_1_51sc"}
+\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Wg2PDVstart_occ51_clinv2_1_51sc"}
 \end{figure}
 
 
@@ -1612,6 +1661,8 @@ In addition, although I do not find evidence of tipping between multiple equilib
 
 %\input{FE_nowW_PDVstart_clinv2_sc}\label{FEs}
 \input{FE3_PDVstart_clinv2_sc}
+
+\input{Counterfactuals}
 
 \input{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Wage_gap_occs_clinv4_mw0.tex"}
 

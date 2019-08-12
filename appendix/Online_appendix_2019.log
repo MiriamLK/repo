@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 AUG 2019 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 AUG 2019 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -433,7 +433,23 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen173
 \Gm@dimlist=\toks41
 )
-(./Online_appendix_2019.aux)
+(./Online_appendix_2019.aux
+
+LaTeX Warning: Label `tab:prelim1' multiply defined.
+
+
+LaTeX Warning: Label `tab:prelim1' multiply defined.
+
+
+LaTeX Warning: Label `tab:prelim1' multiply defined.
+
+
+LaTeX Warning: Label `tab:prelim1' multiply defined.
+
+
+LaTeX Warning: Label `tab:prelim1' multiply defined.
+
+)
 \openout1 = `Online_appendix_2019.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -449,8 +465,7 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 \c@maskedRefs=\count170
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/apacite/english.apc
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -1141,21 +1156,851 @@ ges34reg1trunc_occfinal.png>
 Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
 s/matlabwages/"logwages34reg1trunc_occfinal.png used on input line 147.
 (pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
- [28
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10fixratiov3
+".png, id=155, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_10fixratiov3".png used on input line 150.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_11fixratiov3
+".png, id=156, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_11fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_11fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_11fixratiov3".png used on input line 152.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_13fixratiov3
+".png, id=157, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_13fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_13fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_13fixratiov3".png used on input line 154.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_14fixratiov3
+".png, id=158, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_14fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_14fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_14fixratiov3".png used on input line 156.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_16fixratiov3
+".png, id=159, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_16fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_16fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_16fixratiov3".png used on input line 158.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_17fixratiov3
+".png, id=160, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_17fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_17fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_17fixratiov3".png used on input line 160.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_18fixratiov3
+".png, id=161, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_18fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_18fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_18fixratiov3".png used on input line 162.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_21fixratiov3
+".png, id=162, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_21fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_21fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_21fixratiov3".png used on input line 164.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_23fixratiov3
+".png, id=163, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_23fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_23fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_23fixratiov3".png used on input line 166.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_25fixratiov3
+".png, id=164, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_25fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_25fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_25fixratiov3".png used on input line 168.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_29fixratiov3
+".png, id=165, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_29fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_29fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_29fixratiov3".png used on input line 170.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_30fixratiov3
+".png, id=166, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_30fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_30fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_30fixratiov3".png used on input line 172.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_33fixratiov3
+".png, id=167, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_33fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_33fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_33fixratiov3".png used on input line 174.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_35fixratiov3
+".png, id=168, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_35fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_35fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_35fixratiov3".png used on input line 176.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_36fixratiov3
+".png, id=169, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_36fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_36fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_36fixratiov3".png used on input line 178.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_39fixratiov3
+".png, id=170, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_39fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_39fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_39fixratiov3".png used on input line 180.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_42fixratiov3
+".png, id=171, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_42fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_42fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_42fixratiov3".png used on input line 182.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_43fixratiov3
+".png, id=172, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_43fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_43fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_43fixratiov3".png used on input line 184.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_44fixratiov3
+".png, id=173, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_44fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_44fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_44fixratiov3".png used on input line 186.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_45fixratiov3
+".png, id=174, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_45fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_45fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_45fixratiov3".png used on input line 188.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_48fixratiov3
+".png, id=175, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_48fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_48fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_48fixratiov3".png used on input line 190.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51fixratiov3
+".png, id=176, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_51fixratiov3".png used on input line 192.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_55fixratiov3
+".png, id=177, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_55fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_55fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_55fixratiov3".png used on input line 194.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_59fixratiov3
+".png, id=178, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_59fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_59fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_59fixratiov3".png used on input line 196.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_66fixratiov3
+".png, id=179, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_66fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_66fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_66fixratiov3".png used on input line 198.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_71fixratiov3
+".png, id=180, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_71fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_71fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_71fixratiov3".png used on input line 200.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_75fixratiov3
+".png, id=181, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_75fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_75fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_75fixratiov3".png used on input line 202.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_77fixratiov3
+".png, id=182, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_77fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_77fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_77fixratiov3".png used on input line 204.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_81fixratiov3
+".png, id=183, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_81fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_81fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_81fixratiov3".png used on input line 206.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82fixratiov3
+".png, id=184, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_82fixratiov3".png used on input line 208.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83fixratiov3
+".png, id=185, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_83fixratiov3".png used on input line 210.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85fixratiov3
+".png, id=186, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_85fixratiov3".png used on input line 212.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87fixratiov3
+".png, id=187, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_87fixratiov3".png used on input line 214.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88fixratiov3
+".png, id=188, 616.3025pt x 410.03188pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88fixra
+tiov3".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88fixrat
+iov3".png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_88fixratiov3".png used on input line 216.
+(pdftex.def)             Requested size: 375.80544pt x 250.03148pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--218
+
+ []
+
+[28
 
  </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/matlabwages/logwages33
 reg1trunc_occfinal.png (PNG copy)> </Users/Miriam/OneDrive/Box Sync/TYPlocal/ou
-tput/graphs/matlabwages/logwages34reg1trunc_occfinal.png (PNG copy)>] (./Online
-_appendix_2019.aux)
+tput/graphs/matlabwages/logwages34reg1trunc_occfinal.png (PNG copy)>]
+[29 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_10fixrati
+ov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_11fi
+xratiov3.png>] [30 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splo
+t_occ_13fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs
+/Splot_occ_14fixratiov3.png>] [31 </Users/Miriam/OneDrive/Box Sync/TYPlocal/out
+put/graphs/Splot_occ_16fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPloca
+l/output/graphs/Splot_occ_17fixratiov3.png>] [32 </Users/Miriam/OneDrive/Box Sy
+nc/TYPlocal/output/graphs/Splot_occ_18fixratiov3.png> </Users/Miriam/OneDrive/B
+ox Sync/TYPlocal/output/graphs/Splot_occ_21fixratiov3.png>] [33 </Users/Miriam/
+OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_23fixratiov3.png> </Users/Mi
+riam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_25fixratiov3.png>]
+[34 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_29fixrati
+ov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_30fi
+xratiov3.png>] [35 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splo
+t_occ_33fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs
+/Splot_occ_35fixratiov3.png>] [36 </Users/Miriam/OneDrive/Box Sync/TYPlocal/out
+put/graphs/Splot_occ_36fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPloca
+l/output/graphs/Splot_occ_39fixratiov3.png>] [37 </Users/Miriam/OneDrive/Box Sy
+nc/TYPlocal/output/graphs/Splot_occ_42fixratiov3.png> </Users/Miriam/OneDrive/B
+ox Sync/TYPlocal/output/graphs/Splot_occ_43fixratiov3.png>] [38 </Users/Miriam/
+OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_44fixratiov3.png> </Users/Mi
+riam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_45fixratiov3.png>]
+[39 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_48fixrati
+ov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_51fi
+xratiov3.png>] [40 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splo
+t_occ_55fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs
+/Splot_occ_59fixratiov3.png>] [41 </Users/Miriam/OneDrive/Box Sync/TYPlocal/out
+put/graphs/Splot_occ_66fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPloca
+l/output/graphs/Splot_occ_71fixratiov3.png>] [42 </Users/Miriam/OneDrive/Box Sy
+nc/TYPlocal/output/graphs/Splot_occ_75fixratiov3.png> </Users/Miriam/OneDrive/B
+ox Sync/TYPlocal/output/graphs/Splot_occ_77fixratiov3.png>] [43 </Users/Miriam/
+OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_81fixratiov3.png> </Users/Mi
+riam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82fixratiov3.png>]
+[44 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83fixrati
+ov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85fi
+xratiov3.png>] [45 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splo
+t_occ_87fixratiov3.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs
+/Splot_occ_88fixratiov3.png>]
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_10".png
+, id=280, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_10
+".png Graphic file (type png)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_10"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_10".png used on input line 222.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_11".png
+, id=281, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_11
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_11"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_11".png used on input line 224.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_13".png
+, id=282, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_13
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_13"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_13".png used on input line 226.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_14".png
+, id=283, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_14
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_14"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_14".png used on input line 228.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_16".png
+, id=284, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_16
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_16"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_16".png used on input line 230.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_17".png
+, id=285, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_17
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_17"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_17".png used on input line 232.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_18".png
+, id=286, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_18
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_18"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_18".png used on input line 234.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_21".png
+, id=287, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_21
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_21"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_21".png used on input line 236.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_23".png
+, id=288, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_23
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_23"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_23".png used on input line 238.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_25".png
+, id=289, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_25
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_25"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_25".png used on input line 240.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_29".png
+, id=290, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_29
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_29"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_29".png used on input line 242.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_30".png
+, id=291, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_30
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_30"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_30".png used on input line 244.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_33".png
+, id=292, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_33
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_33"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_33".png used on input line 246.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_35".png
+, id=293, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_35
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_35"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_35".png used on input line 248.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_36".png
+, id=294, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_36
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_36"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_36".png used on input line 250.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_39".png
+, id=295, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_39
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_39"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_39".png used on input line 252.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_42".png
+, id=296, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_42
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_42"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_42".png used on input line 254.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_43".png
+, id=297, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_43
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_43"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_43".png used on input line 256.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_44".png
+, id=298, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_44
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_44"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_44".png used on input line 258.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_45".png
+, id=299, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_45
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_45"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_45".png used on input line 260.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_48".png
+, id=300, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_48
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_48"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_48".png used on input line 262.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_51".png
+, id=301, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_51
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_51"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_51".png used on input line 264.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_55".png
+, id=302, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_55
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_55"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_55".png used on input line 266.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_59".png
+, id=303, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_59
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_59"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_59".png used on input line 268.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_66".png
+, id=304, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_66
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_66"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_66".png used on input line 270.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_71".png
+, id=305, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_71
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_71"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_71".png used on input line 272.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_75".png
+, id=306, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_75
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_75"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_75".png used on input line 274.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_77".png
+, id=307, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_77
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_77"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_77".png used on input line 276.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_81".png
+, id=308, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_81
+".png Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_81"
+.png>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_nowW_occ_81".png used on input line 278.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82v3".png, i
+d=309, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82v3".p
+ng Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82v3".pn
+g>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_82v3".png used on input line 280.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83v3".png, i
+d=310, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83v3".p
+ng Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83v3".pn
+g>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_83v3".png used on input line 282.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85v3".png, i
+d=311, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85v3".p
+ng Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85v3".pn
+g>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_85v3".png used on input line 284.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87v3".png, i
+d=312, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87v3".p
+ng Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87v3".pn
+g>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_87v3".png used on input line 286.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+<"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88v3".png, i
+d=313, 604.75937pt x 439.6425pt>
+File: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88v3".p
+ng Graphic file (type png)
+
+<use "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88v3".pn
+g>
+Package pdftex.def Info: "/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graph
+s/Splot_occ_88v3".png used on input line 288.
+(pdftex.def)             Requested size: 375.80544pt x 273.1994pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--290
+
+ []
+
+[46 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_10.p
+ng> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_11.p
+ng>] [47 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ
+_13.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ
+_14.png>] [48 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_now
+W_occ_16.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_now
+W_occ_17.png>] [49 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splo
+t_nowW_occ_18.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splo
+t_nowW_occ_21.png>] [50 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs
+/Splot_nowW_occ_23.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs
+/Splot_nowW_occ_25.png>] [51 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/g
+raphs/Splot_nowW_occ_29.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/g
+raphs/Splot_nowW_occ_30.png>] [52 </Users/Miriam/OneDrive/Box Sync/TYPlocal/out
+put/graphs/Splot_nowW_occ_33.png> </Users/Miriam/OneDrive/Box Sync/TYPlocal/out
+put/graphs/Splot_nowW_occ_35.png>] [53 </Users/Miriam/OneDrive/Box Sync/TYPloca
+l/output/graphs/Splot_nowW_occ_36.png> </Users/Miriam/OneDrive/Box Sync/TYPloca
+l/output/graphs/Splot_nowW_occ_39.png>] [54 </Users/Miriam/OneDrive/Box Sync/TY
+Plocal/output/graphs/Splot_nowW_occ_42.png> </Users/Miriam/OneDrive/Box Sync/TY
+Plocal/output/graphs/Splot_nowW_occ_43.png>] [55 </Users/Miriam/OneDrive/Box Sy
+nc/TYPlocal/output/graphs/Splot_nowW_occ_44.png> </Users/Miriam/OneDrive/Box Sy
+nc/TYPlocal/output/graphs/Splot_nowW_occ_45.png>] [56 </Users/Miriam/OneDrive/B
+ox Sync/TYPlocal/output/graphs/Splot_nowW_occ_48.png> </Users/Miriam/OneDrive/B
+ox Sync/TYPlocal/output/graphs/Splot_nowW_occ_51.png>] [57 </Users/Miriam/OneDr
+ive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_55.png> </Users/Miriam/OneDr
+ive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_59.png>] [58 </Users/Miriam/
+OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_66.png> </Users/Miriam/
+OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_71.png>] [59 </Users/Mi
+riam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_75.png> </Users/Mi
+riam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_77.png>] [60 </Use
+rs/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_nowW_occ_81.png> </Use
+rs/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_82v3.png>]
+[61 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_83v3.png>
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_85v3.png>]
+[62 </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_87v3.png>
+ </Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Splot_occ_88v3.png>]
+(./Online_appendix_2019.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11139 strings out of 493014
- 201364 string characters out of 6133351
- 269275 words of memory out of 5000000
- 14425 multiletter control sequences out of 15000+600000
+ 11479 strings out of 493014
+ 226075 string characters out of 6133351
+ 269330 words of memory out of 5000000
+ 14697 multiletter control sequences out of 15000+600000
  14530 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,10n,68p,421b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1169,10 +2014,10 @@ ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on Online_appendix_2019.pdf (28 pages, 2506646 bytes).
+Output written on Online_appendix_2019.pdf (62 pages, 7097732 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 438 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
