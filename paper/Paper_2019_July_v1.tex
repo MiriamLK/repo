@@ -827,7 +827,7 @@ Lastly, I include the willingness-to-pay estimates $WTP^g_o$ from the firm side 
 \section{Data} \label{data}
 The primary data elements needed to estimate the model described above are: expectations of lifetime labor income by occupation and gender, shares of workers by gender and age cohort choosing each occupation and non-employment, and a measure of unfilled jobs by occupation.
 
-While the Census and ACS provide cross sectional wage and occupation, the SIPP is needed to provide a panel for the construction of lifetime labor income estimates.\footnote{Public use Census 1960, 1970, 1980, 1990, 2000, and 2012 three-year ACS data obtained from IPUMS \cite{IPUMSUSA}. SIPP data from the 2004 and 2008 panels are constructed using the NBER files \cite{SIPP}. Occupation codes are constructed by aggregation of the IPUMS harmonized codes (occ1990) to achieve sufficient sample size. See appendix \ref{occupations} for the full list of occupation codes.} Using pooled data from the 2004 and 2008 SIPP panels, which are four and five years long respectively, I construct transition rates through five quantiles of earnings and occupations by worker age and gender. Because of limited sample size, I assume that transition rates depend only on the current state not the past history. This transition matrix is then used to simulate worker career paths from the starting point of workers aged 25-35 in the Census and ACS. Their assigned choice of occupation is taken as the occupation they start out in at ages 25-35 as observed in the Census, which means that the occupation choice can be interpreted as including the expectation of all future transitions.
+While the Census and ACS provide cross sectional wage and occupation, the SIPP is needed to provide a panel for the construction of lifetime labor income estimates.\footnote{Public use Census 1960, 1970, 1980, 1990, 2000, and 2012 three-year ACS data obtained from IPUMS \cite{IPUMSUSA}. SIPP data from the 2004 and 2008 panels are constructed using the NBER files \cite{SIPP}. Occupation codes are constructed by aggregation of the IPUMS harmonized codes (occ1990) to achieve sufficient sample size. See Table \ref{modelestimates} for the full list of occupation codes.} Using pooled data from the 2004 and 2008 SIPP panels, which are four and five years long respectively, I construct transition rates through five quantiles of earnings and occupations by worker age and gender. Because of limited sample size, I assume that transition rates depend only on the current state not the past history. This transition matrix is then used to simulate worker career paths from the starting point of workers aged 25-35 in the Census and ACS. Their assigned choice of occupation is taken as the occupation they start out in at ages 25-35 as observed in the Census, which means that the occupation choice can be interpreted as including the expectation of all future transitions.
 
 %\footnote{CPS or CPS MORG data could be added to get an earlier estimate of these transition rates.}
 %The lifetime income assigned to each observation in the Census or ACS is the sum of their simulated career path through the SIPP transition matrix. 
@@ -1155,7 +1155,7 @@ Figures \ref{transitions17} and \ref{transitions83} show examples of transitions
 
 Table \ref{counterfactuals} shows the gender wage gap and a measure of segregation under various counterfactual regimes, as compared with the status quo. In the status quo model as estimated, the ratio of female to male lifetime wages, or gender wage gap, is 0.71, and 41\% of worker would have to change occupations to achieve parity.\footnote{This measure is called the Duncan Segregation Index.} If there were no preference on the part of women against working in male-dominated occupations, the gender wage gap would be reduced to 0.85, and the segregation index would be only 24\%. Not allowing wage adjustment to compensate for changes in the fraction female would result in a similar wage gap as in the status quo, 0.70, and a higher segregation index of 54\%. Requiring that men and women be paid equally per hour of work in a given occupation widens the pay gap slightly, putting women at earning 0.65 times that of men, but wildly increases segregation, producing an index of 80\%. 
 
-The equal pay requirement tends to increase women's pay by pinning it to that of men, but at the same time, the inability to adjust pay according to how men and women value occupations differently, and how firms value men and women differently, creates steady states that are close to 0\% or 100\% female, which drastically increases segregation. The increased segregation in turn lowers wages for women since concentration in certain occupations means low wage offers through the compensating differential of a high fraction female. Thus overall equal pay laws actually result in lower wages for women.
+The equal pay requirement tends to increase women's pay by pinning it to that of men, but at the same time, the inability to adjust pay according to how men and women value occupations differently, and how firms value men and women differently, creates steady states that are close to 0\% or 100\% female, which drastically increases segregation. The increased segregation in turn lowers wages for women since concentration in certain occupations means low wage offers through the compensating differential of a high fraction female under the gender preference. Thus overall in my simulation, equal pay laws actually result in lower relative wages for women given the strong gender preference I estimate.
 
 
 
@@ -1260,7 +1260,59 @@ The equal pay requirement tends to increase women's pay by pinning it to that of
 %\textit{``One of the things that I really strongly believe in is that we need to have more girls interested in math, science, and engineering. We've got half the population that is way underrepresented in those fields and that means that we've got a whole bunch of talent...not being encouraged the way they need to."} (President Obama 2013)\footnote{\url{https://obamawhitehouse.archives.gov/administration/eop/ostp/women}}
 
 
-\textit{``We've got half the population that is way underrepresented in those fields [math, science, and engineering] and that means that we've got a whole bunch of talent...not being encouraged the way they need to."} (President Obama 2013)\footnote{\url{https://obamawhitehouse.archives.gov/administration/eop/ostp/women}}
+%\textit{``We've got half the population that is way underrepresented in those fields [math, science, and engineering] and that means that we've got a whole bunch of talent...not being encouraged the way they need to."} (President Obama 2013)\footnote{\url{https://obamawhitehouse.archives.gov/administration/eop/ostp/women}}
+
+Occupations have been highly gender segregated without much change for the past 30 years. It is an open question as to whether this segregation results from fixed worker and firm preferences, or rather from historical inertia from the explicit occupational barriers of the 1950s, 60s or later. For example, nursing could be a female occupation because women like nursing, or because nursing was historically female and women prefer female occupations, and likewise for male dominated occupations such as engineering.
+
+%I find that women prefer more female occupations, but firms' and workers' preferences are far more important in explaining segregation. This answer is critical for thinking about policies to reduce segregation and the gender wage gap.
+
+I find that women prefer not to work in male dominated occupations, and this increases segregation (from around 24\% to 41\%) and the gender wage gap (from around 85\% to 71\%), but the preference is not strong enough to produce path dependence in segregation patterns.  This means that policies to reduce segregation, and wage differentials resulting from segregation, are treating a symptom not a cause. In my estimated model, pushing more women into STEM or men in nursing will not lead more to follow. It appears that reducing segregation requires changing the underlying utility workers get from occupations, or how firms view workers by gender.
+
+%Although occupations would be less segregrated if women did not care about the fraction female, it is not the case that occupations are segregated because of historical patterns. 
+%women do prefer female-dominated occupations, but that this preference is not strong enough to overcome workers' preferences for occupations and firms' preferences for workers. 
+
+The reason that putting more men or women in an occupation does not lead to a flood of followers is compensating wage differentials. As the more women enter an occupation, the occupation becomes more attractive to women and therefore wages for women go down, which slows the entry of women into the occupation. I find that the gender preference would have to be twice as large as I what I estimate, which is already economically quite large, in order for wages to be unable to adjust enough to facilitate returning to the original sorting pattern. 
+
+This begs the question of what happens if policymakers were to introduce stickiness in the wage adjustment process. The obvious example is equal pay for equal work laws, which have existed federally since 1963, with counterparts enforced to varying degrees at the state level. It is difficult to measure the impact of these laws empirically. Using my model I find that enforcing that women and men are paid the same for hourly work within the same occupation could backfire. Given my estimated parameters, equal pay actually leads to drastically more segregation, which in turn overcomes the equalizing effect of the law and increases the gender wage gap. 
+
+%The impact of these laws is hard to measure empirically since they are generally implemented with a suite of other gender equity policies that are variously enforced.
+
+The mechanisms of segregation explored in this paper, in particular preference over the fraction female and sticky wages, merit future research. In particular, understanding the cause of women preferring not to work in male-dominated occupations could be policy relevant. Reducing this preference could be an important policy target if it is the result of male sexism, and this could be explored using regional variation in sexism as in \citeA{CGP19}. Understanding the mechanism is important because the preference appears to cause greater segregation and lower wages for women. Lastly, although this paper focused only on the fraction female in occupations,  future work could use this model to look at race, age, or any other group preference or endogenous amenity, and the mitigating effect of wage or price adjustment on segregation.
+
+
+% On the other hand the preference may result from other workplace amenities correlated with the fraction female. 
+	
+%	so people should be aware of this mechanism and research more
+%adding women could change "fixed" attributes of occupations- but I find it doesn't??
+%I find it's partly pref for fraction female- why? need to research more
+%this hurts women
+
+%The estimates of this model are likely imperfectly predictive of the future of occupation gender segregation, but the model does prove useful for learning about the role of wages in two-sided matching with an endogenous amenity. This paper focused on the fraction female in occupations, but future work could use this model to look at race, age, or any other group preference or endogenous amenity, and the moderating effect of price adjustment.
+
+%In addition, although I do not find evidence of tipping between multiple equilibria given my estimated parameter values, it is clear that this could occur under different circumstances, such as a stronger gender preference or stickier wages (for example equal pay for equal work laws). Future work is needed to fully understand occupation gender segregation, and could benefit from considering how tipping is mitigated by compensating differentials.
+
+%Talk about tipping patterns???
+
+%It is an open policy question as to what sort of encouragement would lead more women to enter male occupations and vice versa. Ideally we might see that a few men or women entering a field might lead to a flood of followers. I find women do prefer to go into occupations that already have more women. However, womens' preference is not strong enough that simply putting more women in a field will lead more women to enter in the long run. I also find no evidence that men prefer to enter occupations that already have more men. 
+
+%As barriers have fallen and women's labor force participation has skyrocketed we have seen some occupations ``tip" from male to female while others remain virtually unchanged. To understand these patterns better, I 
+
+%The preference on the part of women to work with women increases gender segregation by creating a feedback loop that amplifies the impact of gender differences in labor supply and demand. According to my simulations, the``tipping" patterns documented by \citeA{Pan2010} might be the result of changes in the perceived productivity of men and women, compounded by a feedback loop from the preference of women to work with women. This feedback loop mechanism also exacerbates the gender wage gap by lowering wages in female dominated occupations through compensating differentials.
+
+
+
+
+
+%Around 40\% of men or women would have to change occupations in order for all occupations to be 50\% female.
+
+%Are occupations segregated because this is what workers and firms prefer? or is it because of historical patterns?
+
+
+%What causes segregation?
+%need to know if we care about changing it
+%and this causes dynamics
+%can you encourage and have long run impact?
+
 
 
 %Policymakers view reducing occupation gender segregation as a way to narrow the gender wage gap and even increase economic productivity. 
@@ -1274,19 +1326,19 @@ The equal pay requirement tends to increase women's pay by pinning it to that of
 
 %One way to justify the economic benefit of reducing segregation is if workers have preferences over the gender of their colleagues, and this results in historical dependence. 
 
-It is an open policy question as to what sort of encouragement would lead more women to enter male occupations and vice versa. Ideally we might see that a few men or women entering a field might lead to a flood of followers. I find women do prefer to go into occupations that already have more women. However, womens' preference is not strong enough that simply putting more women in a field will lead more women to enter in the long run. I also find no evidence that men prefer to enter occupations that already have more men. 
+
 
 %On the other hand my simulations indicate that changes to occupation amenities or the perceived productivity of men or women would lead to long run changes in the gender of occupations.
 
 %Could encouragement of say women to enter STEM, or men to enter nursing, lead to long run changes in the gender composition of these fields? The answer is that it depends on the type of encouragement. I find a strong preference on the part of women to work with other women, but that this preference is not strong enough that simply putting more women in a field will lead more women to enter in the long run. Long run gender composition is only responsive to changes in labor supply and demand, such as occupation amenities or the valuation of men and women by firms.
 
-The reason that putting more men or women in an occupation has no long-run effect on segregation is that wages are free to adjust. As the fraction female goes up, wages for women go down, which slows the entry of women into the occupation. The level of gender preference would have to be two times as large as I estimate in order to overcome the tendency to converge back to the original sorting pattern through wage adjustment.
+
 
 % If wages were not allowed to adjust in my model, the level of gender preference that I estimate would imply that occupations could ``tip" between male or female based on small changes in composition. 
 
 %A model without endogenous wages would in fact imply multiple equilibria in most occupations. If the gender preference were twice as strong this would also be too strong for wages to be able to compensate, causing multiple equilibria. This suggests that thinking about how changes to occupations interact dynamically with changes to wages, and gender preference, could be important for future work on gender segregation.
 
-The preference on the part of women to work with women increases gender segregation by creating a feedback loop that amplifies the impact of gender differences in labor supply and demand. According to my simulations, the``tipping" patterns documented by \citeA{Pan2010} might be the result of changes in the perceived productivity of men and women, compounded by a feedback loop from the preference of women to work with women. This feedback loop mechanism also exacerbates the gender wage gap by lowering wages in female dominated occupations through compensating differentials.
+
 
 % I estimate that occupations do not have the potential to be either male or female depending on historical patterns. Therefore short-run shocks to the fraction female in occupations do not cause tipping, rather convergence back to the original fraction female.
 %Policymakers hoping to reduce gender segregation should focus on changing fundamental economic parameters such as non-wage amenities of jobs and the perceived productivity of men and women, as these things can move the stable equlibrium and cause long run changes in segregation. 
@@ -1310,9 +1362,7 @@ The preference on the part of women to work with women increases gender segregat
 
 %  talk about the firm vs. worker preferences simulation here???
 
-The estimates of this model are likely imperfectly predictive of the future of occupation gender segregation, but the model does prove useful for learning about the role of wages in two-sided matching with an endogenous amenity. This paper focused on the fraction female in occupations, but future work could use this model to look at race, age, or any other group preference or endogenous amenity, and the moderating effect of price adjustment.
 
-In addition, although I do not find evidence of tipping between multiple equilibria given my estimated parameter values, it is clear that this could occur under different circumstances, such as a stronger gender preference or stickier wages (for example equal pay for equal work laws). Future work is needed to fully understand occupation gender segregation, and could benefit from considering how tipping is mitigated by compensating differentials.
 
 %how changes to labor supply and demand interact dynamically with wages, and gender preference to cause changes in segregation.
 
@@ -1388,8 +1438,6 @@ In addition, although I do not find evidence of tipping between multiple equilib
 \newpage
 
 \clearpage
-
-\section{Appendix}
 
 
 \subsection{Figures}
@@ -1483,6 +1531,20 @@ In addition, although I do not find evidence of tipping between multiple equilib
 %\includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/FPDVstart_2_clinv4_sc"}
 %\end{figure}
 \end{center}
+
+%%%%%%%%%%%%%%% wage simulations
+\begin{figure}[H]
+\centering
+\caption{Setting Health Technologists and Technicians to 0\% Female in 1960, Changes in Wage Offers}
+\label{nurses}
+\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Wg2PDVstart_occ17_clinv2_0_17sc"}
+\end{figure}
+\begin{figure}[H]
+\centering
+\caption{Setting Mechanics and Repairers to 100\% Female in 1960, Changes in Wage Offers}
+\label{mechanics}
+\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Wg2PDVstart_occ51_clinv2_1_51sc"}
+\end{figure}
 
 %\begin{center}
 %\begin{figure}[H]
@@ -1623,18 +1685,7 @@ In addition, although I do not find evidence of tipping between multiple equilib
 
 % 
 
-\begin{figure}[H]
-\centering
-\caption{Status Quo: Simulated Occupation Segregation Patterns}
-\label{nurses}
-\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Wg2PDVstart_occ17_clinv2_0_17sc"}
-\end{figure}
-\begin{figure}[H]
-\centering
-\caption{Status Quo: Simulated Occupation Segregation Patterns}
-\label{mechanics}
-\includegraphics[width=.9\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Wg2PDVstart_occ51_clinv2_1_51sc"}
-\end{figure}
+
 
 
 \newpage
@@ -1664,12 +1715,13 @@ In addition, although I do not find evidence of tipping between multiple equilib
 
 \input{Counterfactuals}
 
-\input{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Wage_gap_occs_clinv4_mw0.tex"}
+%\input{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/tables/Wage_gap_occs_clinv4_mw0.tex"}
 
 \clearpage
 \newpage
+\section{Appendix}
 
-\subsection{General Model Structure}
+\subsection{Transferable Utility Matching}
 When a worker and a job match, total surplus is created from the match. In the worker's case the value of a match reflects the amenities of the job. A job might have a particularly collegial environment, or free child care for example. Amenities may be valued differently by gender. On the job side the payoff is the willingness-to-pay for a worker, which could reflect productivity, and differ by gender due to gender differences in turnover, differences in search cost by gender, differences in productivity, or devaluation, for example. The wage determines the split of the total surplus between the worker and the firm.
 
 The most general payoff structure in a matching model would allow each possible match between a worker $i$ and a job $j$ to have its own unobserved match quality. To make the problem empirically tractable, I assume that no portion of the payoff depends on unobservable characteristics of both firm and worker, which is a standard assumption in empirical matching. So although the surplus may depend on $i$ or $j$, it may not depend on $i$ and $j$.
@@ -1696,10 +1748,10 @@ $\eta^i_o$ and $\xi^g_j$ are primitives in the worker's utility function.
 In other words, each worker has an individual taste for each occupation ($\eta^i_o$) and each job differs in how attractive it is to men and women ($\xi^g_j$). The job amenity heterogeneity can be thought of as any component of the attractiveness of a job that is orthogonal to the overall attractiveness of the occupation, which is included in $S^g_o$. For example child care offerings at a particular employer might differ relative to the average child care offerings in that occupation.
 
 
-\section{Equilibrium Wages and Stability} \label{equilibrium}
+\subsubsection{Equilibrium Wages} \label{equilibrium}
 In the following section I outline conditions for a matching to be feasible and stable. I then introduce the equilibrium wage vector and show that it supports feasibility and stability.
 
-\subsection{Feasibility}
+\subsubsection{Feasibility}
 A matching is feasible if every worker is matched to at most one job and every job matched to at most one worker. Formally, following \citeA{Salanie2013a}, let $\mu^i_j$ be equal to either $0$ or $1$ where $1$ indicates a match between worker $i$ and job $j$. Then for every $i$ and $j$ a feasible matching has
 
 $$ \sum_{k \in \mathcal{J}} \mu^i_k \leq 1 \text{ and }  \sum_{k \in \mathcal{I}} \mu^k_j \leq 1$$
@@ -1708,7 +1760,7 @@ Similarly following \citeA{Salanie2013a}, the matching must be feasible given th
 
 $$ \sum_{j \in \mathcal{J}} \mu^g_j \leq n_g, \text{ } \forall g \text{ and }  \sum_{i \in \mathcal{I}} \mu^i_o \leq n_o, \text{ } \forall o$$
 
-\subsection{Stability}
+\subsubsection{Stability}
 %Pairwise stability implies that for any worker and any job in the candidate equilibrium, the sum of their individual surplus must be greater than the total surplus if they were to form a match with each other. 
 
 Intuitively, pairwise stability implies that no worker and job that are not currently matched with each other, would prefer to match with each other. Let $i$ and $j$ be a so called ``blocking pair", and let $i$ be currently matched to $j(i)$ and $j$ to $i(j)$. Then pairwise stability states that the sum of the individual surpluses from the existing matches ($i$ with $j(i)$ and $j$ with $i(j)$) must be greater than the surplus of the blocking pair ($i$ and $j$). Therefore even with any possible transfer, $i$ and $j$ will not both prefer to match with each other, because the total possible surplus is lower.
@@ -1723,7 +1775,7 @@ Note that on the left hand side $\bar{u}^{i}_{j(i)}+ \bar{\pi}^{i(j)}_j$ include
 
 Following \citeA{Shapley1972a}, the pairwise stable matching will be unique and the competitive equilibrium will coincide with the pairwise stable matching, but the competitive equilibrium wage vector may not be unique. I assume the observed wages are the equilibrium wages described in \citeA{Salanie2013a} and \citeA{Salanie2014}. These are the wages that make workers indifferent over jobs within each occupation, and jobs indifferent over workers within each gender. As the sample size of men and women goes to infinity, the equilibrium wages will be unique \cite{Salanie2013a}.
 
-\subsection{Proof of Pairwise Stability}\label{sec.Stability}
+\subsubsection{Proof of Pairwise Stability}\label{sec.Stability}
 
 Workers choose an occupation to maximize utility, and firms choose a worker to maximize rate of return, so the chosen job $j^*$ and worker $i^*$ respectively must satisfy
 
@@ -1753,7 +1805,9 @@ The second part of pairwise stability is the requirement that the choice payoffs
 %An interesting result from \citeA{Salanie2013a} (p.15) is that although the preference structure may be such that the jobs have an ordering $\eta^i_o$ over workers and workers have an ordering $\xi^g_j$ over jobs, the post-transfer utility will always accumulate such that job $j$ receives $\xi^g_j$ and worker $i$ receives $\eta^i_o$. Intuitively this results from the transfers serving to make workers indifferent over jobs within each type, and jobs indifferent over workers within each type.
 
 
-Another key aspect of the equilibrium wage vector is that it must be feasible, which in the case of this labor market is equivalent to equating supply and demand at the level of male and female workers and occupations. \citeA{Crawford1981} and \citeA{RothSotomayor} prove the existence of such an equilibrium in a model with transfers. Intuitively, as long as the common component of wage, or $W^g_o$, is free to adjust, supply and demand can adjust until the market clears. The empirical implications of market clearing will be discussed in the empirical section below.
+Another key aspect of the equilibrium wage vector is that it must be feasible, which in the case of this labor market is equivalent to equating supply and demand at the level of male and female workers and occupations. \citeA{Crawford1981} and \citeA{RothSotomayor} prove the existence of such an equilibrium in a model with transfers. Intuitively, as long as the common component of wage, or $W^g_o$, is free to adjust, supply and demand can adjust until the market clears. 
+
+%The empirical implications of market clearing will be discussed in the empirical section below.
 
 % Roth and Sotomayor chapter 9: we need continuous utilty functions and must assume that some amount of money could induce you to switch jobs. They also assume that the utility functions map from R to R...  this is ok for me since log(W) is normal and therefore infinites support
 
@@ -1769,7 +1823,7 @@ Another key aspect of the equilibrium wage vector is that it must be feasible, w
 
 \clearpage 
 \newpage
-\subsection{Pan 2010 Tipping Model}\label{sec.Pan}
+\subsection{Tipping Model (Pan 2010)}\label{sec.Pan}
 To illustrate the concept of ``tipping" I refer to the model of \citeA{Pan2010}, illustrated below in Figure \ref{fig:tipping}. In this stylized model, an occupation can hire either male or female workers to fill a fixed number of positions. As more women are hired, fewer men are hired, and the fraction female goes up. Assuming upward sloping supply curves for men and women, wages must go up as more workers of either gender are hired. Therefore, assuming equal productivity, firms continue to hire men or women until wages are equalized, which depends on the shape of the supply curves. Tipping points emerge if one or more of the supply curves are not always upward sloping. In the righthand side of Figure \ref{fig:tipping}, we see the case where the female labor supply curve becomes downward sloping at very low fractions female, illustrating a scenario where women are so strongly averse to entering male dominated occupations that hiring more women actually allows the occupation to pay lower wages to women.
 
 %In the righthand graph, the labor supply of women depends also on the fraction female in the occupation. Women are so strongly averse to entering male dominated occupations that in fact the female labor supply curve becomes downward sloping at very low fractions female. More women are enticed into the occupation even as wages go down. 
@@ -1783,99 +1837,6 @@ In this stylized model, the location of stable and unstable sorting equilibria d
 \includegraphics[width=.8\textwidth]{"/Users/Miriam/OneDrive/Box Sync/TYPlocal/output/graphs/Pan_equilibria_both"}
 \end{figure}
 
-
-\subsection{List of occupation Codes} \label{occupations}
-
-Note that not all component occupations exist in all years of data. 
-
-%Teachers, Postsecondary 
-%
-%\indent{\textit{earth, environmental, and marine science instructors;
-%biological science instructors;
-%chemistry instructors;
-%physics instructors;
-%psychology instructors;
-%economics instructors;
-%history instructors;
-%sociology instructors;
-%engineering instructors;
-%math instructors;
-%education instructors;
-%law instructors;
-%theology instructors;
-%home economics instructors;
-%humanities profs/instructors, college, nec;
-%	subject instructors (hs/college);}}
-
-   
-   Adjusters and Investigators
-   
-   Administrative Support
-   
-   Agriculture, Forestry and Fishing
-   
-   Cleaning and Building Service 
-   
-   Construction and Extraction
-   
-   Engineers, Architects, and Surveyors
-   
-   Executive, Administrative, and Managerial
-   
-   Financial Records Processing 
-   
-   Food Preparation and Service 
-   
-   Health Assessment and Treating and Therapists
-   
-   Health Diagnosing
-   
-   Health Service
-   
-   Health Technologists and Technicians
-   
-   Machine operators, Fabricators, Assemblers, Testers
-   
-   Mail and Material Distribution
-   
-   Management Related
-   
-   Material Moving, Laborers
-   
-   Math, Computer, and Natural Science
-   
-   Mechanics and Repairers
-   
-   Metal, Wood, Plastic, Print, Textile
-   
-   Miscellaneous Administrative Support
-   
-   Precision Production
-   
-   Private Household and Personal Services
-   
-   Protective Service
-   
-   Records Processing
-   
-   Road, Rail and Water Transportation
-   
-   Sales Representatives, Finance and Business Services
-   
-   Sales Workers, Retail and Personal Services
-   
-   Social Scientists, Lawyers, Judges
-   
-   Social, Recreation, and Religious Workers
-   
-   Teachers, Except Postsecondary
-   
-   Teachers, Postsecondary
-   
-   Technicians except health
-   
-   Writers, Artists, Entertainers, and Athletes
-   
    
  \subsection{Joint Likelihood Tobit Type 5}\label{sec.likelihood}
 

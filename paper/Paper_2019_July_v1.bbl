@@ -30,32 +30,6 @@ Addison, J\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Albanesi%
-\ \BBA {} Şahin%
-}{%
-Albanesi%
-\ \BBA {} Şahin%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-Albanesi2017}
-\APACinsertmetastar {%
-Albanesi2017}%
-\begin{APACrefauthors}%
-Albanesi, S.%
-\BCBT {}\ \BBA {} Şahin, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The Gender Unemployment Gap}} {{The Gender Unemployment
-  Gap}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{NBER Working Paper 23743}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Altonji%
 \ \BBA {} Card%
 }{%
@@ -102,36 +76,6 @@ Amemiya, T.%
 \APACrefbtitle {{Advanced Econometrics}} {{Advanced Econometrics}}.
 \newblock
 \APACaddressPublisher{}{Harvard University Press}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Autor%
-, Dorn%
-\BCBL {}\ \BBA {} Hanson%
-}{%
-Autor%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2013}}%
-}]{%
-Autor2013e}
-\APACinsertmetastar {%
-Autor2013e}%
-\begin{APACrefauthors}%
-Autor, D\BPBI H.%
-, Dorn, D.%
-\BCBL {}\ \BBA {} Hanson, G\BPBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The China Syndrome: Local labor market impacts of
-  import Competition in the United States}} {{The China Syndrome: Local labor
-  market impacts of import Competition in the United States}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{American Economic Review}{103}{6}{2121--2168}.
-\newblock
-\begin{APACrefDOI} \doi{10.1257/aer.103.6.2121} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -303,6 +247,34 @@ Card, D.%
   the Dynamics of Segregation}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Quarterly Journal of Economics}{123}{1}{177--218}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Charles%
+, Guryan%
+\BCBL {}\ \BBA {} Pan%
+}{%
+Charles%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+CGP19}
+\APACinsertmetastar {%
+CGP19}%
+\begin{APACrefauthors}%
+Charles, K\BPBI K.%
+, Guryan, J.%
+\BCBL {}\ \BBA {} Pan, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Effects of Sexism on American Women: The Role of
+  Norms vs . Discrimination}} {{The Effects of Sexism on American Women: The
+  Role of Norms vs . Discrimination}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{NBER Working Paper 24904}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -608,37 +580,6 @@ Galichon, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Goldsmith-Pinkham%
-, Sorkin%
-\BCBL {}\ \BBA {} Swift%
-}{%
-Goldsmith-Pinkham%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
-}]{%
-SorkinBartik}
-\APACinsertmetastar {%
-SorkinBartik}%
-\begin{APACrefauthors}%
-Goldsmith-Pinkham, P.%
-, Sorkin, I.%
-\BCBL {}\ \BBA {} Swift, H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Bartik Instruments : What, When, Why and How}} {{Bartik
-  Instruments : What, When, Why and How}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Working Paper}{}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{https://f247968a-a-62cb3a1a-s-sites.googlegroups.com/site/isaacsorkin/Bartik{\_}Instruments.pdf?attachauth=ANoY7crDS4jlf2AwQ9sV{\_}yXsmyiVzB0TZKZt1TXOvfVQHh6nRfbDedmYfQJr3t2WqZA97LDle5ts8{\_}{\_}TnzWonQ{\_}244BXeeMIZWy-jB87LCRbVm7EcEo8PB27o{\_}osQn0P8vPUVF51ImkFlQivimxqFd9}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Harris%
 }{%
 Harris%
@@ -661,33 +602,6 @@ Harris, J\BPBI M.%
 \newblock
 \begin{APACrefURL} \url{https://sites.google.com/site/jorgenharris}
   \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Hausman%
-}{%
-Hausman%
-}{%
-{\protect \APACyear {1996}}%
-}]{%
-Hausman1996a}
-\APACinsertmetastar {%
-Hausman1996a}%
-\begin{APACrefauthors}%
-Hausman, J\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1996}.
-\newblock
-\APACrefbtitle {{Valuation of new goods under perfect and imperfect
-  competition}} {{Valuation of new goods under perfect and imperfect
-  competition}}\ (\BVOL~I)\ (\BNUM\ January).
-\newblock
-\begin{APACrefURL} \url{http://www.nber.org/chapters/c6068.pdf}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.3386/w4970} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -717,33 +631,6 @@ Hsieh, C\BHBI t.%
   Talent}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Growth (Lakeland)}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kambourov%
-\ \BBA {} Manovskii%
-}{%
-Kambourov%
-\ \BBA {} Manovskii%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-Kambourov2008}
-\APACinsertmetastar {%
-Kambourov2008}%
-\begin{APACrefauthors}%
-Kambourov, G.%
-\BCBT {}\ \BBA {} Manovskii, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Rising Occupational and Industrial Mobility in the
-  United States: 1968-1997}} {{Rising Occupational and Industrial Mobility in
-  the United States: 1968-1997}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Economic Review}{49}{1}{41--79}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -830,32 +717,6 @@ Macpherson, D\BPBI a.%
 \APACjournalVolNumPages{Journal of Labor Economics}{13}{3}{426}.
 \newblock
 \begin{APACrefDOI} \doi{10.1086/298381} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Nevo%
-}{%
-Nevo%
-}{%
-{\protect \APACyear {2001}}%
-}]{%
-Nevo2001}
-\APACinsertmetastar {%
-Nevo2001}%
-\begin{APACrefauthors}%
-Nevo, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Measuring Market Power in the Ready-to-Eat Cereal
-  Industry}} {{Measuring Market Power in the Ready-to-Eat Cereal
-  Industry}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Econometrica}{69}{2}{307--342}.
-\newblock
-\begin{APACrefDOI} \doi{10.1111/1468-0262.00194} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

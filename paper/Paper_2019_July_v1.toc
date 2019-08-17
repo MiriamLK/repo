@@ -19,15 +19,14 @@
 \contentsline {subsection}{\numberline {6.2}Wage Adjustment Process}{25}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Conditions for Multiple Steady States}{26}{subsection.6.3}
 \contentsline {section}{\numberline {7}Conclusion}{28}{section.7}
-\contentsline {section}{\numberline {8}Appendix}{30}{section.8}
-\contentsline {subsection}{\numberline {8.1}Figures}{30}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Tables}{35}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}General Model Structure}{41}{subsection.8.3}
-\contentsline {section}{\numberline {9}Equilibrium Wages and Stability}{42}{section.9}
-\contentsline {subsection}{\numberline {9.1}Feasibility}{42}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Stability}{43}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Proof of Pairwise Stability}{44}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Pan 2010 Tipping Model}{46}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}List of occupation Codes}{47}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Joint Likelihood Tobit Type 5}{49}{subsection.9.6}
-\contentsline {section}{References}{52}{section*.19}
+\contentsline {subsection}{\numberline {7.1}Figures}{31}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Tables}{36}{subsection.7.2}
+\contentsline {section}{\numberline {8}Appendix}{41}{section.8}
+\contentsline {subsection}{\numberline {8.1}Transferable Utility Matching}{41}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Equilibrium Wages}{42}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.2}Feasibility}{42}{subsubsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.3}Stability}{43}{subsubsection.8.1.3}
+\contentsline {subsubsection}{\numberline {8.1.4}Proof of Pairwise Stability}{44}{subsubsection.8.1.4}
+\contentsline {subsection}{\numberline {8.2}Tipping Model (Pan 2010)}{46}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Joint Likelihood Tobit Type 5}{47}{subsection.8.3}
+\contentsline {section}{References}{51}{section*.18}
